@@ -1,7 +1,7 @@
 {
 	"name": "HelloWorldNodeApp",
 	"version": "0.0.1",
-    "private": true,
+	"private": true,
 	"scripts": {
 		"start": "node app.js"
 	},
@@ -11,6 +11,6 @@
 	},
 	"repository": {},
 	"engines": {
-	"node": "10.19.0"
-	} 
+		"node": "10.19.0"
+	}
 }
