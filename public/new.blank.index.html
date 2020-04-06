@@ -1,0 +1,19 @@
+<html>
+<body>
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "7b3f7248-34e5-4692-bc5b-3df0ec4113d0",
+    region: "us-south",
+    onLoad: function (instance) {
+      instance.render();
+    },
+  };
+  setTimeout(function()
+    {
+        const t=document.createElement('script');
+        t.src='https://web-chat.global.assistant.watson.appdomain.cloud/covid/webchat.js';
+        document.head.appendChild(t);
+    }
+);
+</script>
+</html>

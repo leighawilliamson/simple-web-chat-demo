@@ -1,0 +1,3 @@
+applications:
+- name: default-covid-assistant-demo
+  memory: 128M
