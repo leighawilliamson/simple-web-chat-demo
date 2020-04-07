@@ -1,0 +1,51 @@
+<html>
+<head>
+  <base href="/">
+  <title>COVID-19 Bot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta property="og:image" content="conversation.svg" />
+  <meta property="og:title" content="Conversation Chat Simple" />
+  <meta property="og:description" content="Sample application that shows how to use the Watson Assistant API to identify user intents" />
+  <link rel="shortcut icon" href="favicon.png" type="image/png">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+    <div class="container">
+        <img src="../img/background.jpg" width="100%" />
+    </div>
+
+<!--
+    <script src="https://web-chat.global.assistant.watson.cloud.ibm.com/loadWatsonAssistantChat.js"></script>
+
+    <script>
+      window.loadWatsonAssistantChat({
+        integrationID: "7b3f7248-34e5-4692-bc5b-3df0ec4113d0", // The ID of this integration.
+        region: "us-south" // The region your integration is hosted in.
+      }).then(function(instance){
+        instance.render();
+      });
+    </script>
+-->
+
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "7b3f7248-34e5-4692-bc5b-3df0ec4113d0",
+    region: "us-south",
+    onLoad: function (instance) {
+      instance.render();
+    },
+  };
+
+  setTimeout(function()
+    {
+        const t=document.createElement('script');
+        t.src='https://web-chat.global.assistant.watson.appdomain.cloud/covid/webchat.js';
+        document.head.appendChild(t);
+    }
+);
+</script>
+
+</body>
+</html>

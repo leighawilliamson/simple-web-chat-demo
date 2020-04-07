@@ -6,9 +6,9 @@
 		"start": "node app.js"
 	},
 	"dependencies": {
-		"mime": "1.4.1",
-		"express": "4.13.x",
-		"cfenv": "1.0.x"
+		"cfenv": "^1.2.2",
+		"express": "^4.17.1",
+		"mime": "1.4.1"
 	},
 	"repository": {},
 	"engines": {
