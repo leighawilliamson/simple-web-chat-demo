@@ -1,0 +1,119 @@
+<html>
+<head>
+  <base href="/">
+  <title>Austin COVID-19 Bot Test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta property="og:image" content="conversation.svg" />
+  <meta property="og:title" content="Conversation Chat Simple" />
+  <meta property="og:description" content="Sample application that shows how to use the Watson Assistant to address questions and concerns about COVID-19." />
+  <link rel="shortcut icon" href="favicon.png" type="image/png">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+<div>
+<img src="../img/background.jpg" width="100%" />
+</div>
+
+<style>
+@keyframes slideInRight {
+from {
+transform: translate3d(100%, 0, 0);
+visibility: visible;
+}
+
+to {
+transform: translate3d(0, 0, 0);
+}
+}
+
+button.chatLauncher {
+padding: 28px;
+box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.6), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+animation-duration: 0.5s;
+transition-duration: 0.5s;
+position: fixed;
+height:100px;
+bottom: 32px;
+right: 32px;
+z-index: 9999;
+border: 4px solid #1c3583;
+padding: 7px;
+border-radius: 8px;
+margin: 0;
+text-decoration: none;
+background: #1c3583;
+color: white;
+line-height: 1.4;
+font-size:19px;
+cursor: pointer;
+text-align: center;
+-webkit-appearance: none;
+-moz-appearance: none;
+ width: 350px;
+opacity: 5.8;
+}
+
+button.chatLauncher.open {
+animation-name: slideInRight;
+opacity: 1;
+}
+
+button.chatLauncher:hover,
+button.chatLauncher:focus{
+opacity: .9;
+border: 4px solid #1c3583;
+	color: White;
+	padding: 4px;
+}
+
+button.chatLauncher:focus {
+outline: 1px solid #0053ba;
+outline-offset: -4px;
+}
+
+</style>
+
+<!-- We want to hide this element initially, because Web Chat isn't ready yet. -->
+<button type="button" class="chatLauncher" style="display:none;">
+<div>
+<strong>Coronavirus questions?<br></strong>Chat with our Virtual Assistant.
+</div>
+</button>
+<script src="https://web-chat.global.assistant.watson.cloud.ibm.com/loadWatsonAssistantChat.js"></script> 
+<script> 
+window.loadWatsonAssistantChat({ 
+integrationID: "ef2ee180-19fc-44de-bbee-7568b9780e34", // The ID of this integration. 
+region: "us-south", // The region your integration is hosted in.
+  __ibm__: {
+botNameOverride: 'Virtual Assistant for COVID-19'
+},
+showLauncher: false
+}).then(function(instance){
+// Select the button element from the page.
+var button = document.querySelector('.chatLauncher');
+
+// Add the event listener to open your Web Chat.
+button.addEventListener('click', function() {
+	instance.openWindow();
+});
+// Render the Web Chat. Nothing appears on the page, because the launcher is
+// hidden and the Web Chat window is closed by default.
+instance.render().then(function() {
+// Now that Web Chat has been rendered (but is still closed), we make the
+// custom launcher button visible.
+button.style.display = 'block';
+// Make parent div viewable and 0px height
+// to avoid random white space on the bottom of the page
+button.parentElement.style.display ='block';
+button.parentElement.style.visibility ='visible';
+button.parentElement.style.height ='0px';
+button.classList.add('open');
+});
+});
+</script>
+
+
+</body>
+</html>
