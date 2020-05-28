@@ -1,0 +1,3 @@
+applications:
+- name: tcu-assistant-demo
+  memory: 128M
