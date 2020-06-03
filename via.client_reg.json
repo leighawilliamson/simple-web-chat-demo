@@ -1,0 +1,244 @@
+{
+  "resourceType": "Patient",
+  "active": true,
+  "gender": "male",
+  "birthDate": "string",
+  "deceasedBoolean": false,
+  "deceasedDate": "string",
+  "source": {
+    "text": "string",
+    "coding": [
+      {
+        "system": "http://wcm/source",
+        "code": "string"
+      }
+    ]
+  },
+  "originalSource": {
+    "text": "string",
+    "coding": [
+      {
+        "system": "http://wcm/originalsource",
+        "code": "string"
+      }
+    ]
+  },
+  "address": [
+    {
+      "use": "home",
+      "state": "AL",
+      "country": "US",
+      "source": {
+        "text": "string",
+        "coding": [
+          {
+            "system": "http://wcm/source",
+            "code": "string"
+          }
+        ]
+      },
+      "originalSource": {
+        "text": "string",
+        "coding": [
+          {
+            "system": "http://wcm/originalsource",
+            "code": "string"
+          }
+        ]
+      },
+      "city": "string",
+      "line1": "string",
+      "line2": "string",
+      "line3": "string",
+      "postalCode": "string",
+      "identifier": [
+        {
+          "value": "string",
+          "type": {
+            "text": "string"
+          }
+        }
+      ],
+      "period": {
+        "start": "string",
+        "end": "string"
+      }
+    }
+  ],
+  "maritalStatus": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/v3/MaritalStatus",
+        "code": "D"
+      }
+    ],
+    "period": {
+      "start": "string",
+      "end": "string"
+    }
+  },
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "string",
+      "use": "home",
+      "source": {
+        "text": "string",
+        "coding": [
+          {
+            "system": "http://wcm/source",
+            "code": "string"
+          }
+        ]
+      },
+      "originalSource": {
+        "text": "string",
+        "coding": [
+          {
+            "system": "http://wcm/originalsource",
+            "code": "string"
+          }
+        ]
+      },
+      "identifier": [
+        {
+          "value": "string",
+          "type": {
+            "text": "string"
+          }
+        }
+      ],
+      "period": {
+        "start": "string",
+        "end": "string"
+      }
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "family": "string",
+      "given": "string",
+      "prefix": "string",
+      "suffix": "string",
+      "middle": "string",
+      "source": {
+        "text": "string",
+        "coding": [
+          {
+            "system": "http://wcm/source",
+            "code": "string"
+          }
+        ]
+      },
+      "originalSource": {
+        "text": "string",
+        "coding": [
+          {
+            "system": "http://wcm/originalsource",
+            "code": "string"
+          }
+        ]
+      },
+      "identifier": [
+        {
+          "value": "string",
+          "type": {
+            "text": "string"
+          }
+        }
+      ]
+    }
+  ],
+  "identifier": [
+    {
+      "value": "string",
+      "source": {
+        "text": "string",
+        "coding": [
+          {
+            "system": "http://wcm/source",
+            "code": "string"
+          }
+        ]
+      },
+      "originalSource": {
+        "text": "string",
+        "coding": [
+          {
+            "system": "http://wcm/originalsource",
+            "code": "string"
+          }
+        ]
+      },
+      "type": {
+        "coding": [
+          {
+            "system": "http://wcm/identification",
+            "code": "string"
+          }
+        ]
+      },
+      "period": {
+        "start": "string",
+        "end": "string"
+      }
+    }
+  ],
+  "headerSources": {
+    "birthDeathSource": {
+      "text": "string",
+      "coding": [
+        {
+          "system": "http://wcm/source",
+          "code": "string"
+        }
+      ]
+    },
+    "genderSource": {
+      "text": "string",
+      "coding": [
+        {
+          "system": "http://wcm/source",
+          "code": "string"
+        }
+      ]
+    },
+    "maritalStatusSource": {
+      "text": "string",
+      "coding": [
+        {
+          "system": "http://wcm/source",
+          "code": "string"
+        }
+      ]
+    },
+    "birthDeathOriginalSource": {
+      "text": "string",
+      "coding": [
+        {
+          "system": "http://wcm/originalsource",
+          "code": "string"
+        }
+      ]
+    },
+    "genderOriginalSource": {
+      "text": "string",
+      "coding": [
+        {
+          "system": "http://wcm/originalsource",
+          "code": "string"
+        }
+      ]
+    },
+    "maritalStatusOriginalSource": {
+      "text": "string",
+      "coding": [
+        {
+          "system": "http://wcm/originalsource",
+          "code": "string"
+        }
+      ]
+    }
+  }
+}
