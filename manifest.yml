@@ -1,3 +1,3 @@
 applications:
-- name: austin-opendata-assistant-demo
+- name: txvlb-assistant-demo
   memory: 128M
