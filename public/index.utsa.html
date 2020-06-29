@@ -112,6 +112,10 @@
             button.parentElement.style.height = '0px';
             button.classList.add('open');
         });
+        var urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('chatwindow') == "open"){
+                instance.openWindow();
+        }
     });
 </script>
 
