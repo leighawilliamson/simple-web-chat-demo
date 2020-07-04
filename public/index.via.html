@@ -1,7 +1,7 @@
 <html>
 <head>
   <base href="/">
-  <title>VIA Next Bus Assistant Demo</title>
+  <title>VIA Watson Assistant Demo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta property="og:image" content="conversation.svg" />
@@ -15,21 +15,7 @@
     <div class="container">
         <img src="../img/VIA.background.jpg" width="100%" />
     </div>
-<!--   Original code snippet from Watson Assistant internal tooling web page
-    <script>
-      window.watsonAssistantChatOptions = {
-          integrationID: "16823127-3663-4345-a691-2b4155f43227", // The ID of this integration.
-          region: "us-south", // The region your integration is hosted in.
-          serviceInstanceID: "9e7ec6ab-ea28-4d8e-a3d6-f8a9fa21eac0", // The ID of your service instance.
-          onLoad: function(instance) { instance.render(); }
-        };
-      setTimeout(function(){
-        const t=document.createElement('script');
-        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
-        document.head.appendChild(t);
-      });
-    </script>
--->
+
     <style>
     @keyframes slideInRight {
         from {
@@ -91,7 +77,7 @@
 <!-- We want to hide this element initially, because Web Chat isn't ready yet. -->
 <button type="button" class="chatLauncher" style="display:none;">
     <div>
-        <strong>VIA Next Bus questions?<br></strong>
+        <strong>VIA questions?<br></strong>
     </div>
 </button>
 <script src="https://web-chat.global.assistant.watson.cloud.ibm.com/loadWatsonAssistantChat.js"></script> 
@@ -102,7 +88,7 @@
 
         region: "us-east", // The region your integration is hosted in.
         __ibm__: {
-            botNameOverride: 'VIA Next Bus Assistant'
+            botNameOverride: 'VIA Virtual Assistant'
         },
         showLauncher: false
     }).then(function(instance) {

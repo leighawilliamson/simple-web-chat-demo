@@ -20,7 +20,7 @@ module.exports = function (params) {
 
     if (command === "testkey"){
         console.log('Command recognized: ' + command );
-        return testapi(params);
+        return testkey(params);
     }
     else if (command === "predictions"){
         console.log('Command recognized: ' + command );
@@ -53,7 +53,7 @@ module.exports = function (params) {
 */
 async function predictions (params){
     // easy debug printout
-    // console.log("entering predictions function");
+    console.log("entering predictions function");
     var routes = "";
     var utctime = "";
 
@@ -87,14 +87,15 @@ async function predictions (params){
     }
 
     // return stop name and formatted routes information
-    var result = {"stopName": response.body.data.predictionsData[0].stopName,
-                "routes": routes,
-                "rawdata": response.body.data.predictionsData
-            };
+    var result = {  "stopName": response.body.data.predictionsData[0].stopName,
+                    "routes": routes,
+                    "rawdata": response.body.data.predictionsData
+                 };
+
     return result;
 }
 
-/* The routes sub-function invokes the Swiftly API.
+/* The routes sub-function is not yet implemented.
     @params.swiftly_APIKey is required for authorization to use the Swiftly API
     @params.route is required in order to identify the route for which information is requested.
 */
@@ -104,12 +105,10 @@ async function routes (params){
 
     let response = await needle('get', url, { headers: { authorization: params.swiftly_APIKey } });
 
-    return {
-      body: response.body
-    };
+    return { body: response.body };
 }
 
-/* The vehicles sub-function invokes the Swiftly API.
+/* The vehicles sub-function s not yet implemented.
     @params.swiftly_APIKey is required for authorization to use the Swiftly API
     @params.route is required in order to identify the route for which vehicle information is requested.
 */
@@ -119,12 +118,10 @@ async function vehicles (params){
 
     let response = await needle('get', url, { headers: { authorization: params.swiftly_APIKey } });
 
-    return {
-      body: response.body
-    };
+    return { body: response.body };
 }
 
-/* The location_predictions sub-function invokes the Swiftly API.
+/* The location_predictions sub-function is not yet implemented.
     @params.swiftly_APIKey is required for authorization to use the Swiftly API
     @params.lat is required in order to identify the latitude value for the API call.
     @params.lon is required in order to identify the longitude value for the API call.
@@ -136,23 +133,23 @@ async function location_predictions (params){
 
     let response = await needle('get', url, { headers: { authorization: params.swiftly_APIKey } });
 
-    return {
-      body: response.body
-    };
+    return { body: response.body };
 }
 
-/* The tesapi sub-function invokes the Swiftly API.
+/* The tesapi sub-function invokes the Swiftly API test-key method.
     This just tests that the Swiftly API key works and that it is possible to invoke the Swiftly API successfully.
     @params.swiftly_APIKey is required for authorization to use the Swiftly API
 */
-async function testapi (params){
-    console.log("entering testapi function");
+async function testkey (params){
+    console.log("entering testkey function");
 
     let response = await needle('get', `https://api.goswift.ly/test-key`,
         { headers: { authorization: params.swiftly_APIKey } });
-    return {
-      body: response.body
-    };
+
+    let body = response.body;
+    console.log("testkey result: " + JSON.stringify(body));
+    return { body: response.body };
+
 }
 
 /* The engage sub-function invokes the SPS Digital Engage webhook API (https://engage.spsdgtl.com/docs/webhooks#post-webhooks-nativechat).

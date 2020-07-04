@@ -8,7 +8,9 @@
 	"dependencies": {
 		"cfenv": "^1.2.2",
 		"express": "^4.17.1",
-		"mime": "1.4.1"
+		"mime": "1.4.1",
+		"needle": "^2.5.0",
+		"node-fetch": "^2.6.0"
 	},
 	"repository": {},
 	"engines": {
