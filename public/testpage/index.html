@@ -1,7 +1,7 @@
 <html>
 <head>
   <base href="/">
-  <title>VIA Watson Assistant</title>
+  <title>VIA Virtual Assistant Test</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta property="og:image" content="conversation.svg" />
@@ -72,12 +72,12 @@
     }
 </style>
 
-<!-- We want to hide this element initially, because Web Chat isn't ready yet. -->
 <button type="button" class="chatLauncher" style="display:none;">
     <div>
         <strong>VIA questions?<br></strong>
     </div>
 </button>
+
 <script src="https://web-chat.global.assistant.watson.cloud.ibm.com/loadWatsonAssistantChat.js"></script> 
 <script>
     var chatWindowInitiallyOpen = false;
@@ -87,10 +87,10 @@
             chatWindowInitiallyOpen = true;
     }
     window.loadWatsonAssistantChat({
-        // ID for the Assistant named "VIA Web Assistant (Production)"
-        integrationID: "68a791e1-9581-46af-8f0b-9d6106ea009c",
+        // ID for the Assistant named "VIA Web Chat Test"
+        integrationID: "8fea25fb-a7f7-46be-9111-a6ac8929ce95",
 
-        region: "us-east",
+        region: "us-east", 
         __ibm__: {
             botNameOverride: 'VIA Virtual Assistant'
         },
