@@ -82,14 +82,21 @@
 </button>
 <script src="https://web-chat.global.assistant.watson.cloud.ibm.com/loadWatsonAssistantChat.js"></script> 
 <script>
+    var chatWindowInitiallyOpen = false;
+    var urlParams = new URLSearchParams(window.location.search);
+    // passing url query of "?chatwindow=open" triggers change in web chat configuration
+    if (urlParams.get('chatwindow') == "open"){
+            chatWindowInitiallyOpen = true;
+    }
     window.loadWatsonAssistantChat({
-
-        integrationID: "68a791e1-9581-46af-8f0b-9d6106ea009c", // The ID of this integration.
+        // ID for the Assistant named "VIA Web Chat Test"
+        integrationID: "8fea25fb-a7f7-46be-9111-a6ac8929ce95", // The ID of this integration.
 
         region: "us-east", // The region your integration is hosted in.
         __ibm__: {
             botNameOverride: 'VIA Virtual Assistant'
         },
+        openChatByDefault: chatWindowInitiallyOpen,
         showLauncher: false
     }).then(function(instance) {
         // Select the button element from the page.

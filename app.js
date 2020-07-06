@@ -1,7 +1,7 @@
 /*eslint-env node*/
 
 //------------------------------------------------------------------------------
-// hello world app is based on node.js starter application for Bluemix
+// This web app is based on node.js starter application for IBM Cloud
 //------------------------------------------------------------------------------
 
 // This application uses express as its web server
@@ -15,7 +15,7 @@ const bodyParser = require('body-parser');
 // for more info, see: https://www.npmjs.com/package/cfenv
 var cfenv = require('cfenv');
 
-// import the Watson Assistant webhook code so we can invoke it from here
+// import the webhook code so we can invoke it from here
 const webhook = require('./webhook');
 
 // create a new express server
@@ -36,15 +36,23 @@ app.listen(appEnv.port, '0.0.0.0', function() {
   console.log("server starting on " + appEnv.url);
 });
 
-app.get("/webhook", async (req, res) => {
-
-    let params1 = req.query.params;
-    console.log("params = " + JSON.stringify(params1));
-    console.log("command = " + params1.command);
-    var params = {command:"testkey",
-        swiftly_APIKey:"0a40989c036ae4dd601aff62bc9d1983"}
-    console.log("calling webhook with params: " + JSON.stringify(params));
+/* This endpoint allows this web application to serve as the Webhook for Watson Assistant implementations
+* that need to make API calls to external services.
+* The webhook endpoint below is just a pass-thru to the real logic that must be contained in a separate
+* "webhook.js" module which is imported into this app.js module.
+* Configure the Webhook in Watson Assistant to use a URL of "<application-route>/webhook"
+* and be sure to configure the Content-Type to be "application/json" in the Webhook header setup.
+* Note that Watson Assistant logic uses a POST request for webhook calls.
+* This endpoint is declared async because most often the ultimate API call (implemented in webhook.js)
+* will be an asynchronous Promise. Unless this endpoint waits for the Promise to be resolved, it will
+* return to the virtual assistant before the underlying API call completes.
+*/
+app.post('/webhook', async (req, res) => {
+    // copy params passed in from external POST request
+    var params = req.body;
+    // log before and after invoking the real webhook logic
+    console.log("calling webhook logic with params: " + JSON.stringify(params));
     var result = await webhook(params);
     console.log("webhook result = " + JSON.stringify(result));
     res.json(result);
-})
+});
