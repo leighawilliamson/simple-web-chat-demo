@@ -1,12 +1,10 @@
 <html>
 <head>
   <base href="/">
-  <title>VIA Watson Assistant Demo</title>
+  <title>VIA Watson Assistant</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta property="og:image" content="conversation.svg" />
-  <meta property="og:title" content="Conversation Chat Simple" />
-  <meta property="og:description" content="Sample application that shows how to use the Watson Assistant API to identify user intents" />
   <link rel="shortcut icon" href="favicon.png" type="image/png">
   <link rel="stylesheet" href="css/app.css">
 </head>
@@ -89,10 +87,10 @@
             chatWindowInitiallyOpen = true;
     }
     window.loadWatsonAssistantChat({
-        // ID for the Assistant named "VIA Web Chat Test"
-        integrationID: "8fea25fb-a7f7-46be-9111-a6ac8929ce95", 
+        // ID for the Assistant named "VIA Web Assistant (Production)"
+        integrationID: "68a791e1-9581-46af-8f0b-9d6106ea009c",
 
-        region: "us-east", // The region your integration is hosted in.
+        region: "us-east",
         __ibm__: {
             botNameOverride: 'VIA Virtual Assistant'
         },
