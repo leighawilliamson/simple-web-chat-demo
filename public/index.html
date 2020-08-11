@@ -1,7 +1,7 @@
 <html>
 <head>
   <base href="/">
-  <title>Texas VLB Assistant Demo</title>
+  <title>Austin Animal Center Assistant</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta property="og:image" content="conversation.svg" />
@@ -13,7 +13,7 @@
 
 <body>
     <div class="container">
-        <img src="../img/GLO.background.jpg" width="100%" />
+        <img src="../img/AAC.background.jpg" width="100%" />
     </div>
 
     <style>
@@ -77,18 +77,18 @@
 <!-- We want to hide this element initially, because Web Chat isn't ready yet. -->
 <button type="button" class="chatLauncher" style="display:none;">
     <div>
-        <strong>Texas VLB questions?<br></strong>
+        <strong>Animal Center questions?<br></strong>
     </div>
 </button>
 <script src="https://web-chat.global.assistant.watson.cloud.ibm.com/loadWatsonAssistantChat.js"></script> 
 <script>
     window.loadWatsonAssistantChat({
-        // ID for the Assistant named "VLB TEST Assistant" 
-        integrationID: "e9113e0d-1d06-4590-8a23-7ddc89152cde",
+        // ID for the Assistant named "Austin Animal Center Assistant"
+        integrationID: "cd19201b-9ec9-4582-9488-61aab8359930",
 
         region: "us-south",
         __ibm__: {
-            botNameOverride: 'Texas VLB Virtual Assistant'
+            botNameOverride: 'Austin Animal Center Assistant'
         },
         showLauncher: false
     }).then(function(instance) {
