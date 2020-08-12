@@ -1,0 +1,4 @@
+applications:
+- name: uwgb-virtual-assistant
+  memory: 128M
+  instances: 1
