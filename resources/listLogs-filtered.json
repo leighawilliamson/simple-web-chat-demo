@@ -1,0 +1,3276 @@
+{
+  "logs": [
+    {
+      "request": {
+        "suggestion_only": "false",
+        "context": {
+          "system": {
+            "dialog_turn_counter": 1,
+            "dialog_request_counter": 1,
+            "session_id": "b0f21a26-498e-439b-b7af-7bc57cfe4cdc",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "timezone_s": "America/Chicago",
+            "skill_reference_s": "main skill"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "_conversation_id": "1594335129948",
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.194.112.85",
+                  " 10.190.78.19",
+                  " 172.30.50.220"
+                ]
+              }
+            }
+          },
+          "conversation_id": "b0f21a26-498e-439b-b7af-7bc57cfe4cdc"
+        },
+        "input": {
+          "text": "",
+          "source": {
+            "id_s": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163",
+            "type_s": "user"
+          },
+          "options": {
+            "debug_s": "true",
+            "return_context_s": "true",
+            "export_s": "true"
+          },
+          "message_type_s": "text"
+        }
+      },
+      "response": {
+        "intents": [],
+        "entities": [],
+        "input": {
+          "message_type": "text",
+          "text": "",
+          "source": {
+            "type": "user",
+            "id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "options": {
+            "return_context": true,
+            "export": true,
+            "debug": true
+          }
+        },
+        "output": {
+          "generic": [
+            {
+              "response_type": "text",
+              "text": "Hello, let's test an API !"
+            },
+            {
+              "title": "Which API?",
+              "options": [
+                {
+                  "label": "Test Swiftly API Key",
+                  "value": {
+                    "input": {
+                      "text": "Test_swiftly_API"
+                    }
+                  }
+                },
+                {
+                  "label": "Predict Next Bus",
+                  "value": {
+                    "input": {
+                      "text": "Predict_stop"
+                    }
+                  }
+                },
+                {
+                  "label": "SPS Digital Engage API",
+                  "value": {
+                    "input": {
+                      "text": "Call_Engage_API"
+                    }
+                  }
+                },
+                {
+                  "label": "Language identification",
+                  "value": {
+                    "input": {
+                      "text": "Call_id_language_API"
+                    }
+                  }
+                }
+              ],
+              "response_type": "option"
+            },
+            {
+              "response_type": "text",
+              "text": "Please enter the bus stop ID below."
+            }
+          ],
+          "text": [
+            "Hello, let's test an API !",
+            "Please enter the bus stop ID below."
+          ],
+          "nodes_visited": [
+            "Welcome",
+            "node_1_1589245481246"
+          ],
+          "nodes_visited_details": [
+            {
+              "dialog_node": "Welcome",
+              "title": "Welcome",
+              "conditions": "welcome"
+            },
+            {
+              "dialog_node": "node_1_1589245481246",
+              "title": "Predict",
+              "conditions": "#Predict_stop"
+            }
+          ],
+          "log_messages": []
+        },
+        "context": {
+          "system": {
+            "dialog_turn_counter": 1,
+            "dialog_request_counter": 1,
+            "timezone": "America/Chicago",
+            "session_id": "b0f21a26-498e-439b-b7af-7bc57cfe4cdc",
+            "skill_reference": "main skill",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "initialized": true,
+            "dialog_stack": [
+              {
+                "dialog_node": "node_1_1589245481246"
+              }
+            ],
+            "_node_output_map": {
+              "Welcome": {
+                "0": [
+                  0
+                ]
+              },
+              "node_1_1589245481246": [
+                0
+              ]
+            },
+            "last_branch_node": "node_1_1589245481246"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "_conversation_id": 1594335129948,
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.194.112.85",
+                  " 10.190.78.19",
+                  " 172.30.50.220"
+                ]
+              }
+            }
+          },
+          "conversation_id": "b0f21a26-498e-439b-b7af-7bc57cfe4cdc"
+        },
+        "suggestion_only": false
+      },
+      "language": "en",
+      "workspace_id": "4ab82e36-c716-4ed8-8db9-a7bd9e664d89",
+      "request_timestamp": "2020-07-09T22:52:10.153Z",
+      "response_timestamp": "2020-07-09T22:52:10.160Z",
+      "log_id": "102bd96a-9271-457e-9f70-d2fe41cf78f4"
+    },
+    {
+      "request": {
+        "suggestion_only": "false",
+        "context": {
+          "system": {
+            "session_id": "a17fb934-9bb7-470d-822d-e6ada8995ff9",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "dialog_stack": [
+              {
+                "dialog_node_s": "root"
+              }
+            ],
+            "dialog_turn_counter": 2,
+            "dialog_request_counter": 2,
+            "_node_output_map_s": "{\"Welcome\":{\"0\":[0]}}",
+            "skill_reference_s": "main skill",
+            "timezone_s": "America/Chicago",
+            "initialized_s": "true",
+            "last_branch_node_s": "Welcome"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "_conversation_id": "1594335591845",
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.194.112.60",
+                  " 10.188.250.241",
+                  " 172.30.100.116"
+                ]
+              }
+            }
+          },
+          "conversation_id": "a17fb934-9bb7-470d-822d-e6ada8995ff9"
+        },
+        "input": {
+          "text": "Call_id_language_API",
+          "source": {
+            "id_s": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163",
+            "type_s": "user"
+          },
+          "options": {
+            "debug_s": "true",
+            "return_context_s": "true",
+            "export_s": "true"
+          },
+          "message_type_s": "text"
+        }
+      },
+      "response": {
+        "intents": [
+          {
+            "intent": "Call_id_language_API",
+            "confidence": 1
+          }
+        ],
+        "entities": [],
+        "input": {
+          "message_type": "text",
+          "text": "Call_id_language_API",
+          "source": {
+            "type": "user",
+            "id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "options": {
+            "return_context": true,
+            "export": true,
+            "debug": true
+          }
+        },
+        "output": {
+          "generic": [
+            {
+              "response_type": "text",
+              "text": "Enter the text to be evaluated"
+            }
+          ],
+          "text": [
+            "Enter the text to be evaluated"
+          ],
+          "nodes_visited": [
+            "node_2_1594334433709"
+          ],
+          "nodes_visited_details": [
+            {
+              "dialog_node": "node_2_1594334433709",
+              "title": "Test Language Translator language identification API",
+              "conditions": "#Call_id_language_API"
+            }
+          ],
+          "log_messages": []
+        },
+        "context": {
+          "system": {
+            "session_id": "a17fb934-9bb7-470d-822d-e6ada8995ff9",
+            "skill_reference": "main skill",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "initialized": true,
+            "dialog_stack": [
+              {
+                "dialog_node": "node_2_1594334433709"
+              }
+            ],
+            "_node_output_map": {
+              "Welcome": {
+                "0": [
+                  0
+                ]
+              },
+              "node_2_1594334433709": {
+                "0": [
+                  0
+                ]
+              }
+            },
+            "dialog_turn_counter": 2,
+            "dialog_request_counter": 2,
+            "timezone": "America/Chicago",
+            "last_branch_node": "node_2_1594334433709"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "_conversation_id": 1594335591845,
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.194.112.60",
+                  " 10.188.250.241",
+                  " 172.30.100.116"
+                ]
+              }
+            }
+          },
+          "conversation_id": "a17fb934-9bb7-470d-822d-e6ada8995ff9"
+        },
+        "suggestion_only": false
+      },
+      "language": "en",
+      "workspace_id": "4ab82e36-c716-4ed8-8db9-a7bd9e664d89",
+      "request_timestamp": "2020-07-09T22:59:56.213Z",
+      "response_timestamp": "2020-07-09T22:59:56.274Z",
+      "log_id": "51ea3ecb-6fb0-48a7-aec8-78f245dfc190"
+    },
+    {
+      "request": {
+        "suggestion_only": "false",
+        "context": {
+          "system": {
+            "session_id": "a17fb934-9bb7-470d-822d-e6ada8995ff9",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "dialog_stack": [
+              {
+                "dialog_node_s": "node_2_1594334433709"
+              }
+            ],
+            "dialog_turn_counter": 3,
+            "dialog_request_counter": 3,
+            "_node_output_map_s": "{\"Welcome\":{\"0\":[0]},\"node_2_1594334433709\":{\"0\":[0]}}",
+            "skill_reference_s": "main skill",
+            "timezone_s": "America/Chicago",
+            "initialized_s": "true",
+            "last_branch_node_s": "node_2_1594334433709"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "_conversation_id": "1594335591845",
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.194.112.60",
+                  " 10.188.250.241",
+                  " 172.30.100.116"
+                ]
+              }
+            }
+          },
+          "conversation_id": "a17fb934-9bb7-470d-822d-e6ada8995ff9"
+        },
+        "input": {
+          "text": "who are you",
+          "source": {
+            "id_s": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163",
+            "type_s": "user"
+          },
+          "options": {
+            "debug_s": "true",
+            "return_context_s": "true",
+            "export_s": "true"
+          },
+          "message_type_s": "text"
+        }
+      },
+      "response": {
+        "intents": [],
+        "entities": [],
+        "input": {
+          "message_type": "text",
+          "text": "who are you",
+          "source": {
+            "type": "user",
+            "id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "options": {
+            "return_context": true,
+            "export": true,
+            "debug": true
+          }
+        },
+        "output": {
+          "generic": [
+            {
+              "response_type": "text",
+              "text": "The language identified is:  {\"status\":\"200\",\"statusText\":\"OK\",\"ok\":true}"
+            }
+          ],
+          "text": [
+            "The language identified is:  {\"status\":\"200\",\"statusText\":\"OK\",\"ok\":true}"
+          ],
+          "nodes_visited": [
+            "node_9_1594334590258",
+            "response_7_1594334628944"
+          ],
+          "nodes_visited_details": [
+            {
+              "dialog_node": "node_9_1594334590258",
+              "title": "Call the webhook for language identification",
+              "conditions": "true"
+            },
+            {
+              "dialog_node": "response_7_1594334628944",
+              "conditions": "$webhook_result_2"
+            }
+          ],
+          "log_messages": []
+        },
+        "context": {
+          "system": {
+            "session_id": "a17fb934-9bb7-470d-822d-e6ada8995ff9",
+            "skill_reference": "main skill",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "initialized": true,
+            "dialog_stack": [
+              {
+                "dialog_node": "root"
+              }
+            ],
+            "_node_output_map": {
+              "Welcome": {
+                "0": [
+                  0
+                ]
+              },
+              "node_2_1594334433709": {
+                "0": [
+                  0
+                ]
+              },
+              "response_7_1594334628944": {
+                "0": [
+                  0
+                ]
+              }
+            },
+            "dialog_turn_counter": 3,
+            "dialog_request_counter": 3,
+            "timezone": "America/Chicago",
+            "last_branch_node": "node_2_1594334433709",
+            "branch_exited": true,
+            "branch_exited_reason": "completed"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "_conversation_id": 1594335591845,
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.194.112.60",
+                  " 10.188.250.241",
+                  " 172.30.100.116"
+                ]
+              }
+            }
+          },
+          "conversation_id": "a17fb934-9bb7-470d-822d-e6ada8995ff9",
+          "webhook_result_2": {
+            "status": "200",
+            "statusText": "OK",
+            "ok": true
+          }
+        },
+        "actions": [],
+        "suggestion_only": false
+      },
+      "language": "en",
+      "workspace_id": "4ab82e36-c716-4ed8-8db9-a7bd9e664d89",
+      "request_timestamp": "2020-07-09T23:00:05.399Z",
+      "response_timestamp": "2020-07-09T23:00:05.696Z",
+      "log_id": "4c3094b3-52c6-4b07-adaf-0e88f68891a0"
+    },
+    {
+      "request": {
+        "suggestion_only": "false",
+        "context": {
+          "system": {
+            "dialog_turn_counter": 1,
+            "dialog_request_counter": 1,
+            "session_id": "9f109b5b-75e3-4985-8e1d-6d742934d7ca",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "timezone_s": "America/Chicago",
+            "skill_reference_s": "main skill"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "_conversation_id": "1594335194090",
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.194.112.85",
+                  " 10.65.19.156",
+                  " 172.30.53.15"
+                ]
+              }
+            }
+          },
+          "conversation_id": "9f109b5b-75e3-4985-8e1d-6d742934d7ca"
+        },
+        "input": {
+          "text": "",
+          "source": {
+            "id_s": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163",
+            "type_s": "user"
+          },
+          "options": {
+            "debug_s": "true",
+            "return_context_s": "true",
+            "export_s": "true"
+          },
+          "message_type_s": "text"
+        }
+      },
+      "response": {
+        "intents": [],
+        "entities": [],
+        "input": {
+          "message_type": "text",
+          "text": "",
+          "source": {
+            "type": "user",
+            "id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "options": {
+            "return_context": true,
+            "export": true,
+            "debug": true
+          }
+        },
+        "output": {
+          "generic": [
+            {
+              "response_type": "text",
+              "text": "Hello, let's test an API !"
+            },
+            {
+              "title": "Which API?",
+              "options": [
+                {
+                  "label": "Test Swiftly API Key",
+                  "value": {
+                    "input": {
+                      "text": "Test_swiftly_API"
+                    }
+                  }
+                },
+                {
+                  "label": "Predict Next Bus",
+                  "value": {
+                    "input": {
+                      "text": "Predict_stop"
+                    }
+                  }
+                },
+                {
+                  "label": "SPS Digital Engage API",
+                  "value": {
+                    "input": {
+                      "text": "Call_Engage_API"
+                    }
+                  }
+                },
+                {
+                  "label": "Language identification",
+                  "value": {
+                    "input": {
+                      "text": "Call_id_language_API"
+                    }
+                  }
+                }
+              ],
+              "response_type": "option"
+            }
+          ],
+          "text": [
+            "Hello, let's test an API !"
+          ],
+          "nodes_visited": [
+            "Welcome"
+          ],
+          "nodes_visited_details": [
+            {
+              "dialog_node": "Welcome",
+              "title": "Welcome",
+              "conditions": "welcome"
+            }
+          ],
+          "log_messages": []
+        },
+        "context": {
+          "system": {
+            "dialog_turn_counter": 1,
+            "dialog_request_counter": 1,
+            "timezone": "America/Chicago",
+            "session_id": "9f109b5b-75e3-4985-8e1d-6d742934d7ca",
+            "skill_reference": "main skill",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "initialized": true,
+            "dialog_stack": [
+              {
+                "dialog_node": "root"
+              }
+            ],
+            "_node_output_map": {
+              "Welcome": {
+                "0": [
+                  0
+                ]
+              }
+            },
+            "last_branch_node": "Welcome",
+            "branch_exited": true,
+            "branch_exited_reason": "completed"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "_conversation_id": 1594335194090,
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.194.112.85",
+                  " 10.65.19.156",
+                  " 172.30.53.15"
+                ]
+              }
+            }
+          },
+          "conversation_id": "9f109b5b-75e3-4985-8e1d-6d742934d7ca"
+        },
+        "suggestion_only": false
+      },
+      "language": "en",
+      "workspace_id": "4ab82e36-c716-4ed8-8db9-a7bd9e664d89",
+      "request_timestamp": "2020-07-09T22:53:14.373Z",
+      "response_timestamp": "2020-07-09T22:53:14.421Z",
+      "log_id": "0911570c-3c81-4ba3-a897-2e23f9156e86"
+    },
+    {
+      "request": {
+        "suggestion_only": "false",
+        "context": {
+          "system": {
+            "dialog_turn_counter": 1,
+            "dialog_request_counter": 1,
+            "session_id": "a17fb934-9bb7-470d-822d-e6ada8995ff9",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "timezone_s": "America/Chicago",
+            "skill_reference_s": "main skill"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "_conversation_id": "1594335591845",
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.194.112.60",
+                  " 10.190.78.19",
+                  " 172.30.50.220"
+                ]
+              }
+            }
+          },
+          "conversation_id": "a17fb934-9bb7-470d-822d-e6ada8995ff9"
+        },
+        "input": {
+          "text": "",
+          "source": {
+            "id_s": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163",
+            "type_s": "user"
+          },
+          "options": {
+            "debug_s": "true",
+            "return_context_s": "true",
+            "export_s": "true"
+          },
+          "message_type_s": "text"
+        }
+      },
+      "response": {
+        "intents": [],
+        "entities": [],
+        "input": {
+          "message_type": "text",
+          "text": "",
+          "source": {
+            "type": "user",
+            "id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "options": {
+            "return_context": true,
+            "export": true,
+            "debug": true
+          }
+        },
+        "output": {
+          "generic": [
+            {
+              "response_type": "text",
+              "text": "Hello, let's test an API !"
+            },
+            {
+              "title": "Which API?",
+              "options": [
+                {
+                  "label": "Test Swiftly API Key",
+                  "value": {
+                    "input": {
+                      "text": "Test_swiftly_API"
+                    }
+                  }
+                },
+                {
+                  "label": "Predict Next Bus",
+                  "value": {
+                    "input": {
+                      "text": "Predict_stop"
+                    }
+                  }
+                },
+                {
+                  "label": "SPS Digital Engage API",
+                  "value": {
+                    "input": {
+                      "text": "Call_Engage_API"
+                    }
+                  }
+                },
+                {
+                  "label": "Language identification",
+                  "value": {
+                    "input": {
+                      "text": "Call_id_language_API"
+                    }
+                  }
+                }
+              ],
+              "response_type": "option"
+            }
+          ],
+          "text": [
+            "Hello, let's test an API !"
+          ],
+          "nodes_visited": [
+            "Welcome"
+          ],
+          "nodes_visited_details": [
+            {
+              "dialog_node": "Welcome",
+              "title": "Welcome",
+              "conditions": "welcome"
+            }
+          ],
+          "log_messages": []
+        },
+        "context": {
+          "system": {
+            "dialog_turn_counter": 1,
+            "dialog_request_counter": 1,
+            "timezone": "America/Chicago",
+            "session_id": "a17fb934-9bb7-470d-822d-e6ada8995ff9",
+            "skill_reference": "main skill",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "initialized": true,
+            "dialog_stack": [
+              {
+                "dialog_node": "root"
+              }
+            ],
+            "_node_output_map": {
+              "Welcome": {
+                "0": [
+                  0
+                ]
+              }
+            },
+            "last_branch_node": "Welcome",
+            "branch_exited": true,
+            "branch_exited_reason": "completed"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "_conversation_id": 1594335591845,
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.194.112.60",
+                  " 10.190.78.19",
+                  " 172.30.50.220"
+                ]
+              }
+            }
+          },
+          "conversation_id": "a17fb934-9bb7-470d-822d-e6ada8995ff9"
+        },
+        "suggestion_only": false
+      },
+      "language": "en",
+      "workspace_id": "4ab82e36-c716-4ed8-8db9-a7bd9e664d89",
+      "request_timestamp": "2020-07-09T22:59:52.332Z",
+      "response_timestamp": "2020-07-09T22:59:52.338Z",
+      "log_id": "48785521-7ef3-4b8c-91cb-9b8457cc8e73"
+    },
+    {
+      "request": {
+        "suggestion_only": "false",
+        "context": {
+          "system": {
+            "dialog_turn_counter": 1,
+            "dialog_request_counter": 1,
+            "session_id": "5bc4d479-9cf1-49e0-a4f8-50270f8cedf7",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "timezone_s": "America/Chicago",
+            "skill_reference_s": "main skill"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "deployment": "1594386302243",
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.77.229.191",
+                  " 10.190.78.19",
+                  " 172.30.50.220"
+                ]
+              }
+            }
+          },
+          "conversation_id": "5bc4d479-9cf1-49e0-a4f8-50270f8cedf7"
+        },
+        "input": {
+          "text": "",
+          "source": {
+            "id_s": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163",
+            "type_s": "user"
+          },
+          "options": {
+            "debug_s": "true",
+            "return_context_s": "true",
+            "export_s": "true"
+          },
+          "message_type_s": "text"
+        }
+      },
+      "response": {
+        "intents": [],
+        "entities": [],
+        "input": {
+          "message_type": "text",
+          "text": "",
+          "source": {
+            "type": "user",
+            "id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "options": {
+            "return_context": true,
+            "export": true,
+            "debug": true
+          }
+        },
+        "output": {
+          "generic": [
+            {
+              "response_type": "text",
+              "text": "Hello, let's test an API !\nContext deployment = 1594386302243"
+            },
+            {
+              "title": "Which API?",
+              "options": [
+                {
+                  "label": "Test Swiftly API Key",
+                  "value": {
+                    "input": {
+                      "text": "Test_swiftly_API"
+                    }
+                  }
+                },
+                {
+                  "label": "Predict Next Bus",
+                  "value": {
+                    "input": {
+                      "text": "Predict_stop"
+                    }
+                  }
+                },
+                {
+                  "label": "SPS Digital Engage API",
+                  "value": {
+                    "input": {
+                      "text": "Call_Engage_API"
+                    }
+                  }
+                },
+                {
+                  "label": "Language identification",
+                  "value": {
+                    "input": {
+                      "text": "Call_id_language_API"
+                    }
+                  }
+                }
+              ],
+              "response_type": "option"
+            }
+          ],
+          "text": [
+            "Hello, let's test an API !",
+            "Context deployment = 1594386302243"
+          ],
+          "nodes_visited": [
+            "Welcome"
+          ],
+          "nodes_visited_details": [
+            {
+              "dialog_node": "Welcome",
+              "title": "Welcome",
+              "conditions": "welcome"
+            }
+          ],
+          "log_messages": []
+        },
+        "context": {
+          "system": {
+            "dialog_turn_counter": 1,
+            "dialog_request_counter": 1,
+            "timezone": "America/Chicago",
+            "session_id": "5bc4d479-9cf1-49e0-a4f8-50270f8cedf7",
+            "skill_reference": "main skill",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "initialized": true,
+            "dialog_stack": [
+              {
+                "dialog_node": "root"
+              }
+            ],
+            "last_branch_node": "Welcome",
+            "branch_exited": true,
+            "branch_exited_reason": "completed"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "deployment": 1594386302243,
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.77.229.191",
+                  " 10.190.78.19",
+                  " 172.30.50.220"
+                ]
+              }
+            }
+          },
+          "conversation_id": "5bc4d479-9cf1-49e0-a4f8-50270f8cedf7"
+        },
+        "suggestion_only": false
+      },
+      "language": "en",
+      "workspace_id": "4ab82e36-c716-4ed8-8db9-a7bd9e664d89",
+      "request_timestamp": "2020-07-10T13:05:02.609Z",
+      "response_timestamp": "2020-07-10T13:05:02.622Z",
+      "log_id": "49e60475-94de-47c7-a602-4aa3f3213154"
+    },
+    {
+      "request": {
+        "suggestion_only": "false",
+        "context": {
+          "system": {
+            "dialog_turn_counter": 1,
+            "dialog_request_counter": 1,
+            "session_id": "baa6b42b-a839-4b63-8bf5-3cbef4e98e6e",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "timezone_s": "America/Chicago",
+            "skill_reference_s": "main skill"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "deployment": "1594387451245",
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.77.229.191",
+                  " 10.190.78.19",
+                  " 172.30.82.160"
+                ]
+              }
+            }
+          },
+          "conversation_id": "baa6b42b-a839-4b63-8bf5-3cbef4e98e6e"
+        },
+        "input": {
+          "text": "",
+          "source": {
+            "id_s": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163",
+            "type_s": "user"
+          },
+          "options": {
+            "debug_s": "true",
+            "return_context_s": "true",
+            "export_s": "true"
+          },
+          "message_type_s": "text"
+        }
+      },
+      "response": {
+        "intents": [],
+        "entities": [],
+        "input": {
+          "message_type": "text",
+          "text": "",
+          "source": {
+            "type": "user",
+            "id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "options": {
+            "return_context": true,
+            "export": true,
+            "debug": true
+          }
+        },
+        "output": {
+          "generic": [
+            {
+              "response_type": "text",
+              "text": "Hello, let's test an API !\nConversation_id = baa6b42b-a839-4b63-8bf5-3cbef4e98e6e"
+            },
+            {
+              "title": "Which API?",
+              "options": [
+                {
+                  "label": "Test Swiftly API Key",
+                  "value": {
+                    "input": {
+                      "text": "Test_swiftly_API"
+                    }
+                  }
+                },
+                {
+                  "label": "Predict Next Bus",
+                  "value": {
+                    "input": {
+                      "text": "Predict_stop"
+                    }
+                  }
+                },
+                {
+                  "label": "SPS Digital Engage API",
+                  "value": {
+                    "input": {
+                      "text": "Call_Engage_API"
+                    }
+                  }
+                },
+                {
+                  "label": "Language identification",
+                  "value": {
+                    "input": {
+                      "text": "Call_id_language_API"
+                    }
+                  }
+                }
+              ],
+              "response_type": "option"
+            }
+          ],
+          "text": [
+            "Hello, let's test an API !",
+            "Conversation_id = baa6b42b-a839-4b63-8bf5-3cbef4e98e6e"
+          ],
+          "nodes_visited": [
+            "Welcome"
+          ],
+          "nodes_visited_details": [
+            {
+              "dialog_node": "Welcome",
+              "title": "Welcome",
+              "conditions": "welcome"
+            }
+          ],
+          "log_messages": []
+        },
+        "context": {
+          "system": {
+            "dialog_turn_counter": 1,
+            "dialog_request_counter": 1,
+            "timezone": "America/Chicago",
+            "session_id": "baa6b42b-a839-4b63-8bf5-3cbef4e98e6e",
+            "skill_reference": "main skill",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "initialized": true,
+            "dialog_stack": [
+              {
+                "dialog_node": "root"
+              }
+            ],
+            "last_branch_node": "Welcome",
+            "branch_exited": true,
+            "branch_exited_reason": "completed"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163",
+            "deployment": "baa6b42b-a839-4b63-8bf5-3cbef4e98e6e"
+          },
+          "deployment": 1594387451245,
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.77.229.191",
+                  " 10.190.78.19",
+                  " 172.30.82.160"
+                ]
+              }
+            }
+          },
+          "conversation_id": "baa6b42b-a839-4b63-8bf5-3cbef4e98e6e"
+        },
+        "suggestion_only": false
+      },
+      "language": "en",
+      "workspace_id": "4ab82e36-c716-4ed8-8db9-a7bd9e664d89",
+      "request_timestamp": "2020-07-10T13:24:11.474Z",
+      "response_timestamp": "2020-07-10T13:24:11.533Z",
+      "log_id": "a92f48fa-4db4-4026-b6ad-45a0de88f08b"
+    },
+    {
+      "request": {
+        "suggestion_only": "false",
+        "context": {
+          "system": {
+            "session_id": "baa6b42b-a839-4b63-8bf5-3cbef4e98e6e",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "dialog_stack": [
+              {
+                "dialog_node_s": "root"
+              }
+            ],
+            "dialog_turn_counter": 2,
+            "dialog_request_counter": 2,
+            "skill_reference_s": "main skill",
+            "timezone_s": "America/Chicago",
+            "initialized_s": "true",
+            "last_branch_node_s": "Welcome"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "deployment": "1594387451245",
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.77.229.191",
+                  " 10.65.19.156",
+                  " 172.30.53.15"
+                ]
+              }
+            }
+          },
+          "conversation_id": "baa6b42b-a839-4b63-8bf5-3cbef4e98e6e"
+        },
+        "input": {
+          "text": "Call_id_language_API",
+          "source": {
+            "id_s": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163",
+            "type_s": "user"
+          },
+          "options": {
+            "debug_s": "true",
+            "return_context_s": "true",
+            "export_s": "true"
+          },
+          "message_type_s": "text"
+        }
+      },
+      "response": {
+        "intents": [
+          {
+            "intent": "Call_id_language_API",
+            "confidence": 1
+          }
+        ],
+        "entities": [],
+        "input": {
+          "message_type": "text",
+          "text": "Call_id_language_API",
+          "source": {
+            "type": "user",
+            "id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "options": {
+            "return_context": true,
+            "export": true,
+            "debug": true
+          }
+        },
+        "output": {
+          "generic": [
+            {
+              "response_type": "text",
+              "text": "Enter the text to be evaluated"
+            }
+          ],
+          "text": [
+            "Enter the text to be evaluated"
+          ],
+          "nodes_visited": [
+            "node_2_1594334433709"
+          ],
+          "nodes_visited_details": [
+            {
+              "dialog_node": "node_2_1594334433709",
+              "title": "Test Language Translator language identification API",
+              "conditions": "#Call_id_language_API"
+            }
+          ],
+          "log_messages": []
+        },
+        "context": {
+          "system": {
+            "session_id": "baa6b42b-a839-4b63-8bf5-3cbef4e98e6e",
+            "skill_reference": "main skill",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "initialized": true,
+            "dialog_stack": [
+              {
+                "dialog_node": "node_2_1594334433709"
+              }
+            ],
+            "dialog_turn_counter": 2,
+            "dialog_request_counter": 2,
+            "timezone": "America/Chicago",
+            "_node_output_map": {
+              "node_2_1594334433709": {
+                "0": [
+                  0
+                ]
+              }
+            },
+            "last_branch_node": "node_2_1594334433709"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "deployment": 1594387451245,
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.77.229.191",
+                  " 10.65.19.156",
+                  " 172.30.53.15"
+                ]
+              }
+            }
+          },
+          "conversation_id": "baa6b42b-a839-4b63-8bf5-3cbef4e98e6e"
+        },
+        "suggestion_only": false
+      },
+      "language": "en",
+      "workspace_id": "4ab82e36-c716-4ed8-8db9-a7bd9e664d89",
+      "request_timestamp": "2020-07-10T13:24:14.923Z",
+      "response_timestamp": "2020-07-10T13:24:14.975Z",
+      "log_id": "aff1ccc2-c366-451d-ac07-932b3ead4d72"
+    },
+    {
+      "request": {
+        "suggestion_only": "false",
+        "context": {
+          "system": {
+            "session_id": "baa6b42b-a839-4b63-8bf5-3cbef4e98e6e",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "dialog_stack": [
+              {
+                "dialog_node_s": "node_2_1594334433709"
+              }
+            ],
+            "dialog_turn_counter": 3,
+            "dialog_request_counter": 3,
+            "_node_output_map_s": "{\"node_2_1594334433709\":{\"0\":[0]}}",
+            "skill_reference_s": "main skill",
+            "timezone_s": "America/Chicago",
+            "initialized_s": "true",
+            "last_branch_node_s": "node_2_1594334433709"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "deployment": "1594387451245",
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.77.229.191",
+                  " 10.188.250.241",
+                  " 172.30.74.67"
+                ]
+              }
+            }
+          },
+          "conversation_id": "baa6b42b-a839-4b63-8bf5-3cbef4e98e6e"
+        },
+        "input": {
+          "text": "hola",
+          "source": {
+            "id_s": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163",
+            "type_s": "user"
+          },
+          "options": {
+            "debug_s": "true",
+            "return_context_s": "true",
+            "export_s": "true"
+          },
+          "message_type_s": "text"
+        }
+      },
+      "response": {
+        "intents": [],
+        "entities": [
+          {
+            "entity": "first_name",
+            "location": [
+              0,
+              4
+            ],
+            "groups": [
+              {
+                "group": "group_0",
+                "location": [
+                  0,
+                  4
+                ]
+              }
+            ],
+            "value": "firstname",
+            "confidence": 1
+          },
+          {
+            "entity": "last_name",
+            "location": [
+              0,
+              4
+            ],
+            "groups": [
+              {
+                "group": "group_0",
+                "location": [
+                  0,
+                  4
+                ]
+              }
+            ],
+            "value": "lastname",
+            "confidence": 1
+          }
+        ],
+        "input": {
+          "message_type": "text",
+          "text": "hola",
+          "source": {
+            "type": "user",
+            "id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "options": {
+            "return_context": true,
+            "export": true,
+            "debug": true
+          }
+        },
+        "output": {
+          "generic": [
+            {
+              "response_type": "text",
+              "text": "The language identified is:  es\nConversation_id = {\"user_id\":\"anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163\"}"
+            }
+          ],
+          "text": [
+            "The language identified is:  es",
+            "Conversation_id = {\"user_id\":\"anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163\"}"
+          ],
+          "nodes_visited": [
+            "node_9_1594334590258",
+            "response_7_1594334628944"
+          ],
+          "nodes_visited_details": [
+            {
+              "dialog_node": "node_9_1594334590258",
+              "title": "Call the webhook for language identification",
+              "conditions": "true"
+            },
+            {
+              "dialog_node": "response_7_1594334628944",
+              "conditions": "$webhook_result_2"
+            }
+          ],
+          "log_messages": []
+        },
+        "context": {
+          "system": {
+            "session_id": "baa6b42b-a839-4b63-8bf5-3cbef4e98e6e",
+            "skill_reference": "main skill",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "initialized": true,
+            "dialog_stack": [
+              {
+                "dialog_node": "root"
+              }
+            ],
+            "_node_output_map": {
+              "node_2_1594334433709": {
+                "0": [
+                  0
+                ]
+              }
+            },
+            "dialog_turn_counter": 3,
+            "dialog_request_counter": 3,
+            "timezone": "America/Chicago",
+            "last_branch_node": "node_2_1594334433709",
+            "branch_exited": true,
+            "branch_exited_reason": "completed"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "deployment": 1594387451245,
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.77.229.191",
+                  " 10.188.250.241",
+                  " 172.30.74.67"
+                ]
+              }
+            }
+          },
+          "conversation_id": "baa6b42b-a839-4b63-8bf5-3cbef4e98e6e",
+          "webhook_result_2": {
+            "language": "es"
+          }
+        },
+        "actions": [],
+        "suggestion_only": false
+      },
+      "language": "en",
+      "workspace_id": "4ab82e36-c716-4ed8-8db9-a7bd9e664d89",
+      "request_timestamp": "2020-07-10T13:24:19.999Z",
+      "response_timestamp": "2020-07-10T13:24:20.778Z",
+      "log_id": "26ee3e1c-ebfb-4d61-bfe0-ef74c143bafc"
+    },
+    {
+      "request": {
+        "suggestion_only": "false",
+        "context": {
+          "system": {
+            "dialog_turn_counter": 1,
+            "dialog_request_counter": 1,
+            "session_id": "cf03aff1-c46a-4cf4-bbf8-b07c3fb20dde",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "timezone_s": "America/Chicago",
+            "skill_reference_s": "main skill"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "deployment": "1594387186106",
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.77.229.191",
+                  " 10.65.19.156",
+                  " 172.30.53.15"
+                ]
+              }
+            }
+          },
+          "conversation_id": "cf03aff1-c46a-4cf4-bbf8-b07c3fb20dde"
+        },
+        "input": {
+          "text": "",
+          "source": {
+            "id_s": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163",
+            "type_s": "user"
+          },
+          "options": {
+            "debug_s": "true",
+            "return_context_s": "true",
+            "export_s": "true"
+          },
+          "message_type_s": "text"
+        }
+      },
+      "response": {
+        "intents": [],
+        "entities": [],
+        "input": {
+          "message_type": "text",
+          "text": "",
+          "source": {
+            "type": "user",
+            "id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "options": {
+            "return_context": true,
+            "export": true,
+            "debug": true
+          }
+        },
+        "output": {
+          "generic": [
+            {
+              "response_type": "text",
+              "text": "Hello, let's test an API !\nContext metadata = {\"user_id\":\"anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163\",\"deployment\":\"cf03aff1-c46a-4cf4-bbf8-b07c3fb20dde\"}"
+            },
+            {
+              "title": "Which API?",
+              "options": [
+                {
+                  "label": "Test Swiftly API Key",
+                  "value": {
+                    "input": {
+                      "text": "Test_swiftly_API"
+                    }
+                  }
+                },
+                {
+                  "label": "Predict Next Bus",
+                  "value": {
+                    "input": {
+                      "text": "Predict_stop"
+                    }
+                  }
+                },
+                {
+                  "label": "SPS Digital Engage API",
+                  "value": {
+                    "input": {
+                      "text": "Call_Engage_API"
+                    }
+                  }
+                },
+                {
+                  "label": "Language identification",
+                  "value": {
+                    "input": {
+                      "text": "Call_id_language_API"
+                    }
+                  }
+                }
+              ],
+              "response_type": "option"
+            }
+          ],
+          "text": [
+            "Hello, let's test an API !",
+            "Context metadata = {\"user_id\":\"anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163\",\"deployment\":\"cf03aff1-c46a-4cf4-bbf8-b07c3fb20dde\"}"
+          ],
+          "nodes_visited": [
+            "Welcome"
+          ],
+          "nodes_visited_details": [
+            {
+              "dialog_node": "Welcome",
+              "title": "Welcome",
+              "conditions": "welcome"
+            }
+          ],
+          "log_messages": []
+        },
+        "context": {
+          "system": {
+            "dialog_turn_counter": 1,
+            "dialog_request_counter": 1,
+            "timezone": "America/Chicago",
+            "session_id": "cf03aff1-c46a-4cf4-bbf8-b07c3fb20dde",
+            "skill_reference": "main skill",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "initialized": true,
+            "dialog_stack": [
+              {
+                "dialog_node": "root"
+              }
+            ],
+            "last_branch_node": "Welcome",
+            "branch_exited": true,
+            "branch_exited_reason": "completed"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163",
+            "deployment": "cf03aff1-c46a-4cf4-bbf8-b07c3fb20dde"
+          },
+          "deployment": 1594387186106,
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.77.229.191",
+                  " 10.65.19.156",
+                  " 172.30.53.15"
+                ]
+              }
+            }
+          },
+          "conversation_id": "cf03aff1-c46a-4cf4-bbf8-b07c3fb20dde"
+        },
+        "suggestion_only": false
+      },
+      "language": "en",
+      "workspace_id": "4ab82e36-c716-4ed8-8db9-a7bd9e664d89",
+      "request_timestamp": "2020-07-10T13:19:46.321Z",
+      "response_timestamp": "2020-07-10T13:19:46.361Z",
+      "log_id": "948da9db-d3cd-45f9-8a46-c5c4159bbf98"
+    },
+    {
+      "request": {
+        "suggestion_only": "false",
+        "context": {
+          "system": {
+            "session_id": "95bc5cf5-b143-4b68-8ce7-eb581d683ad6",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "dialog_stack": [
+              {
+                "dialog_node_s": "root"
+              }
+            ],
+            "dialog_turn_counter": 2,
+            "dialog_request_counter": 2,
+            "skill_reference_s": "main skill",
+            "timezone_s": "America/Chicago",
+            "initialized_s": "true",
+            "last_branch_node_s": "Welcome"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "deployment": "1594387341376",
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.77.229.191",
+                  " 10.188.250.241",
+                  " 172.30.74.67"
+                ]
+              }
+            }
+          },
+          "conversation_id": "95bc5cf5-b143-4b68-8ce7-eb581d683ad6"
+        },
+        "input": {
+          "text": "Call_id_language_API",
+          "source": {
+            "id_s": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163",
+            "type_s": "user"
+          },
+          "options": {
+            "debug_s": "true",
+            "return_context_s": "true",
+            "export_s": "true"
+          },
+          "message_type_s": "text"
+        }
+      },
+      "response": {
+        "intents": [
+          {
+            "intent": "Call_id_language_API",
+            "confidence": 1
+          }
+        ],
+        "entities": [],
+        "input": {
+          "message_type": "text",
+          "text": "Call_id_language_API",
+          "source": {
+            "type": "user",
+            "id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "options": {
+            "return_context": true,
+            "export": true,
+            "debug": true
+          }
+        },
+        "output": {
+          "generic": [
+            {
+              "response_type": "text",
+              "text": "Enter the text to be evaluated"
+            }
+          ],
+          "text": [
+            "Enter the text to be evaluated"
+          ],
+          "nodes_visited": [
+            "node_2_1594334433709"
+          ],
+          "nodes_visited_details": [
+            {
+              "dialog_node": "node_2_1594334433709",
+              "title": "Test Language Translator language identification API",
+              "conditions": "#Call_id_language_API"
+            }
+          ],
+          "log_messages": []
+        },
+        "context": {
+          "system": {
+            "session_id": "95bc5cf5-b143-4b68-8ce7-eb581d683ad6",
+            "skill_reference": "main skill",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "initialized": true,
+            "dialog_stack": [
+              {
+                "dialog_node": "node_2_1594334433709"
+              }
+            ],
+            "dialog_turn_counter": 2,
+            "dialog_request_counter": 2,
+            "timezone": "America/Chicago",
+            "_node_output_map": {
+              "node_2_1594334433709": {
+                "0": [
+                  0
+                ]
+              }
+            },
+            "last_branch_node": "node_2_1594334433709"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "deployment": 1594387341376,
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.77.229.191",
+                  " 10.188.250.241",
+                  " 172.30.74.67"
+                ]
+              }
+            }
+          },
+          "conversation_id": "95bc5cf5-b143-4b68-8ce7-eb581d683ad6"
+        },
+        "suggestion_only": false
+      },
+      "language": "en",
+      "workspace_id": "4ab82e36-c716-4ed8-8db9-a7bd9e664d89",
+      "request_timestamp": "2020-07-10T13:22:24.878Z",
+      "response_timestamp": "2020-07-10T13:22:24.900Z",
+      "log_id": "6f88997e-8932-4599-91a3-1ecbbc58241e"
+    },
+    {
+      "request": {
+        "suggestion_only": "false",
+        "context": {
+          "system": {
+            "dialog_turn_counter": 1,
+            "dialog_request_counter": 1,
+            "session_id": "95bc5cf5-b143-4b68-8ce7-eb581d683ad6",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "timezone_s": "America/Chicago",
+            "skill_reference_s": "main skill"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "deployment": "1594387341376",
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.77.229.191",
+                  " 10.65.19.156",
+                  " 172.30.53.15"
+                ]
+              }
+            }
+          },
+          "conversation_id": "95bc5cf5-b143-4b68-8ce7-eb581d683ad6"
+        },
+        "input": {
+          "text": "",
+          "source": {
+            "id_s": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163",
+            "type_s": "user"
+          },
+          "options": {
+            "debug_s": "true",
+            "return_context_s": "true",
+            "export_s": "true"
+          },
+          "message_type_s": "text"
+        }
+      },
+      "response": {
+        "intents": [],
+        "entities": [],
+        "input": {
+          "message_type": "text",
+          "text": "",
+          "source": {
+            "type": "user",
+            "id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "options": {
+            "return_context": true,
+            "export": true,
+            "debug": true
+          }
+        },
+        "output": {
+          "generic": [
+            {
+              "response_type": "text",
+              "text": "Hello, let's test an API !\nConversation_id = 95bc5cf5-b143-4b68-8ce7-eb581d683ad6"
+            },
+            {
+              "title": "Which API?",
+              "options": [
+                {
+                  "label": "Test Swiftly API Key",
+                  "value": {
+                    "input": {
+                      "text": "Test_swiftly_API"
+                    }
+                  }
+                },
+                {
+                  "label": "Predict Next Bus",
+                  "value": {
+                    "input": {
+                      "text": "Predict_stop"
+                    }
+                  }
+                },
+                {
+                  "label": "SPS Digital Engage API",
+                  "value": {
+                    "input": {
+                      "text": "Call_Engage_API"
+                    }
+                  }
+                },
+                {
+                  "label": "Language identification",
+                  "value": {
+                    "input": {
+                      "text": "Call_id_language_API"
+                    }
+                  }
+                }
+              ],
+              "response_type": "option"
+            }
+          ],
+          "text": [
+            "Hello, let's test an API !",
+            "Conversation_id = 95bc5cf5-b143-4b68-8ce7-eb581d683ad6"
+          ],
+          "nodes_visited": [
+            "Welcome"
+          ],
+          "nodes_visited_details": [
+            {
+              "dialog_node": "Welcome",
+              "title": "Welcome",
+              "conditions": "welcome"
+            }
+          ],
+          "log_messages": []
+        },
+        "context": {
+          "system": {
+            "dialog_turn_counter": 1,
+            "dialog_request_counter": 1,
+            "timezone": "America/Chicago",
+            "session_id": "95bc5cf5-b143-4b68-8ce7-eb581d683ad6",
+            "skill_reference": "main skill",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "initialized": true,
+            "dialog_stack": [
+              {
+                "dialog_node": "root"
+              }
+            ],
+            "last_branch_node": "Welcome",
+            "branch_exited": true,
+            "branch_exited_reason": "completed"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163",
+            "deployment": "95bc5cf5-b143-4b68-8ce7-eb581d683ad6"
+          },
+          "deployment": 1594387341376,
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.77.229.191",
+                  " 10.65.19.156",
+                  " 172.30.53.15"
+                ]
+              }
+            }
+          },
+          "conversation_id": "95bc5cf5-b143-4b68-8ce7-eb581d683ad6"
+        },
+        "suggestion_only": false
+      },
+      "language": "en",
+      "workspace_id": "4ab82e36-c716-4ed8-8db9-a7bd9e664d89",
+      "request_timestamp": "2020-07-10T13:22:21.570Z",
+      "response_timestamp": "2020-07-10T13:22:21.613Z",
+      "log_id": "8ccaca73-6392-41d1-a945-f34152b2857a"
+    },
+    {
+      "request": {
+        "suggestion_only": "false",
+        "context": {
+          "system": {
+            "dialog_turn_counter": 1,
+            "dialog_request_counter": 1,
+            "session_id": "08cf91ad-90df-4e5f-bb8c-116e090ed664",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "timezone_s": "America/Chicago",
+            "skill_reference_s": "main skill"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "deployment": "1594386897911",
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.77.229.191",
+                  " 10.190.78.19",
+                  " 172.30.82.160"
+                ]
+              }
+            }
+          },
+          "conversation_id": "08cf91ad-90df-4e5f-bb8c-116e090ed664"
+        },
+        "input": {
+          "text": "",
+          "source": {
+            "id_s": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163",
+            "type_s": "user"
+          },
+          "options": {
+            "debug_s": "true",
+            "return_context_s": "true",
+            "export_s": "true"
+          },
+          "message_type_s": "text"
+        }
+      },
+      "response": {
+        "intents": [],
+        "entities": [],
+        "input": {
+          "message_type": "text",
+          "text": "",
+          "source": {
+            "type": "user",
+            "id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "options": {
+            "return_context": true,
+            "export": true,
+            "debug": true
+          }
+        },
+        "output": {
+          "generic": [
+            {
+              "response_type": "text",
+              "text": "Hello, let's test an API !\nContext metadata = {\"user_id\":\"anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163\"}"
+            },
+            {
+              "title": "Which API?",
+              "options": [
+                {
+                  "label": "Test Swiftly API Key",
+                  "value": {
+                    "input": {
+                      "text": "Test_swiftly_API"
+                    }
+                  }
+                },
+                {
+                  "label": "Predict Next Bus",
+                  "value": {
+                    "input": {
+                      "text": "Predict_stop"
+                    }
+                  }
+                },
+                {
+                  "label": "SPS Digital Engage API",
+                  "value": {
+                    "input": {
+                      "text": "Call_Engage_API"
+                    }
+                  }
+                },
+                {
+                  "label": "Language identification",
+                  "value": {
+                    "input": {
+                      "text": "Call_id_language_API"
+                    }
+                  }
+                }
+              ],
+              "response_type": "option"
+            }
+          ],
+          "text": [
+            "Hello, let's test an API !",
+            "Context metadata = {\"user_id\":\"anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163\"}"
+          ],
+          "nodes_visited": [
+            "Welcome"
+          ],
+          "nodes_visited_details": [
+            {
+              "dialog_node": "Welcome",
+              "title": "Welcome",
+              "conditions": "welcome"
+            }
+          ],
+          "log_messages": []
+        },
+        "context": {
+          "system": {
+            "dialog_turn_counter": 1,
+            "dialog_request_counter": 1,
+            "timezone": "America/Chicago",
+            "session_id": "08cf91ad-90df-4e5f-bb8c-116e090ed664",
+            "skill_reference": "main skill",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "initialized": true,
+            "dialog_stack": [
+              {
+                "dialog_node": "root"
+              }
+            ],
+            "last_branch_node": "Welcome",
+            "branch_exited": true,
+            "branch_exited_reason": "completed"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "deployment": 1594386897911,
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.77.229.191",
+                  " 10.190.78.19",
+                  " 172.30.82.160"
+                ]
+              }
+            }
+          },
+          "conversation_id": "08cf91ad-90df-4e5f-bb8c-116e090ed664"
+        },
+        "suggestion_only": false
+      },
+      "language": "en",
+      "workspace_id": "4ab82e36-c716-4ed8-8db9-a7bd9e664d89",
+      "request_timestamp": "2020-07-10T13:14:58.447Z",
+      "response_timestamp": "2020-07-10T13:14:58.482Z",
+      "log_id": "ad661543-6667-45ff-8f79-32004c62783d"
+    },
+    {
+      "request": {
+        "suggestion_only": "false",
+        "context": {
+          "system": {
+            "session_id": "95bc5cf5-b143-4b68-8ce7-eb581d683ad6",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "dialog_stack": [
+              {
+                "dialog_node_s": "node_2_1594334433709"
+              }
+            ],
+            "dialog_turn_counter": 3,
+            "dialog_request_counter": 3,
+            "_node_output_map_s": "{\"node_2_1594334433709\":{\"0\":[0]}}",
+            "skill_reference_s": "main skill",
+            "timezone_s": "America/Chicago",
+            "initialized_s": "true",
+            "last_branch_node_s": "node_2_1594334433709"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "deployment": "1594387341376",
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.77.229.191",
+                  " 10.190.78.19",
+                  " 172.30.82.160"
+                ]
+              }
+            }
+          },
+          "conversation_id": "95bc5cf5-b143-4b68-8ce7-eb581d683ad6"
+        },
+        "input": {
+          "text": "hi there",
+          "source": {
+            "id_s": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163",
+            "type_s": "user"
+          },
+          "options": {
+            "debug_s": "true",
+            "return_context_s": "true",
+            "export_s": "true"
+          },
+          "message_type_s": "text"
+        }
+      },
+      "response": {
+        "intents": [],
+        "entities": [],
+        "input": {
+          "message_type": "text",
+          "text": "hi there",
+          "source": {
+            "type": "user",
+            "id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "options": {
+            "return_context": true,
+            "export": true,
+            "debug": true
+          }
+        },
+        "output": {
+          "generic": [
+            {
+              "response_type": "text",
+              "text": "The language identified is:  en\nConversation_id = "
+            }
+          ],
+          "text": [
+            "The language identified is:  en",
+            "Conversation_id = "
+          ],
+          "nodes_visited": [
+            "node_9_1594334590258",
+            "response_7_1594334628944"
+          ],
+          "nodes_visited_details": [
+            {
+              "dialog_node": "node_9_1594334590258",
+              "title": "Call the webhook for language identification",
+              "conditions": "true"
+            },
+            {
+              "dialog_node": "response_7_1594334628944",
+              "conditions": "$webhook_result_2"
+            }
+          ],
+          "log_messages": []
+        },
+        "context": {
+          "system": {
+            "session_id": "95bc5cf5-b143-4b68-8ce7-eb581d683ad6",
+            "skill_reference": "main skill",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "initialized": true,
+            "dialog_stack": [
+              {
+                "dialog_node": "root"
+              }
+            ],
+            "_node_output_map": {
+              "node_2_1594334433709": {
+                "0": [
+                  0
+                ]
+              }
+            },
+            "dialog_turn_counter": 3,
+            "dialog_request_counter": 3,
+            "timezone": "America/Chicago",
+            "last_branch_node": "node_2_1594334433709",
+            "branch_exited": true,
+            "branch_exited_reason": "completed"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "deployment": 1594387341376,
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.77.229.191",
+                  " 10.190.78.19",
+                  " 172.30.82.160"
+                ]
+              }
+            }
+          },
+          "conversation_id": "95bc5cf5-b143-4b68-8ce7-eb581d683ad6",
+          "webhook_result_2": {
+            "language": "en"
+          }
+        },
+        "actions": [],
+        "suggestion_only": false
+      },
+      "language": "en",
+      "workspace_id": "4ab82e36-c716-4ed8-8db9-a7bd9e664d89",
+      "request_timestamp": "2020-07-10T13:22:34.242Z",
+      "response_timestamp": "2020-07-10T13:22:35.059Z",
+      "log_id": "fc590bf7-61db-4972-a3e1-4b92e435232e"
+    },
+    {
+      "request": {
+        "suggestion_only": "false",
+        "context": {
+          "system": {
+            "session_id": "7a4416a1-4966-421f-8fb2-a1891c9c8c5d",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "dialog_stack": [
+              {
+                "dialog_node_s": "root"
+              }
+            ],
+            "dialog_turn_counter": 2,
+            "dialog_request_counter": 2,
+            "skill_reference_s": "main skill",
+            "timezone_s": "America/Chicago",
+            "initialized_s": "true",
+            "last_branch_node_s": "Welcome"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "deployment": "1594389929200",
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.202.51.159",
+                  " 10.190.78.19",
+                  " 172.30.50.220"
+                ]
+              }
+            }
+          },
+          "conversation_id": "7a4416a1-4966-421f-8fb2-a1891c9c8c5d"
+        },
+        "input": {
+          "text": "Call_id_language_API",
+          "source": {
+            "id_s": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163",
+            "type_s": "user"
+          },
+          "options": {
+            "debug_s": "true",
+            "return_context_s": "true",
+            "export_s": "true"
+          },
+          "message_type_s": "text"
+        }
+      },
+      "response": {
+        "intents": [
+          {
+            "intent": "Call_id_language_API",
+            "confidence": 1
+          }
+        ],
+        "entities": [],
+        "input": {
+          "message_type": "text",
+          "text": "Call_id_language_API",
+          "source": {
+            "type": "user",
+            "id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "options": {
+            "return_context": true,
+            "export": true,
+            "debug": true
+          }
+        },
+        "output": {
+          "generic": [
+            {
+              "response_type": "text",
+              "text": "Enter the text to be evaluated"
+            }
+          ],
+          "text": [
+            "Enter the text to be evaluated"
+          ],
+          "nodes_visited": [
+            "node_2_1594334433709"
+          ],
+          "nodes_visited_details": [
+            {
+              "dialog_node": "node_2_1594334433709",
+              "title": "Test Language Translator language identification API",
+              "conditions": "#Call_id_language_API"
+            }
+          ],
+          "log_messages": []
+        },
+        "context": {
+          "system": {
+            "session_id": "7a4416a1-4966-421f-8fb2-a1891c9c8c5d",
+            "skill_reference": "main skill",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "initialized": true,
+            "dialog_stack": [
+              {
+                "dialog_node": "node_2_1594334433709"
+              }
+            ],
+            "dialog_turn_counter": 2,
+            "dialog_request_counter": 2,
+            "timezone": "America/Chicago",
+            "_node_output_map": {
+              "node_2_1594334433709": {
+                "0": [
+                  0
+                ]
+              }
+            },
+            "last_branch_node": "node_2_1594334433709"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "deployment": 1594389929200,
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.202.51.159",
+                  " 10.190.78.19",
+                  " 172.30.50.220"
+                ]
+              }
+            }
+          },
+          "conversation_id": "7a4416a1-4966-421f-8fb2-a1891c9c8c5d"
+        },
+        "suggestion_only": false
+      },
+      "language": "en",
+      "workspace_id": "4ab82e36-c716-4ed8-8db9-a7bd9e664d89",
+      "request_timestamp": "2020-07-10T14:05:36.522Z",
+      "response_timestamp": "2020-07-10T14:05:36.570Z",
+      "log_id": "d88c5cf9-84c1-46a0-8ff5-4a9843138b06"
+    },
+    {
+      "request": {
+        "suggestion_only": "false",
+        "context": {
+          "system": {
+            "dialog_turn_counter": 1,
+            "dialog_request_counter": 1,
+            "session_id": "7a4416a1-4966-421f-8fb2-a1891c9c8c5d",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "timezone_s": "America/Chicago",
+            "skill_reference_s": "main skill"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "deployment": "1594389929200",
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.202.51.159",
+                  " 10.65.19.156",
+                  " 172.30.236.215"
+                ]
+              }
+            }
+          },
+          "conversation_id": "7a4416a1-4966-421f-8fb2-a1891c9c8c5d"
+        },
+        "input": {
+          "text": "",
+          "source": {
+            "id_s": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163",
+            "type_s": "user"
+          },
+          "options": {
+            "debug_s": "true",
+            "return_context_s": "true",
+            "export_s": "true"
+          },
+          "message_type_s": "text"
+        }
+      },
+      "response": {
+        "intents": [],
+        "entities": [],
+        "input": {
+          "message_type": "text",
+          "text": "",
+          "source": {
+            "type": "user",
+            "id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "options": {
+            "return_context": true,
+            "export": true,
+            "debug": true
+          }
+        },
+        "output": {
+          "generic": [
+            {
+              "response_type": "text",
+              "text": "Hello, let's test an API !\nConversation_id = anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+            },
+            {
+              "title": "Which API?",
+              "options": [
+                {
+                  "label": "Test Swiftly API Key",
+                  "value": {
+                    "input": {
+                      "text": "Test_swiftly_API"
+                    }
+                  }
+                },
+                {
+                  "label": "Predict Next Bus",
+                  "value": {
+                    "input": {
+                      "text": "Predict_stop"
+                    }
+                  }
+                },
+                {
+                  "label": "SPS Digital Engage API",
+                  "value": {
+                    "input": {
+                      "text": "Call_Engage_API"
+                    }
+                  }
+                },
+                {
+                  "label": "Language identification",
+                  "value": {
+                    "input": {
+                      "text": "Call_id_language_API"
+                    }
+                  }
+                }
+              ],
+              "response_type": "option"
+            }
+          ],
+          "text": [
+            "Hello, let's test an API !",
+            "Conversation_id = anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          ],
+          "nodes_visited": [
+            "Welcome"
+          ],
+          "nodes_visited_details": [
+            {
+              "dialog_node": "Welcome",
+              "title": "Welcome",
+              "conditions": "welcome"
+            }
+          ],
+          "log_messages": []
+        },
+        "context": {
+          "system": {
+            "dialog_turn_counter": 1,
+            "dialog_request_counter": 1,
+            "timezone": "America/Chicago",
+            "session_id": "7a4416a1-4966-421f-8fb2-a1891c9c8c5d",
+            "skill_reference": "main skill",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "initialized": true,
+            "dialog_stack": [
+              {
+                "dialog_node": "root"
+              }
+            ],
+            "last_branch_node": "Welcome",
+            "branch_exited": true,
+            "branch_exited_reason": "completed"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "deployment": 1594389929200,
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.202.51.159",
+                  " 10.65.19.156",
+                  " 172.30.236.215"
+                ]
+              }
+            }
+          },
+          "conversation_id": "7a4416a1-4966-421f-8fb2-a1891c9c8c5d"
+        },
+        "suggestion_only": false
+      },
+      "language": "en",
+      "workspace_id": "4ab82e36-c716-4ed8-8db9-a7bd9e664d89",
+      "request_timestamp": "2020-07-10T14:05:29.387Z",
+      "response_timestamp": "2020-07-10T14:05:29.461Z",
+      "log_id": "7c7884e5-975a-467f-bf8e-7848ceb48030"
+    },
+    {
+      "request": {
+        "suggestion_only": "false",
+        "context": {
+          "system": {
+            "session_id": "7a4416a1-4966-421f-8fb2-a1891c9c8c5d",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "dialog_stack": [
+              {
+                "dialog_node_s": "node_2_1594334433709"
+              }
+            ],
+            "dialog_turn_counter": 3,
+            "dialog_request_counter": 3,
+            "_node_output_map_s": "{\"node_2_1594334433709\":{\"0\":[0]}}",
+            "skill_reference_s": "main skill",
+            "timezone_s": "America/Chicago",
+            "initialized_s": "true",
+            "last_branch_node_s": "node_2_1594334433709"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "deployment": "1594389929200",
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.202.51.159",
+                  " 10.65.19.156",
+                  " 172.30.236.215"
+                ]
+              }
+            }
+          },
+          "conversation_id": "7a4416a1-4966-421f-8fb2-a1891c9c8c5d"
+        },
+        "input": {
+          "text": "hello",
+          "source": {
+            "id_s": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163",
+            "type_s": "user"
+          },
+          "options": {
+            "debug_s": "true",
+            "return_context_s": "true",
+            "export_s": "true"
+          },
+          "message_type_s": "text"
+        }
+      },
+      "response": {
+        "intents": [],
+        "entities": [
+          {
+            "entity": "first_name",
+            "location": [
+              0,
+              5
+            ],
+            "groups": [
+              {
+                "group": "group_0",
+                "location": [
+                  0,
+                  5
+                ]
+              }
+            ],
+            "value": "firstname",
+            "confidence": 1
+          },
+          {
+            "entity": "last_name",
+            "location": [
+              0,
+              5
+            ],
+            "groups": [
+              {
+                "group": "group_0",
+                "location": [
+                  0,
+                  5
+                ]
+              }
+            ],
+            "value": "lastname",
+            "confidence": 1
+          }
+        ],
+        "input": {
+          "message_type": "text",
+          "text": "hello",
+          "source": {
+            "type": "user",
+            "id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "options": {
+            "return_context": true,
+            "export": true,
+            "debug": true
+          }
+        },
+        "output": {
+          "generic": [
+            {
+              "response_type": "text",
+              "text": "The language identified is:  en\nConversation_id = anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+            }
+          ],
+          "text": [
+            "The language identified is:  en",
+            "Conversation_id = anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          ],
+          "nodes_visited": [
+            "node_9_1594334590258",
+            "response_7_1594334628944"
+          ],
+          "nodes_visited_details": [
+            {
+              "dialog_node": "node_9_1594334590258",
+              "title": "Call the webhook for language identification",
+              "conditions": "true"
+            },
+            {
+              "dialog_node": "response_7_1594334628944",
+              "conditions": "$webhook_result_2"
+            }
+          ],
+          "log_messages": []
+        },
+        "context": {
+          "system": {
+            "session_id": "7a4416a1-4966-421f-8fb2-a1891c9c8c5d",
+            "skill_reference": "main skill",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "initialized": true,
+            "dialog_stack": [
+              {
+                "dialog_node": "root"
+              }
+            ],
+            "_node_output_map": {
+              "node_2_1594334433709": {
+                "0": [
+                  0
+                ]
+              }
+            },
+            "dialog_turn_counter": 3,
+            "dialog_request_counter": 3,
+            "timezone": "America/Chicago",
+            "last_branch_node": "node_2_1594334433709",
+            "branch_exited": true,
+            "branch_exited_reason": "completed"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "deployment": 1594389929200,
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.202.51.159",
+                  " 10.65.19.156",
+                  " 172.30.236.215"
+                ]
+              }
+            }
+          },
+          "conversation_id": "7a4416a1-4966-421f-8fb2-a1891c9c8c5d",
+          "webhook_result_2": {
+            "language": "en"
+          }
+        },
+        "actions": [],
+        "suggestion_only": false
+      },
+      "language": "en",
+      "workspace_id": "4ab82e36-c716-4ed8-8db9-a7bd9e664d89",
+      "request_timestamp": "2020-07-10T14:05:42.376Z",
+      "response_timestamp": "2020-07-10T14:05:44.095Z",
+      "log_id": "a5dba6ef-f878-4663-8b6c-e2dca4854a0a"
+    },
+    {
+      "request": {
+        "suggestion_only": "false",
+        "context": {
+          "system": {
+            "session_id": "4f5c92db-fdfa-4af9-b905-57f757a45a81",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "dialog_stack": [
+              {
+                "dialog_node_s": "root"
+              }
+            ],
+            "dialog_turn_counter": 2,
+            "dialog_request_counter": 2,
+            "skill_reference_s": "main skill",
+            "timezone_s": "America/Chicago",
+            "initialized_s": "true",
+            "last_branch_node_s": "Welcome"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.202.51.231",
+                  " 10.65.19.156",
+                  " 172.30.53.15"
+                ]
+              }
+            }
+          },
+          "conversation_id": "4f5c92db-fdfa-4af9-b905-57f757a45a81"
+        },
+        "input": {
+          "text": "what is the meaning of life?",
+          "source": {
+            "id_s": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163",
+            "type_s": "user"
+          },
+          "options": {
+            "debug_s": "true",
+            "return_context_s": "true",
+            "export_s": "true"
+          },
+          "message_type_s": "text"
+        }
+      },
+      "response": {
+        "intents": [],
+        "entities": [],
+        "input": {
+          "message_type": "text",
+          "text": "what is the meaning of life?",
+          "source": {
+            "type": "user",
+            "id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "options": {
+            "return_context": true,
+            "export": true,
+            "debug": true
+          }
+        },
+        "output": {
+          "generic": [
+            {
+              "response_type": "text",
+              "text": "I didn't understand. You can try rephrasing."
+            }
+          ],
+          "text": [
+            "I didn't understand. You can try rephrasing."
+          ],
+          "nodes_visited": [
+            "Anything else"
+          ],
+          "internal": {
+            "fallback": true
+          },
+          "nodes_visited_details": [
+            {
+              "dialog_node": "Anything else",
+              "title": "Anything else",
+              "conditions": "anything_else"
+            }
+          ],
+          "log_messages": []
+        },
+        "context": {
+          "system": {
+            "session_id": "4f5c92db-fdfa-4af9-b905-57f757a45a81",
+            "skill_reference": "main skill",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "initialized": true,
+            "dialog_stack": [
+              {
+                "dialog_node": "root"
+              }
+            ],
+            "dialog_turn_counter": 2,
+            "dialog_request_counter": 2,
+            "timezone": "America/Chicago",
+            "_node_output_map": {
+              "Anything else": {
+                "0": [
+                  0
+                ]
+              }
+            },
+            "last_branch_node": "Anything else",
+            "branch_exited": true,
+            "branch_exited_reason": "completed"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.202.51.231",
+                  " 10.65.19.156",
+                  " 172.30.53.15"
+                ]
+              }
+            }
+          },
+          "conversation_id": "4f5c92db-fdfa-4af9-b905-57f757a45a81"
+        },
+        "suggestion_only": false
+      },
+      "language": "en",
+      "workspace_id": "4ab82e36-c716-4ed8-8db9-a7bd9e664d89",
+      "request_timestamp": "2020-07-10T14:29:38.761Z",
+      "response_timestamp": "2020-07-10T14:29:38.804Z",
+      "log_id": "91da5eec-c601-4958-ae28-81c8dfa4eb42"
+    },
+    {
+      "request": {
+        "suggestion_only": "false",
+        "context": {
+          "system": {
+            "session_id": "4f5c92db-fdfa-4af9-b905-57f757a45a81",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "dialog_stack": [
+              {
+                "dialog_node_s": "root"
+              }
+            ],
+            "dialog_turn_counter": 3,
+            "dialog_request_counter": 3,
+            "_node_output_map_s": "{\"Anything else\":{\"0\":[0]}}",
+            "skill_reference_s": "main skill",
+            "timezone_s": "America/Chicago",
+            "initialized_s": "true",
+            "last_branch_node_s": "Anything else"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.202.51.231",
+                  " 10.190.78.19",
+                  " 172.30.82.160"
+                ]
+              }
+            }
+          },
+          "conversation_id": "4f5c92db-fdfa-4af9-b905-57f757a45a81"
+        },
+        "input": {
+          "text": "good morning america",
+          "source": {
+            "id_s": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163",
+            "type_s": "user"
+          },
+          "options": {
+            "debug_s": "true",
+            "return_context_s": "true",
+            "export_s": "true"
+          },
+          "message_type_s": "text"
+        }
+      },
+      "response": {
+        "intents": [],
+        "entities": [],
+        "input": {
+          "message_type": "text",
+          "text": "good morning america",
+          "source": {
+            "type": "user",
+            "id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "options": {
+            "return_context": true,
+            "export": true,
+            "debug": true
+          }
+        },
+        "output": {
+          "generic": [
+            {
+              "response_type": "text",
+              "text": "Can you reword your statement? I'm not understanding."
+            }
+          ],
+          "text": [
+            "Can you reword your statement? I'm not understanding."
+          ],
+          "nodes_visited": [
+            "Anything else"
+          ],
+          "internal": {
+            "fallback": true
+          },
+          "nodes_visited_details": [
+            {
+              "dialog_node": "Anything else",
+              "title": "Anything else",
+              "conditions": "anything_else"
+            }
+          ],
+          "log_messages": []
+        },
+        "context": {
+          "system": {
+            "session_id": "4f5c92db-fdfa-4af9-b905-57f757a45a81",
+            "skill_reference": "main skill",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "initialized": true,
+            "dialog_stack": [
+              {
+                "dialog_node": "root"
+              }
+            ],
+            "_node_output_map": {
+              "Anything else": {
+                "0": [
+                  1
+                ]
+              }
+            },
+            "dialog_turn_counter": 3,
+            "dialog_request_counter": 3,
+            "timezone": "America/Chicago",
+            "last_branch_node": "Anything else",
+            "branch_exited": true,
+            "branch_exited_reason": "completed"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.202.51.231",
+                  " 10.190.78.19",
+                  " 172.30.82.160"
+                ]
+              }
+            }
+          },
+          "conversation_id": "4f5c92db-fdfa-4af9-b905-57f757a45a81"
+        },
+        "suggestion_only": false
+      },
+      "language": "en",
+      "workspace_id": "4ab82e36-c716-4ed8-8db9-a7bd9e664d89",
+      "request_timestamp": "2020-07-10T14:29:47.688Z",
+      "response_timestamp": "2020-07-10T14:29:47.718Z",
+      "log_id": "975e2842-c1ec-49ae-a0ff-4a0693d73d9d"
+    },
+    {
+      "request": {
+        "suggestion_only": "false",
+        "context": {
+          "system": {
+            "dialog_turn_counter": 1,
+            "dialog_request_counter": 1,
+            "session_id": "4f5c92db-fdfa-4af9-b905-57f757a45a81",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "timezone_s": "America/Chicago",
+            "skill_reference_s": "main skill"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.202.51.231",
+                  " 10.65.19.156",
+                  " 172.30.236.215"
+                ]
+              }
+            }
+          },
+          "conversation_id": "4f5c92db-fdfa-4af9-b905-57f757a45a81"
+        },
+        "input": {
+          "text": "",
+          "source": {
+            "id_s": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163",
+            "type_s": "user"
+          },
+          "options": {
+            "debug_s": "true",
+            "return_context_s": "true",
+            "export_s": "true"
+          },
+          "message_type_s": "text"
+        }
+      },
+      "response": {
+        "intents": [],
+        "entities": [],
+        "input": {
+          "message_type": "text",
+          "text": "",
+          "source": {
+            "type": "user",
+            "id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "options": {
+            "return_context": true,
+            "export": true,
+            "debug": true
+          }
+        },
+        "output": {
+          "generic": [
+            {
+              "response_type": "text",
+              "text": "Hello, let's test an API !\nConversation_id = anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+            },
+            {
+              "title": "Which API?",
+              "options": [
+                {
+                  "label": "Test Swiftly API Key",
+                  "value": {
+                    "input": {
+                      "text": "Test_swiftly_API"
+                    }
+                  }
+                },
+                {
+                  "label": "Predict Next Bus",
+                  "value": {
+                    "input": {
+                      "text": "Predict_stop"
+                    }
+                  }
+                },
+                {
+                  "label": "SPS Digital Engage API",
+                  "value": {
+                    "input": {
+                      "text": "Call_Engage_API"
+                    }
+                  }
+                },
+                {
+                  "label": "Language identification",
+                  "value": {
+                    "input": {
+                      "text": "Call_id_language_API"
+                    }
+                  }
+                }
+              ],
+              "response_type": "option"
+            }
+          ],
+          "text": [
+            "Hello, let's test an API !",
+            "Conversation_id = anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          ],
+          "nodes_visited": [
+            "Welcome"
+          ],
+          "nodes_visited_details": [
+            {
+              "dialog_node": "Welcome",
+              "title": "Welcome",
+              "conditions": "welcome"
+            }
+          ],
+          "log_messages": []
+        },
+        "context": {
+          "system": {
+            "dialog_turn_counter": 1,
+            "dialog_request_counter": 1,
+            "timezone": "America/Chicago",
+            "session_id": "4f5c92db-fdfa-4af9-b905-57f757a45a81",
+            "skill_reference": "main skill",
+            "assistant_id": "05dc3ddb-9ee7-4d46-a09a-7d2fad96fc6a",
+            "initialized": true,
+            "dialog_stack": [
+              {
+                "dialog_node": "root"
+              }
+            ],
+            "last_branch_node": "Welcome",
+            "branch_exited": true,
+            "branch_exited_reason": "completed"
+          },
+          "metadata": {
+            "user_id": "anonymous_IBMuid-6f3b8905-1c50-4dc3-b60e-dc8539eed163"
+          },
+          "integrations": {
+            "chat": {
+              "browser_info": {
+                "client_ip_address": "208.191.152.36",
+                "ip_address_list": [
+                  "208.191.152.36",
+                  " 23.202.51.231",
+                  " 10.65.19.156",
+                  " 172.30.236.215"
+                ]
+              }
+            }
+          },
+          "conversation_id": "4f5c92db-fdfa-4af9-b905-57f757a45a81"
+        },
+        "suggestion_only": false
+      },
+      "language": "en",
+      "workspace_id": "4ab82e36-c716-4ed8-8db9-a7bd9e664d89",
+      "request_timestamp": "2020-07-10T14:29:29.555Z",
+      "response_timestamp": "2020-07-10T14:29:29.569Z",
+      "log_id": "fe5d359e-6610-46a0-96ac-597cf9bbf070"
+    }
+  ],
+  "pagination": {}
+}

@@ -1,4 +1,3 @@
 applications:
-- name: uwgb-virtual-assistant
+- name: aac-assistant-test
   memory: 128M
-  instances: 1
