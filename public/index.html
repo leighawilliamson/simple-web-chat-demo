@@ -1,7 +1,7 @@
 <html>
 <head>
   <base href="/">
-  <title>UAFS Virtual Assistant</title>
+  <title>Wisconsin Travel Assistant</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta property="og:image" content="conversation.svg" />
@@ -13,7 +13,7 @@
 
 <body>
     <div class="container">
-        <img src="../img/UAFS.background.jpg" width="100%" />
+        <img src="../img/Wis-tourist.background.jpg" width="100%" />
     </div>
 
     <style>
@@ -77,18 +77,18 @@
 <!-- We want to hide this element initially, because Web Chat isn't ready yet. -->
 <button type="button" class="chatLauncher" style="display:none;">
     <div>
-        <strong>UAFS questions?<br></strong>
+        <strong>Travel questions?<br></strong>
     </div>
 </button>
 <script src="https://web-chat.global.assistant.watson.cloud.ibm.com/loadWatsonAssistantChat.js"></script> 
 <script>
     window.loadWatsonAssistantChat({
         // ID for the Assistant
-        integrationID: "b256f05a-b75f-4167-a44a-86d8420fbd19",
+        integrationID: "40aa2fdc-d937-455a-b140-1812446817bc",
 
         region: "us-south",
         __ibm__: {
-            botNameOverride: 'UAFS Virtual Assistant'
+            botNameOverride: 'Wisconsin Travel Assistant'
         },
         showLauncher: false
     }).then(function(instance) {

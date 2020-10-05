@@ -36,6 +36,10 @@ module.exports = function (params) {
         console.log('Command recognized: ' + command );
         return identify_language(params);
     }
+    else if (command === "get_weather"){
+        console.log('Command recognized: ' + command );
+        return get_weather(params);
+    }
     else {
 	    return { message: 'Command not recognized: ' + command };
     }
@@ -50,6 +54,48 @@ async function test (params){
 
     return {status:"200",statusText:"OK"};
 }
+
+async function get_weather (params){
+    console.log("entering get_weather function");
+
+    var requestOptions = {
+      method: 'GET',
+      redirect: 'follow'
+    };
+
+    var returnobj = {
+        "status": "",
+        "statusText": "",
+        "errorCode": "",
+        "errorMessage": ""
+    };
+
+    let response = await fetch("api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=d4fddccbc5603ca8c7fb993c647bd4eb", requestOptions);
+    /*
+      .then(response => response.text())
+      .then(result => console.log(result))
+      .catch(error => console.log('error', error));
+      */
+      returnobj.status = response.status;
+      returnobj.statusText = response.statusText;
+      if (debug) console.log("\nreturn status:", response.status, response.statusText);
+
+      if ( !response.ok ) {
+          if (debug) console.log("\nAPI call failed!");
+          let errorDetail = await response.json();
+          if (debug) console.log("\nerror info:",errorDetail.errors[0].code,errorDetail.errors[0].message);
+          returnobj.errorCode = errorDetail.errors[0].code;
+          returnobj.errorMessage = errorDetail.errors[0].message;
+      }
+      else {
+    //      var data = await response.text();
+    //      console.log("response:", data);
+      }
+
+ return returnobj;
+}
+
+
 
 /* The identify_language sub-function invokes the Watson Language Translator API identify method.
     @params.apikey is required for authorization to use the Watson API
