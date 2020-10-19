@@ -1,7 +1,7 @@
 <html>
 <head>
   <base href="/">
-  <title>UTSA Assistant Demo</title>
+  <title>Wisconsin Travel Assistant</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta property="og:image" content="conversation.svg" />
@@ -13,7 +13,7 @@
 
 <body>
     <div class="container">
-        <img src="../../img/CafeCollege.background.jpg" width="100%" />
+        <img src="../img/Wis-tourist.background.jpg" width="100%" />
     </div>
 
     <style>
@@ -38,12 +38,12 @@
         bottom: 32px;
         right: 32px;
         z-index: 9999;
-        border: 4px solid #EB5733;
+        border: 4px solid #c10230;
         padding: 7px;
         border-radius: 8px;
         margin: 0;
         text-decoration: none;
-        background: #EB5733;
+        background: #c10230;
         color: white;
         line-height: 1.4;
         font-size: 19px;
@@ -63,7 +63,7 @@
     button.chatLauncher:hover,
     button.chatLauncher:focus {
         opacity: .9;
-        border: 4px solid #EB5733;
+        border: 4px solid #c10230;
         color: White;
         padding: 4px;
     }
@@ -77,18 +77,18 @@
 <!-- We want to hide this element initially, because Web Chat isn't ready yet. -->
 <button type="button" class="chatLauncher" style="display:none;">
     <div>
-        <strong>Any questions?<br></strong>
+        <strong>Travel questions?<br></strong>
     </div>
 </button>
 <script src="https://web-chat.global.assistant.watson.cloud.ibm.com/loadWatsonAssistantChat.js"></script> 
 <script>
     window.loadWatsonAssistantChat({
+        // ID for the Assistant
+        integrationID: "40aa2fdc-d937-455a-b140-1812446817bc",
 
-        integrationID: "eaf07481-0adc-4687-8439-e6186736ad62", // The ID of this integration.
-
-        region: "us-south", // The region your integration is hosted in.
+        region: "us-south",
         __ibm__: {
-            botNameOverride: 'UTSA Virtual Assistant'
+            botNameOverride: 'Wisconsin Travel Assistant'
         },
         showLauncher: false
     }).then(function(instance) {
@@ -112,10 +112,6 @@
             button.parentElement.style.height = '0px';
             button.classList.add('open');
         });
-        var urlParams = new URLSearchParams(window.location.search);
-        if (urlParams.get('chatwindow') == "open"){
-                instance.openWindow();
-        }
     });
 </script>
 

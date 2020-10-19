@@ -1,0 +1,2666 @@
+{
+  "intents": [
+    {
+      "intent": "bot_privacy",
+      "examples": [
+        {
+          "text": "Are you mining my data?"
+        },
+        {
+          "text": "Can I trust this bot?"
+        },
+        {
+          "text": "Can I trust you with my information?"
+        },
+        {
+          "text": "How do I know I can trust you?"
+        },
+        {
+          "text": "How do I know my data is private?"
+        },
+        {
+          "text": "How do I know this bot is secure?"
+        },
+        {
+          "text": "I don't trust this bot."
+        },
+        {
+          "text": "I don't trust you."
+        },
+        {
+          "text": "I have heard that these bots spy on us."
+        },
+        {
+          "text": "I'm concerned about my data privacy."
+        },
+        {
+          "text": "Isn't it true that these bots are spying on us."
+        },
+        {
+          "text": "Is this bot spying on me?"
+        },
+        {
+          "text": "What does IBM do with my information?"
+        },
+        {
+          "text": "What do you do with the information I provide?"
+        },
+        {
+          "text": "What do you do with this information?"
+        },
+        {
+          "text": "What information are you collecting about me?"
+        }
+      ],
+      "description": "Questions Related to How the Bot Handles your Data and Security"
+    },
+    {
+      "intent": "bot_start_over",
+      "examples": [
+        {
+          "text": "begin again"
+        },
+        {
+          "text": "can we start from the beginning?"
+        },
+        {
+          "text": "I need to start from the beginning"
+        },
+        {
+          "text": "let's try this again"
+        },
+        {
+          "text": "main menu"
+        },
+        {
+          "text": "startover"
+        },
+        {
+          "text": "start over"
+        },
+        {
+          "text": "start this conversation over"
+        },
+        {
+          "text": "start this conversation over again"
+        },
+        {
+          "text": "take me to the main menu"
+        }
+      ],
+      "description": "Bot directions to start over from the beginning"
+    },
+    {
+      "intent": "local_candidates",
+      "examples": [
+        {
+          "text": "local candidates"
+        },
+        {
+          "text": "local_candidates"
+        },
+        {
+          "text": "what_candidates"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "No",
+      "examples": [
+        {
+          "text": "nah"
+        },
+        {
+          "text": "no"
+        },
+        {
+          "text": "nope"
+        },
+        {
+          "text": "no way"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "vote_absentee",
+      "examples": [
+        {
+          "text": "Absentee voting"
+        },
+        {
+          "text": "but, can I vote online?"
+        },
+        {
+          "text": "can i mail in my vote for president?"
+        },
+        {
+          "text": "can i mail it in"
+        },
+        {
+          "text": "can i send it via post"
+        },
+        {
+          "text": "Can I vote by mail?"
+        },
+        {
+          "text": "Can I vote from home?"
+        },
+        {
+          "text": "how can I vote absentee?"
+        },
+        {
+          "text": "How can I vote a vote-by-mail ballot?"
+        },
+        {
+          "text": "How do I get a ballot?"
+        },
+        {
+          "text": "How do I obtain an absentee ballot?"
+        },
+        {
+          "text": "I am in hospital, can I still vote?"
+        },
+        {
+          "text": "I want to do a postal vote, can you help?"
+        },
+        {
+          "text": "I want to vote absentee"
+        },
+        {
+          "text": "I won't be around on Election Day. How can I get an absentee ballot?"
+        },
+        {
+          "text": "I would like a ballot mailed to me, how do I request a ballot?"
+        },
+        {
+          "text": "What is a mail-in ballot?"
+        },
+        {
+          "text": "Whats an absentee ballot?"
+        },
+        {
+          "text": "When is the deadline to apply for an absentee ballot?"
+        },
+        {
+          "text": "Where do I request an absentee ballot?"
+        },
+        {
+          "text": "Who can vote an absentee ballot?"
+        }
+      ],
+      "description": "Inquiries related to Absentee Voting and Ballots"
+    },
+    {
+      "intent": "vote_absenteeBallotStatus",
+      "examples": [
+        {
+          "text": "Did you get my ballot?"
+        },
+        {
+          "text": "Did you receive my request for an absentee ballot"
+        },
+        {
+          "text": "Has the county received my absentee ballot"
+        },
+        {
+          "text": "How long until I get my ballot"
+        },
+        {
+          "text": "I asked for a ballot, but haven't received it."
+        },
+        {
+          "text": "i lost my absentee ballot and want another one"
+        },
+        {
+          "text": "I sent in my ballot, did you get it"
+        },
+        {
+          "text": "Is there a way to check on my absentee ballot?"
+        },
+        {
+          "text": "What is the status of my absentee ballot?"
+        },
+        {
+          "text": "What is the status of my ballot?"
+        },
+        {
+          "text": "Where is my absentee ballot"
+        },
+        {
+          "text": "where is my mail in ballot?"
+        }
+      ],
+      "description": "Check the status of my absentee ballot"
+    },
+    {
+      "intent": "vote_accessibility",
+      "examples": [
+        {
+          "text": "can i get a ride to vote from someone?"
+        },
+        {
+          "text": "can i vote in person"
+        },
+        {
+          "text": "How do I vote if I'm blind?"
+        },
+        {
+          "text": "How do I vote if I'm disabled?"
+        },
+        {
+          "text": "How do I vote if I'm handicap?"
+        },
+        {
+          "text": "I am blind, can I vote?"
+        },
+        {
+          "text": "I am disabled, can I vote?"
+        },
+        {
+          "text": "I am handicap, can I vote?"
+        },
+        {
+          "text": "I am in a wheel chair, can I vote?"
+        },
+        {
+          "text": "I am old and have trouble walking, but I want to vote"
+        },
+        {
+          "text": "I want to know if I can vote on behalf of my Mom, She cant leave the house."
+        },
+        {
+          "text": "what about seniors"
+        },
+        {
+          "text": "What accessibility options are there for voting?"
+        },
+        {
+          "text": "What handicap options are there for voting?"
+        },
+        {
+          "text": "Will there be special consideration for senior citizens?"
+        },
+        {
+          "text": "Will there be special consideration for the elderly and the disabled?"
+        }
+      ],
+      "description": "Accessibility Questions Around the Voting Process"
+    },
+    {
+      "intent": "vote_affiliation",
+      "examples": [
+        {
+          "text": "Can I vote for the Democratic candidate if I'm a Republican?"
+        },
+        {
+          "text": "Can I vote for the Republican candidate if I'm a Democrat?"
+        },
+        {
+          "text": "Do I need to affiliate with a party to vote?"
+        },
+        {
+          "text": "I don't affilate myself with any political party. Can I still vote?"
+        },
+        {
+          "text": "I don't want to vote for the candidate in my party"
+        },
+        {
+          "text": "I want to vote for another party besides my own"
+        },
+        {
+          "text": "What is on the Non Partisan Ballot"
+        }
+      ],
+      "description": "Questions about party affiliation and restrictions"
+    },
+    {
+      "intent": "vote_ballot_request_issues",
+      "examples": [
+        {
+          "text": "How can I vote if the online portal doesn't work?"
+        },
+        {
+          "text": "I am having problems requesting my absentee ballot online"
+        },
+        {
+          "text": "i can't load the page"
+        },
+        {
+          "text": "I need a ballot but I can't figure out this online request"
+        },
+        {
+          "text": "I requested a ballot online but it isn't working"
+        },
+        {
+          "text": "my registration portal won't work"
+        },
+        {
+          "text": "the ballot won't load"
+        },
+        {
+          "text": "The registration portal doesn't work on my computer"
+        }
+      ],
+      "description": "Problems with registering to vote"
+    },
+    {
+      "intent": "vote_candidates",
+      "examples": [
+        {
+          "text": "Are there any idependent candidates?"
+        },
+        {
+          "text": "how do i know i can trust the candidates"
+        },
+        {
+          "text": "how old is joe biden"
+        },
+        {
+          "text": "my grandma doesn't like either candidate"
+        },
+        {
+          "text": "vote_candidates"
+        },
+        {
+          "text": "What are the candidates names?"
+        },
+        {
+          "text": "What candidates are there?"
+        },
+        {
+          "text": "What democrat is running for office?"
+        },
+        {
+          "text": "What republican is running for office?"
+        },
+        {
+          "text": "Who are the candidates?"
+        },
+        {
+          "text": "Who can I vote for?"
+        },
+        {
+          "text": "Who is on the ballot?"
+        },
+        {
+          "text": "Who is running?"
+        },
+        {
+          "text": "Who is running for House?"
+        },
+        {
+          "text": "Who is running for office?"
+        },
+        {
+          "text": "Who is running for Representative?"
+        },
+        {
+          "text": "Who is running for Senate?"
+        }
+      ],
+      "description": "Questions about who is running for office"
+    },
+    {
+      "intent": "vote_COVID",
+      "examples": [
+        {
+          "text": "are the polling areas being sanitized after each person votes?"
+        },
+        {
+          "text": "Can I still vote with coronavirus happening?"
+        },
+        {
+          "text": "Can I vote when I'm sick?"
+        },
+        {
+          "text": "Can we still vote during the quarantine?"
+        },
+        {
+          "text": "Corona"
+        },
+        {
+          "text": "Coronavirus"
+        },
+        {
+          "text": "Corona Virus"
+        },
+        {
+          "text": "COVID"
+        },
+        {
+          "text": "COVID19"
+        },
+        {
+          "text": "COVID-19"
+        },
+        {
+          "text": "Do I need to wear a mask to vote?"
+        },
+        {
+          "text": "do i need to wear a mask when i go to vote"
+        },
+        {
+          "text": "Future"
+        },
+        {
+          "text": "General"
+        },
+        {
+          "text": "How do I vote during quarantine?"
+        },
+        {
+          "text": "how will social distancing affect voting?"
+        },
+        {
+          "text": "Is it ok to vote if I have been exposed to covid?"
+        },
+        {
+          "text": "Primary"
+        },
+        {
+          "text": "should i wear a mask to vote"
+        },
+        {
+          "text": "voting during quarantine"
+        },
+        {
+          "text": "what happens about voting during lockdown"
+        },
+        {
+          "text": "What if I'm sick?"
+        },
+        {
+          "text": "what safety precautions are being taken at voting places to prevent covid transmission"
+        },
+        {
+          "text": "will face masks be available in polling places"
+        },
+        {
+          "text": "will hand sanitizer be available in polling places"
+        },
+        {
+          "text": "will the next election be cancelled?"
+        },
+        {
+          "text": "will voting be virtual?"
+        }
+      ],
+      "description": "Questions about Voting During Coronavirus Pandemic (These will conflict with COVID standard assets)"
+    },
+    {
+      "intent": "vote_early",
+      "examples": [
+        {
+          "text": "Are elections being held on a different date?"
+        },
+        {
+          "text": "Are elections being held on a different day?"
+        },
+        {
+          "text": "Are the elections being held early?"
+        },
+        {
+          "text": "Are we voting early?"
+        },
+        {
+          "text": "Are we voting early in this election?"
+        },
+        {
+          "text": "Can I vote earlier?"
+        },
+        {
+          "text": "Can we vote early due to covid?"
+        },
+        {
+          "text": "Did the date change?"
+        },
+        {
+          "text": "Did the date change to vote?"
+        },
+        {
+          "text": "Did the day to vote change?"
+        },
+        {
+          "text": "Did the election date change?"
+        },
+        {
+          "text": "Do we vote on a different date then normal?"
+        },
+        {
+          "text": "Do we vote on a different day than normal?"
+        },
+        {
+          "text": "I heard the election date had changed."
+        },
+        {
+          "text": "Is it true the election date has changed?"
+        },
+        {
+          "text": "Is voting being held on a different day?"
+        },
+        {
+          "text": "Will the vote happen early?"
+        }
+      ],
+      "description": "Questions about Date Changes to the Voting Process"
+    },
+    {
+      "intent": "Vote_General_Info",
+      "examples": [
+        {
+          "text": "FAQ"
+        },
+        {
+          "text": "Frequently Asked Question"
+        },
+        {
+          "text": "What are we voting for in November"
+        },
+        {
+          "text": "What are we voting for in November 2020"
+        },
+        {
+          "text": "what are we voting for on that tuesday in November?"
+        },
+        {
+          "text": "What is the general election?"
+        },
+        {
+          "text": "When is the general election?"
+        }
+      ],
+      "description": "Provide basic definitions of general election"
+    },
+    {
+      "intent": "vote_ID",
+      "examples": [
+        {
+          "text": "Can I use a conceal carry permit for ID"
+        },
+        {
+          "text": "Can I use my tribal photo ID"
+        },
+        {
+          "text": "Do I have to bring photo ID"
+        },
+        {
+          "text": "Is a student ID ok"
+        },
+        {
+          "text": "What ID do I need to bring"
+        },
+        {
+          "text": "What ID do I need to vote"
+        },
+        {
+          "text": "what ID is required?"
+        },
+        {
+          "text": "what ID verifications do I need to bring"
+        },
+        {
+          "text": "what ID will work"
+        },
+        {
+          "text": "what kinds of ID do you accept?"
+        },
+        {
+          "text": "What type of identification do I need to vote?"
+        },
+        {
+          "text": "What types of identification do I need?"
+        },
+        {
+          "text": "Will a passport work for ID"
+        },
+        {
+          "text": "will they check my ID"
+        }
+      ],
+      "description": "What ID do I need to vote"
+    },
+    {
+      "intent": "vote_november_election",
+      "examples": [
+        {
+          "text": "Can I vote for the president in-person?"
+        },
+        {
+          "text": "I want to physically visit a polling location in november"
+        },
+        {
+          "text": "Tell me what the November election will be like?"
+        },
+        {
+          "text": "Will November be a mail election?"
+        },
+        {
+          "text": "Will the general election be absentee-only too?"
+        }
+      ],
+      "description": "Will November election be absentee-only?"
+    },
+    {
+      "intent": "vote_pollWorkers",
+      "examples": [
+        {
+          "text": "can anyone help with the polls?"
+        },
+        {
+          "text": "Do poll workers get paid"
+        },
+        {
+          "text": "Helping people vote on election day"
+        },
+        {
+          "text": "how can I become a poll worker?"
+        },
+        {
+          "text": "how can I help out?"
+        },
+        {
+          "text": "How do I become a poll worker"
+        },
+        {
+          "text": "I want to work the polls"
+        },
+        {
+          "text": "what are the minimum requirements to work at the polls?"
+        },
+        {
+          "text": "What do poll workers do"
+        },
+        {
+          "text": "what do poll workers do?"
+        },
+        {
+          "text": "what is needed to apply to help out at the polls?"
+        },
+        {
+          "text": "what is needed to become a poll worker?"
+        },
+        {
+          "text": "who are the people that work at the polls?"
+        }
+      ],
+      "description": "Poll Worker Information"
+    },
+    {
+      "intent": "vote_privacy",
+      "examples": [
+        {
+          "text": "Can anyone see my votes"
+        },
+        {
+          "text": "Do voting laws keep my votes private"
+        },
+        {
+          "text": "I don't want my spouse to know who I voted for, is there anyway they can tell?"
+        },
+        {
+          "text": "is anyone allowed to review other people's votes?"
+        },
+        {
+          "text": "Is my vote private"
+        },
+        {
+          "text": "Is voter data considered public Information"
+        },
+        {
+          "text": "What voting information is open to the public"
+        },
+        {
+          "text": "Who can access voting records"
+        },
+        {
+          "text": "who can see my vote?"
+        },
+        {
+          "text": "Who can see my voting history"
+        }
+      ],
+      "description": "How is voting data kept private"
+    },
+    {
+      "intent": "vote_register",
+      "examples": [
+        {
+          "text": "Can I register to vote?"
+        },
+        {
+          "text": "Can you register to vote online?"
+        },
+        {
+          "text": "Help me register to vote"
+        },
+        {
+          "text": "How do I register to vote?"
+        },
+        {
+          "text": "How do I register to vote online?"
+        },
+        {
+          "text": "I need to register to vote."
+        },
+        {
+          "text": "I need to vote."
+        },
+        {
+          "text": "I want to vote"
+        },
+        {
+          "text": "register to vote"
+        },
+        {
+          "text": "Where can I register to vote?"
+        },
+        {
+          "text": "Who can pre-register to vote?"
+        }
+      ],
+      "description": "Questions about Registering to Vote"
+    },
+    {
+      "intent": "vote_registered",
+      "examples": [
+        {
+          "text": "Am I already registered to vote?"
+        },
+        {
+          "text": "Am I registered?"
+        },
+        {
+          "text": "Am I registered to vote?"
+        },
+        {
+          "text": "Can I verify if I'm registered?"
+        },
+        {
+          "text": "Check if I'm registered"
+        },
+        {
+          "text": "Check if I'm registered to vote?"
+        },
+        {
+          "text": "Did I register already?"
+        },
+        {
+          "text": "Did I register to vote before?"
+        },
+        {
+          "text": "How do I know if I'm registered to vote?"
+        },
+        {
+          "text": "I may already be registered but I don't know. How do I know if i'm registered to vote?"
+        },
+        {
+          "text": "I think I've registered to vote in the past."
+        }
+      ],
+      "description": "Questions about If You Are Registered to Vote"
+    },
+    {
+      "intent": "vote_registration_sameday",
+      "examples": [
+        {
+          "text": "Am I too late to register?"
+        },
+        {
+          "text": "Can I register to vote on the same day as the election?"
+        },
+        {
+          "text": "Can I register to vote the same day as the election?"
+        },
+        {
+          "text": "Can I vote the same day I register?"
+        },
+        {
+          "text": "Did I miss the registration window?"
+        },
+        {
+          "text": "How soon before the election must I register to vote?"
+        },
+        {
+          "text": "How soon must I register for the election?"
+        },
+        {
+          "text": "How soon must I register to vote?"
+        },
+        {
+          "text": "I need to register to vote still, but I'm worried there isn't enough time."
+        },
+        {
+          "text": "Is it too late to register?"
+        },
+        {
+          "text": "The election is today, is it too late to register?"
+        },
+        {
+          "text": "What is the minimum amount of time required before the election to register?"
+        }
+      ],
+      "description": "Questions about Registering to Vote on the Same Day as Election"
+    },
+    {
+      "intent": "vote_requirements",
+      "examples": [
+        {
+          "text": "am i eligible to vote?"
+        },
+        {
+          "text": "Can I vote?"
+        },
+        {
+          "text": "Can I vote for my Mom ?"
+        },
+        {
+          "text": "Do I have to bring anything with me when I vote?"
+        },
+        {
+          "text": "Do I need a social security card to vote?"
+        },
+        {
+          "text": "Do I need ID to vote?"
+        },
+        {
+          "text": "How can I vote"
+        },
+        {
+          "text": "voting age requirements"
+        },
+        {
+          "text": "What are the voting age requirements?"
+        },
+        {
+          "text": "What documents do I need to vote?"
+        },
+        {
+          "text": "What do I bring with me to vote?"
+        },
+        {
+          "text": "what do I have to bring with me to vote?"
+        },
+        {
+          "text": "What do I need to do to vote?"
+        },
+        {
+          "text": "What else do I need to bring with me to vote?"
+        },
+        {
+          "text": "what is required to vote?"
+        },
+        {
+          "text": "what should I bring to vote?"
+        },
+        {
+          "text": "What type of ID do I need to vote?"
+        },
+        {
+          "text": "Will my CCW permit work to vote?"
+        }
+      ],
+      "description": "What are the requirements to vote after being registered"
+    },
+    {
+      "intent": "vote_results",
+      "examples": [
+        {
+          "text": "Did Proposition One pass"
+        },
+        {
+          "text": "Did the proposal pass?"
+        },
+        {
+          "text": "Did the school levy pass"
+        },
+        {
+          "text": "How to view election results"
+        },
+        {
+          "text": "I meant primary results"
+        },
+        {
+          "text": "what are the election results?"
+        },
+        {
+          "text": "What where the results of the presidential primary"
+        },
+        {
+          "text": "When are election results available"
+        },
+        {
+          "text": "Where are the official election results"
+        },
+        {
+          "text": "Who won the election"
+        },
+        {
+          "text": "who won the election?"
+        }
+      ],
+      "description": "Where to find election results"
+    },
+    {
+      "intent": "voter_rights",
+      "examples": [
+        {
+          "text": "Can I cast a ballot if I am in line when the polls are closing?"
+        },
+        {
+          "text": "Can I inspect a sample ballot before voting?"
+        },
+        {
+          "text": "Can you explain my voter rights?"
+        },
+        {
+          "text": "Do I get to vote if I'm in line when the polls close?"
+        },
+        {
+          "text": "Do I have the right to vote?"
+        },
+        {
+          "text": "I don't understand my voter rights"
+        },
+        {
+          "text": "If I am in line and the polls close, do I still get to vote?"
+        },
+        {
+          "text": "What are my rights?"
+        },
+        {
+          "text": "What are voting rights?"
+        },
+        {
+          "text": "What rights do I have?"
+        }
+      ],
+      "description": "Questions about voter rights"
+    },
+    {
+      "intent": "vote_safety",
+      "examples": [
+        {
+          "text": "Am I safe voting?"
+        },
+        {
+          "text": "Can someone coerce me when I vote?"
+        },
+        {
+          "text": "Can someone indimidate me when I vote?"
+        },
+        {
+          "text": "Can someone threaten me when I vote?"
+        },
+        {
+          "text": "How are you keeping people safe at the polls?"
+        },
+        {
+          "text": "I feel intimidated to vote."
+        },
+        {
+          "text": "I feel threatened."
+        },
+        {
+          "text": "I feel unsafe voting."
+        },
+        {
+          "text": "I'm scared to vote."
+        },
+        {
+          "text": "Is it safe to vote?"
+        },
+        {
+          "text": "Is voting safe?"
+        },
+        {
+          "text": "What if I feel unsafe voting?"
+        },
+        {
+          "text": "What if someone intimidates me?"
+        },
+        {
+          "text": "What if someone threatens me?"
+        },
+        {
+          "text": "What is being done for voter safety?"
+        }
+      ],
+      "description": "Questions about personal safety while voting"
+    },
+    {
+      "intent": "vote_sample",
+      "examples": [
+        {
+          "text": "Can I see a copy of the ballot?"
+        },
+        {
+          "text": "can i see a sample ballot"
+        },
+        {
+          "text": "Can I see a sample ballot?"
+        },
+        {
+          "text": "Do we have a sample ballot?"
+        },
+        {
+          "text": "How does the ballot look?"
+        },
+        {
+          "text": "Is there a picture of the ballot?"
+        },
+        {
+          "text": "Is there a sample ballot?"
+        },
+        {
+          "text": "I want to know what the ballot looks like."
+        },
+        {
+          "text": "What does the ballot look like?"
+        }
+      ],
+      "description": "Sample Ballot Responses"
+    },
+    {
+      "intent": "vote_secure",
+      "examples": [
+        {
+          "text": "am i safe if i vote online?"
+        },
+        {
+          "text": "Are the polling machines secure?"
+        },
+        {
+          "text": "can the polling machines be compromised by hackers"
+        },
+        {
+          "text": "have you ever been hacked"
+        },
+        {
+          "text": "How are voting processes safe and secure from hackers"
+        },
+        {
+          "text": "How are you stopping cyberattacks?"
+        },
+        {
+          "text": "How do you address electronic security vulnerabilities?"
+        },
+        {
+          "text": "How do you ensure our votes are secure from hacking"
+        },
+        {
+          "text": "How secure are the election machines?"
+        },
+        {
+          "text": "how secure is my vote?"
+        },
+        {
+          "text": "how will voter fraud be handled"
+        },
+        {
+          "text": "is china going to affect voting?"
+        },
+        {
+          "text": "is russia affecting voting this year?"
+        },
+        {
+          "text": "what precautions are you taking for cyberattacks"
+        }
+      ],
+      "description": "How are voting machines secured"
+    },
+    {
+      "intent": "vote_send_ballot",
+      "examples": [
+        {
+          "text": "I don't know where to send my ballot?"
+        },
+        {
+          "text": "What do I do will by ballot when I'm done?"
+        },
+        {
+          "text": "When do I have to send in my Absentee Ballot?"
+        },
+        {
+          "text": "When do i need to turn in my Absentee ballot applicaiton?"
+        },
+        {
+          "text": "where do i mail my ballot"
+        },
+        {
+          "text": "Where do I mail my ballot?"
+        },
+        {
+          "text": "who do I return my completed ballot to?"
+        },
+        {
+          "text": "Who do I send my ballot to?"
+        }
+      ],
+      "description": "Where to send completed ballot.  Deadlines"
+    },
+    {
+      "intent": "vote_update_registration",
+      "examples": [
+        {
+          "text": "how do I update my registration card?"
+        },
+        {
+          "text": "something is wrong on my registration how do I correct it?"
+        },
+        {
+          "text": "The information on my voters registration card is wrong"
+        },
+        {
+          "text": "Update voter registration details"
+        }
+      ],
+      "description": "Update voter registration details"
+    },
+    {
+      "intent": "vote_when",
+      "examples": [
+        {
+          "text": "how soon can I vote?"
+        },
+        {
+          "text": "What day are the polls open?"
+        },
+        {
+          "text": "What day do I vote?"
+        },
+        {
+          "text": "What day is the election?"
+        },
+        {
+          "text": "What time is voting?"
+        },
+        {
+          "text": "When are the polls open?"
+        },
+        {
+          "text": "When can I vote?"
+        },
+        {
+          "text": "when do we vote?"
+        },
+        {
+          "text": "when is it too late to vote?"
+        },
+        {
+          "text": "When is the election?"
+        },
+        {
+          "text": "When is voting?"
+        }
+      ],
+      "description": "Questions around the time and dates of voting"
+    },
+    {
+      "intent": "vote_where",
+      "examples": [
+        {
+          "text": "How can I find my polling location?"
+        },
+        {
+          "text": "Is there a voting map?"
+        },
+        {
+          "text": "what district am i in"
+        },
+        {
+          "text": "What is my closest poll?"
+        },
+        {
+          "text": "What is the closest voting location?"
+        },
+        {
+          "text": "Where are the polls?"
+        },
+        {
+          "text": "Where can I go to vote?"
+        },
+        {
+          "text": "Where can I vote?"
+        },
+        {
+          "text": "Where do I go to vote?"
+        },
+        {
+          "text": "Where do I vote?"
+        },
+        {
+          "text": "Where do I vote on Election Day?"
+        },
+        {
+          "text": "Where is my polling location?"
+        },
+        {
+          "text": "Where is my voting location?"
+        }
+      ],
+      "description": "Questions about Where to Vote"
+    },
+    {
+      "intent": "which_election",
+      "examples": [
+        {
+          "text": "which_election"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "YES",
+      "examples": [
+        {
+          "text": "ya"
+        },
+        {
+          "text": "yep"
+        },
+        {
+          "text": "yes"
+        },
+        {
+          "text": "yup"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "county",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Bastrop",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bexar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "El Paso",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fort Bend",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Frisco",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Harris",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hood",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Polk",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Travis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Williamson",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "election",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "emergency",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "future",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "general",
+          "synonyms": [
+            "november"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "primary",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "personOfConcern",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "myself",
+          "synonyms": [
+            "me",
+            "yourself"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "other",
+          "synonyms": [
+            "someone else"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "phone",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "US Phone pattern",
+          "patterns": [
+            "(\\d{3})-(\\d{3})-(\\d{4})"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "political_party",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Democrat",
+          "synonyms": [
+            "dem",
+            "demo",
+            "dems"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Republican",
+          "synonyms": [
+            "GOP",
+            "rep"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "reply",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "definitely not",
+            "don't think so",
+            "dont think so",
+            "i think not",
+            "nope",
+            "not at this time",
+            "not now"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "definitely",
+            "go for it",
+            "let's do it",
+            "ok",
+            "please",
+            "sure",
+            "why not",
+            "yeah",
+            "yep",
+            "yes",
+            "you bet",
+            "you betcha"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-location",
+      "values": []
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "zip_code",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "Zip",
+          "patterns": [
+            "\\d{5}"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://us-east.functions.cloud.ibm.com/api/v1/web/0639e7c0-18b2-4155-aeca-ec9b6dc5a0f7/default/caseCount.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1597091839713",
+      "context": {
+        "county": "@county"
+      },
+      "conditions": "@county",
+      "event_name": "input",
+      "dialog_node": "handler_3_1597091839752"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What county are you asking about?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_3_1597091839713",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1597091839752",
+      "previous_sibling": "handler_3_1597091839752"
+    },
+    {
+      "type": "standard",
+      "title": "Voting Security",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Various resources for voting security are found <a href=\"https://www.eac.gov/election-officials/election-security\" target=\"_blank\">here</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1587674038719_1_1",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1597093816633"
+      },
+      "conditions": "#vote_secure",
+      "dialog_node": "node_10_1588025053773_1_1",
+      "previous_sibling": "node_10_1588104702048_1"
+    },
+    {
+      "type": "standard",
+      "title": "Can we Vote Early?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Early voting dates and times vary among States. For information, contact your State or local election office.\n\nsource: https://www.eac.gov/sites/default/files/eac_assets/1/28/Voter'sGuide_508.pdf"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1587674038719_1_1",
+      "conditions": "#vote_early",
+      "dialog_node": "node_10_1588104702048_1",
+      "previous_sibling": "node_1_1588023261515_1"
+    },
+    {
+      "type": "standard",
+      "title": "Yes, I know ",
+      "parent": "node_4_1586921332624_1_1",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1597093816633"
+      },
+      "conditions": "#YES",
+      "dialog_node": "node_10_1597095325668",
+      "previous_sibling": "node_1_1597095177675"
+    },
+    {
+      "type": "standard",
+      "title": "Vote COVID",
+      "parent": "node_2_1587674038719_1_1",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1597093816633"
+      },
+      "conditions": "#vote_COVID",
+      "dialog_node": "node_1_1587658330127_1_1"
+    },
+    {
+      "type": "standard",
+      "title": "Election Results",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Find historical results for federal elections <a href=\"https://www.usa.gov/election-results\" target=\"_blank\">here</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1587674038719_1_1",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1597093816633"
+      },
+      "conditions": "#vote_results",
+      "dialog_node": "node_1_1588017340815_1",
+      "previous_sibling": "node_8_1588112126234_1"
+    },
+    {
+      "type": "standard",
+      "title": "Voter Rights",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For a comprehensive look at U.S. voting laws and rights, go <href=\"https://www.usa.gov/voting-laws\" target=\"_blank\">here<a/>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1587674038719_1_1",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1597093816633"
+      },
+      "conditions": "#voter_rights",
+      "dialog_node": "node_1_1588023261515_1",
+      "previous_sibling": "node_5_1588021459153_1"
+    },
+    {
+      "type": "standard",
+      "title": "Eligible to register?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b style=\"color:red\">In Texas, you are eligible to register to vote if:</b><ul>\n<li>You are a <u>United States citizen</u>;\n<li>You are a <u>resident of the county</u> where you submit the application;\n<li>You are at least 17 years and 10 months old, and you are <u>18 years of age on\nElection Day</u>.\n<li>You are <u>not a convicted felon</u>; and\n<li>You have not been declared by a court exercising probate jurisdiction to be either totally <u>mentally incapacitated</u> or partially mentally incapacitated without the right to vote.\n</ul>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1587674038719_1_1",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1597093816633"
+      },
+      "conditions": "",
+      "dialog_node": "node_1_1597094928200",
+      "previous_sibling": "node_3_1588781086625"
+    },
+    {
+      "type": "standard",
+      "title": "NO - don't know if I'm eligible to register",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_4_1586921332624_1_1",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1597094928200"
+      },
+      "conditions": "#No",
+      "dialog_node": "node_1_1597095177675"
+    },
+    {
+      "type": "standard",
+      "title": "Accessible Voting",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b style=\"color:blue\">All Polling Places in Texas Must be Accessible</b>\nOn <u>September 1, 1999</u>, Texas became the first state to require that all new voting systems be accessible to voters with disabilities.\n\n<b>Voters May Receive Assistance at the Polls</b>. Tell the election official if you are a voter who needs help to vote. You do not have to provide proof of your disability. If a voter is physically <u>unable to enter the polling place</u>, he or she may ask that an election officer bring a ballot to the entrance of the polling place or to a car parked at the curbside. <i>If you plan to go alone to vote curbside, it is wise to call ahead so election officials will expect you.</i>\n\nConsult the <a target=\"_blank\" href=\"https://www.votetexas.gov/voters-with-special-needs/index.html\">Voters with Disabilities web page at VoteTexas.org</a> for more details and voting advice for people with special needs."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1587674038719_1_1",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1597077136640"
+      },
+      "conditions": "#vote_accessibility",
+      "dialog_node": "node_2_1586923083139_1_1",
+      "previous_sibling": "node_1_1587658330127_1_1"
+    },
+    {
+      "type": "folder",
+      "title": "Voting",
+      "conditions": "",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1587674038719_1_1",
+      "previous_sibling": "node_9_1597093816633"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "query": "",
+            "filter": "",
+            "query_type": "natural_language",
+            "response_type": "search_skill"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_2_1588948893050",
+      "previous_sibling": "node_3_1588972914589"
+    },
+    {
+      "type": "standard",
+      "title": "Party Affiliation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Implications depend on the state."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1587674038719_1_1",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1597093816633"
+      },
+      "conditions": "#vote_affiliation",
+      "dialog_node": "node_3_1588772581153",
+      "previous_sibling": "node_7_1586924248803_1_1"
+    },
+    {
+      "type": "standard",
+      "title": "Update voter registration",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Forms to update voter registration details are found <a href=\"https://www.eac.gov/voters/national-mail-voter-registration-form\" target=\"_blank\">here</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1587674038719_1_1",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1597093816633"
+      },
+      "conditions": "#vote_update_registration",
+      "dialog_node": "node_3_1588781086625",
+      "previous_sibling": "node_3_1588772581153"
+    },
+    {
+      "type": "standard",
+      "title": "Start Over",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1588971269924"
+      },
+      "conditions": "#bot_start_over",
+      "dialog_node": "node_3_1588972914589",
+      "previous_sibling": "node_4_1588105068394"
+    },
+    {
+      "type": "standard",
+      "title": "Register to vote",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To vote in Texas, you must be registered. Simply pick up a voter registration application, fill it out, and mail it <b>at least 30 days before the election date</b>. <a target=\"_blank\" href=\"https://webservices.sos.state.tx.us/vrapp/index.asp\">Apply for voter registration online here</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Do you know if you are eligible to register to vote?",
+            "options": [
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              },
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1587674038719_1_1",
+      "conditions": "#vote_register",
+      "dialog_node": "node_4_1586921332624_1_1",
+      "previous_sibling": "node_9_1586921757091_1_1"
+    },
+    {
+      "type": "standard",
+      "title": "Bot Privacy Concerns",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I understand your concerns regarding your personal information and privacy.  I can assure you that your information is being handled in a secure fashion and is only being used in so far as to help guide our responses to you.  We value your privacy and security.  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 2000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "This virtual agent is powered by IBM Watson.  IBM respects your privacy, and takes your information and trust seriously.  IBM does not gather this information to train other services, and only uses your conversational data as needed to provide your responses and guidance in using this service.  \n\nFor further information feel free to download the <a href=\"https://www.ibm.com/watson/assets/duo/pdf/Watson-Privacy-and-Security-POV_final_062819_tps.pdf\" target=\"blank\">Watson Privacy, Compliance, & Security POV</a> for an in-depth look at IBM's data privacy and security perspective."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#bot_privacy",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1588105068394",
+      "previous_sibling": "node_2_1587674038719_1_1"
+    },
+    {
+      "type": "standard",
+      "title": "What is Required to Vote?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Before you can vote, you must first register to vote.  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you want to register to vote?",
+            "options": [
+              {
+                "label": "Yes, how do I register?",
+                "value": {
+                  "input": {
+                    "text": "register to vote"
+                  }
+                }
+              },
+              {
+                "label": "No, I'm already registered",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              },
+              {
+                "label": "Am I already registered?",
+                "value": {
+                  "input": {
+                    "text": "Am I registered?"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1587674038719_1_1",
+      "conditions": "#vote_requirements",
+      "dialog_node": "node_5_1587681102787_1_1",
+      "previous_sibling": "node_4_1586921332624_1_1"
+    },
+    {
+      "type": "standard",
+      "title": "National Election Candidates",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The following are the presumed candidates for each party:\n**Democratic Party**\nPresident: Joe Biden\nVice President: To be determined\n**Republican Party**\nPresident: Donald Trump\nVice President: Mike Pence\n**Libertarian Party**\nPresident: To be determined\nVice President: To be determined\n**Green Party**\nPresident: To be determined\nVice President: To be determined"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1587674038719_1_1",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1597093816633"
+      },
+      "conditions": "#vote_candidates",
+      "dialog_node": "node_5_1588021459153_1",
+      "previous_sibling": "node_5_1587681102787_1_1"
+    },
+    {
+      "type": "standard",
+      "title": "Poll Workers",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Information on becoming a poll worker is found here  <a href=\"https://www.eac.gov/sites/default/files/eac_assets/1/6/States_Poll_Worker_Information.pdf\" target=\"_blank\"> here</a>.  For laws and statutes regarding poll workers, look <a href=\"https://www.eac.gov/sites/default/files/eac_assets/1/28/Compendium.2016.pdf\" target=\"_blank\"> here</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1587674038719_1_1",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1597093816633"
+      },
+      "conditions": "#vote_pollWorkers",
+      "dialog_node": "node_5_1588022351621_1",
+      "previous_sibling": "node_5_1589316914729"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome (Bilingual Greeting)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b style=\"color:blue\">Hello!</b> I am the Texas Voting virtual assistant powered by <u>IBM Watson</u>. <p>I will answer your questions about how to register to vote in Texas, when elections are scheduled, and what is on the ballot for the election. <br>"
+              },
+              {
+                "text": "But first let me know which language you are most comfortable using.<br>"
+              },
+              {
+                "text": "Dígame qué idioma se siente más cómodo usando."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Continue in English",
+                "value": {
+                  "input": {
+                    "text": "english"
+                  }
+                }
+              },
+              {
+                "label": "Continuar en español",
+                "value": {
+                  "input": {
+                    "text": "spanish"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "context": {
+        "language": "english"
+      },
+      "conditions": "welcome",
+      "dialog_node": "node_5_1588971269924"
+    },
+    {
+      "type": "standard",
+      "title": "Voter ID",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Find voter identification requirements for your state <href=\"https://www.usa.gov/voter-id\" target=\"_blank\">here</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1587674038719_1_1",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1597093816633"
+      },
+      "conditions": "#vote_ID",
+      "dialog_node": "node_5_1589316914729",
+      "previous_sibling": "node_1_1588017340815_1"
+    },
+    {
+      "type": "standard",
+      "title": "Check if already registered to vote",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To confirm your voter registration status, you can select one of three methods to perform a search:\n\n- Your <b>Texas driver’s license number</b>, if you provided it when you applied for voter registration;\n- Your <b>Voter Unique Identifier</b> (VUID), which appears on your voter registration certificate;\n- Your <b>first and last name</b>.\n\nSearch for <a target=\"_blank\" href=\"https://teamrv-mvp.sos.texas.gov/MVP/mvp.do\">your voter registration here</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1587674038719_1_1",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1597093816633"
+      },
+      "conditions": "#vote_registered",
+      "dialog_node": "node_6_1586922194543_1_1",
+      "previous_sibling": "node_2_1586923083139_1_1"
+    },
+    {
+      "type": "frame",
+      "title": "Select a race",
+      "output": {
+        "generic": [
+          {
+            "query": "County:\"$county\"",
+            "filter": "",
+            "query_type": "natural_language",
+            "response_type": "search_skill"
+          }
+        ]
+      },
+      "parent": "node_2_1587674038719_1_1",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1597093816633"
+      },
+      "conditions": "#local_candidates",
+      "dialog_node": "node_6_1597091777123",
+      "previous_sibling": "node_1_1597094928200"
+    },
+    {
+      "type": "standard",
+      "title": "When to vote",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For the <b style=\"color:blue\">November 3, 2020 Election</b>:\n\nLast Day to <u>Register to Vote</u>: \nMonday, October 5, 2020\n\nFirst Day of <u>Early Voting</u>: \nTuesday, October 13, 2020\n\nLast Day to <u>Apply for Ballot by Mail</u>: \nFriday, October 23, 2020\n\nLast Day of <u>Early Voting</u>: \nFriday, October 30, 2020\n\nLast day to <u>Receive Ballot by Mail</u>: \nTuesday, November 3, 2020 (Election Day)\n\nMore details about the <a target=\"_blank\" href=\"https://www.votetexas.gov/voting/when.html\">Election Calendar are available here</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1587674038719_1_1",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1597093816633"
+      },
+      "conditions": "#vote_when",
+      "dialog_node": "node_7_1586924248803_1_1",
+      "previous_sibling": "node_5_1588022351621_1"
+    },
+    {
+      "type": "standard",
+      "title": "No, I don't need anymore",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No problem, is there anything else I can help you with?"
+              },
+              {
+                "text": "Got it.  I hope that was helpful.  Is there anything else I can assist you with?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1588104702048_1",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1597093816633"
+      },
+      "conditions": "@reply:no",
+      "dialog_node": "node_8_1588105866661_1"
+    },
+    {
+      "type": "standard",
+      "title": "Yes, I want more Absentee info",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_10_1588104702048_1",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1597093816633"
+      },
+      "conditions": "@reply:yes",
+      "dialog_node": "node_8_1588108658023_1",
+      "previous_sibling": "node_8_1588105866661_1"
+    },
+    {
+      "type": "standard",
+      "title": "Already Registered",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "When you arrive at the polling place, you will be asked to present one of the <a target=\"_blank\" href=\"https://www.votetexas.gov/register-to-vote/need-id.html\">seven (7) acceptable forms of photo identification</a>, unless you are a voter with a permanent exemption on your voter registration certificate."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1587681102787_1_1",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1597093816633"
+      },
+      "conditions": "@reply:no",
+      "dialog_node": "node_8_1588112056430_1"
+    },
+    {
+      "type": "standard",
+      "title": "Change Registration on Election Day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Find information on the availability of same day voter registration in your state <a href=\"https://www.ncsl.org/research/elections-and-campaigns/same-day-registration.aspx\" target=\"_blank\">here</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1587674038719_1_1",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1597093816633"
+      },
+      "conditions": "#vote_registration_sameday",
+      "dialog_node": "node_8_1588112126234_1",
+      "previous_sibling": "node_10_1588025053773_1_1"
+    },
+    {
+      "type": "standard",
+      "title": "Select language",
+      "parent": "node_5_1588971269924",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1597077136640"
+      },
+      "conditions": "true",
+      "dialog_node": "node_8_1597076988759"
+    },
+    {
+      "type": "standard",
+      "title": "Where to vote",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "On your <b>Voter Registration</b> certificate, you will see a <b>precinct number</b>. Your residence is located in a specific “precinct” or area within the county where you will vote on Election Day.\n\n<b>During Early Voting</b>, registered and eligible voters may vote at <u>ANY</u> early voting location located in the county of residence. Note that polling place <u>hours vary at each early voting location</u>.\n\n<b>On Election day</b>, if your county participates in the <a target=\"_blank\" href=\"https://www.sos.texas.gov/elections/laws/countywide-polling-place-program.shtml\">Countywide Polling Place Program (CWPP)</a>, you can vote at any location in your county of registration. If your county does <u>not</u> participate in the CWPP, you can <u>only</u> vote at the voting precinct assigned to you. <b>Election Day voting hours</b> are <b style=\"color:blue\">7:00 a.m. to 7:00 p.m.</b> at all polling places statewide. \n\nFor more details about voting locations in Texas and associated rules, consult the <a target=\"_blank\" href=\"https://www.votetexas.gov/voting/where.html\">web pages for  VoteTexas.gov</a> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1587674038719_1_1",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1597093816633"
+      },
+      "conditions": "#vote_where",
+      "dialog_node": "node_9_1586921757091_1_1",
+      "previous_sibling": "node_6_1586922194543_1_1"
+    },
+    {
+      "type": "standard",
+      "title": "Select a topic",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1597077136640",
+      "previous_sibling": "node_5_1588971269924"
+    },
+    {
+      "type": "standard",
+      "title": "Which election?",
+      "output": {
+        "generic": [
+          {
+            "title": "For which election are you inquiring?",
+            "options": [
+              {
+                "label": "2020 Presidential Election",
+                "value": {
+                  "input": {
+                    "text": "vote_candidates"
+                  }
+                }
+              },
+              {
+                "label": "Local Election",
+                "value": {
+                  "input": {
+                    "text": "local_candidates"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1587674038719_1_1",
+      "conditions": "#which_election",
+      "dialog_node": "node_9_1597092410646",
+      "previous_sibling": "node_6_1597091777123"
+    },
+    {
+      "type": "standard",
+      "title": "How else can I help?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How else can I help today?"
+              },
+              {
+                "text": "What other voting information can I provide?"
+              },
+              {
+                "text": "Let me know what else I can tell you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1597077136640"
+      },
+      "dialog_node": "node_9_1597093816633",
+      "previous_sibling": "node_9_1597077136640"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1597076988759",
+      "context": {
+        "language": "english"
+      },
+      "conditions": "input.text==\"english\"",
+      "dialog_node": "response_2_1597077019500"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1588100778929_1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The results of the most recent election can be found here: <a href=\"\" target=\"_blank\">2020 Presidential Primary Election</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 1000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "You can also view <a href=\"https://sos.idaho.gov/elections-division/election-results/\">historical election results</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1588017340815_1",
+      "disabled": true,
+      "conditions": "#vote_results",
+      "dialog_node": "response_3_1588100778929_1"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Haga clic para obtener información sobre estos temas de votación o ingrese su pregunta directamente:",
+            "options": [
+              {
+                "label": "Calendario electoral",
+                "value": {
+                  "input": {
+                    "text": "When is the election"
+                  }
+                }
+              },
+              {
+                "label": "Registro de votantes",
+                "value": {
+                  "input": {
+                    "text": "Help me register to vote"
+                  }
+                }
+              },
+              {
+                "label": "Lugares de votación",
+                "value": {
+                  "input": {
+                    "text": "Where are the polls"
+                  }
+                }
+              },
+              {
+                "label": "Candidatos",
+                "value": {
+                  "input": {
+                    "text": "which_election"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1597077136640",
+      "conditions": "$language==\"spanish\"",
+      "dialog_node": "response_4_1599842800162",
+      "previous_sibling": "response_7_1599842781073"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Future election information will be posted as it becomes available.  Feel free to check back periodically."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1587658330127_1_1",
+      "conditions": "@election:future",
+      "dialog_node": "response_6_1588215332718",
+      "previous_sibling": "response_9_1588196793281"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "There are currently no emergency elections scheduled.  "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1587658330127_1_1",
+      "conditions": "@election:emergency",
+      "dialog_node": "response_6_1588216162490",
+      "previous_sibling": "response_6_1588215332718"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Gracias!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1597076988759",
+      "context": {
+        "language": "spanish"
+      },
+      "conditions": "input.text ==\"spanish\"",
+      "dialog_node": "response_7_1597077095970",
+      "previous_sibling": "response_2_1597077019500"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Click to get information about these voting topics or enter your question directly:",
+            "options": [
+              {
+                "label": "Election Calendar",
+                "value": {
+                  "input": {
+                    "text": "When is the election"
+                  }
+                }
+              },
+              {
+                "label": "Voter Registration",
+                "value": {
+                  "input": {
+                    "text": "Help me register to vote"
+                  }
+                }
+              },
+              {
+                "label": "Voting Locations",
+                "value": {
+                  "input": {
+                    "text": "Where are the polls"
+                  }
+                }
+              },
+              {
+                "label": "Candidates",
+                "value": {
+                  "input": {
+                    "text": "which_election"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1597077136640",
+      "conditions": "$language==\"english\"",
+      "dialog_node": "response_7_1599842781073"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Due to COVID-19, your state may choose to hold their primary without in-person voting available.  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1587658330127_1_1",
+      "conditions": "@election:primary",
+      "dialog_node": "response_8_1588196728742"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Your state will evaluate in person voting during the general election later on in the year.  "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1587658330127_1_1",
+      "conditions": "@election:general",
+      "dialog_node": "response_9_1588196793281",
+      "previous_sibling": "response_8_1588196728742"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1597091777123",
+      "variable": "$county",
+      "dialog_node": "slot_3_1597091839713"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "difference between the virus and flu"
+    },
+    {
+      "text": "what the estimated time that the vaccination will be available?"
+    },
+    {
+      "text": "when is it expected to have a vaccination?"
+    },
+    {
+      "text": "when the vaccine will be available?"
+    },
+    {
+      "text": "Where can I get a doctors license"
+    }
+  ],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": ""
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Voting Cartridge",
+  "language": "en",
+  "description": "Voting Cartridge"
+}

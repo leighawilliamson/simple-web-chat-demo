@@ -1,0 +1,974 @@
+{
+  "intents": [
+    {
+      "intent": "Accidents_Insurance",
+      "examples": [
+        {
+          "text": "​I was in a collision and the other person did not have insurance, what do I do?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Accidents_Report",
+      "examples": [
+        {
+          "text": "How do I file a an accident report?"
+        },
+        {
+          "text": "How do I report an accident?"
+        },
+        {
+          "text": "I was in an accident, do I have to file an accident report?​"
+        },
+        {
+          "text": "What do I do if I was in an accident?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Accidents_Totaled",
+      "examples": [
+        {
+          "text": "My car was totaled"
+        },
+        {
+          "text": "What do I do if my car was totaled?"
+        },
+        {
+          "text": "What do I do if my vehicle is totaled in an accident? ​"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Address_Card",
+      "examples": [
+        {
+          "text": "Do I have to get a new car registration card with my new address?"
+        },
+        {
+          "text": "​Do I have to get a new vehicle registration card with my new address?"
+        },
+        {
+          "text": "Do I need a new registration card with my new address?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Address_Fee",
+      "examples": [
+        {
+          "text": "Does it cost money to change my address?"
+        },
+        {
+          "text": "Do I have to pay to change my address?"
+        },
+        {
+          "text": "Is there a charge for changing my address?"
+        },
+        {
+          "text": "Is there a fee for an Address Change?​"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Address_Moved",
+      "examples": [
+        {
+          "text": "If I move do I need to notify the DMV?"
+        },
+        {
+          "text": "I have just moved; how long do I have before I must notify DMV?​"
+        },
+        {
+          "text": "I just moved, do I have to notify the DMV?"
+        },
+        {
+          "text": "I just moved, do I have to tell the DMV?"
+        },
+        {
+          "text": "I just moved, how long before I have to notify the DMV?"
+        },
+        {
+          "text": "I just moved, when do I have to notify the DMV?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Address_Regisration",
+      "examples": [],
+      "description": ""
+    },
+    {
+      "intent": "Address_Sticker",
+      "examples": [
+        {
+          "text": "How do I get a new sticker?"
+        },
+        {
+          "text": "​​My address sticker has become hard to read; can I get a replacement?"
+        },
+        {
+          "text": "My registration sticker is faded, how do I get a new one?"
+        },
+        {
+          "text": "My sticker is old, can I replace it?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Buying_BondOwnership",
+      "examples": [
+        {
+          "text": "How can I receive the bond and ownership information for a particular dealer?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Buying_Falsified",
+      "examples": [
+        {
+          "text": "​I believe the DMV documents for my car were falsified by the dealer. What can I do?"
+        },
+        {
+          "text": "I got fake documents, what can I do?"
+        },
+        {
+          "text": "Someone gave me a fake registration, what do I do?"
+        },
+        {
+          "text": "The documents for my car are fake, what do I do?"
+        },
+        {
+          "text": "The paperwork for my car is fake, what do I do?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Buying_LicensedDealer",
+      "examples": [
+        {
+          "text": "​Can DMV tell me if a person is a licensed dealer?"
+        },
+        {
+          "text": "How can I tell if someone is really a licensed dealer?"
+        },
+        {
+          "text": "How do I check if a person is really a dealer?"
+        },
+        {
+          "text": "Is there is a list of licensed dealers?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Buying_NoPlateSticker",
+      "examples": [
+        {
+          "text": "I bought a car without licenses plates, what can I do?"
+        },
+        {
+          "text": "I bought a new car and haven't got the license plates, what do I do?"
+        },
+        {
+          "text": "I haven't got my plate, what can I do?"
+        },
+        {
+          "text": "I haven't got my sticker, what do I do?"
+        },
+        {
+          "text": "​I haven't received my plate/stickers from the dealer? What can I do?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Buying_NoTitleRegistration",
+      "examples": [
+        {
+          "text": "I bought a car and never got documents"
+        },
+        {
+          "text": "I bought a car and never got registration"
+        },
+        {
+          "text": "I bought a car and never got title"
+        },
+        {
+          "text": "I bought a car from a dealer over a month ago and never got my title and registration. What can I do?"
+        },
+        {
+          "text": "I haven't received registration"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Buying_OutOfBusiness",
+      "examples": [
+        {
+          "text": "The dealer I bought from doesn't exist anymore, what do I do?"
+        },
+        {
+          "text": "The dealer I bought from went broke, what do I do?"
+        },
+        {
+          "text": "The dealer went out of business"
+        },
+        {
+          "text": "The Oregon dealer who I bought my car from has gone out of business. What can I do?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Buying_StickerRemoval",
+      "examples": [
+        {
+          "text": "Can the dealer remove the registration stickers?"
+        },
+        {
+          "text": "Can the dealer remove the stickers?"
+        },
+        {
+          "text": "The dealer removed the resitration stickers"
+        },
+        {
+          "text": "The dealer told me they will scrape the registration stickers off the plates if I want to do my own title and registration paperwork. Is this correct?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Buying_TitleRegistrationFees",
+      "examples": [
+        {
+          "text": "Can the dealer charge me for registration?"
+        },
+        {
+          "text": "Can the dealer charge me money to do registration for me?"
+        },
+        {
+          "text": "​How much can a dealer charge me to do the title and/or registration processing?"
+        },
+        {
+          "text": "How much can the dealer charge me for registration?"
+        },
+        {
+          "text": "How much can the dealer charge to do my registration?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Buying_TradeLien",
+      "examples": [
+        {
+          "text": "I no longer have my car and the lien holder is still billing me"
+        },
+        {
+          "text": "I no longer have my car, but the bank is still charging me."
+        },
+        {
+          "text": "I sold my car and the lean holder is still charging me"
+        },
+        {
+          "text": "I traded in my car to a dealer and my bank is still asking for my payment, what can I do?"
+        },
+        {
+          "text": "​I traded in my car to a dealer two months ago and my former lien holder is still asking for my payment. What can I do?"
+        },
+        {
+          "text": "I traded my car and the bank is still charging me"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "vehicle_titles",
+      "examples": [
+        {
+          "text": "Do I need to change my address on my Oregon title?​"
+        },
+        {
+          "text": "How long before I must transfer a title into my name?​"
+        },
+        {
+          "text": "I bought a car and there is no title, what should I do?​"
+        },
+        {
+          "text": "Should I get a new title to take off my lienholder since I’ve paid off my loan?​"
+        },
+        {
+          "text": "What can I do if I have not received my title?​"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_8_1592510092209",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "State statute requires you much notify the DMV within <b>60 days</b> of the address change. Two forms of proof of new principal address will be required.<br>"
+              },
+              {
+                "text": "For more information about how to notify the DMV online or in person, please consult our <a target=\"_blank\" href=\"https://dmv.nebraska.gov/dl/change-address\">DMV Change of Address web page</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1592509017938",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1599053893849"
+      },
+      "conditions": "#Address_Moved",
+      "dialog_node": "node_10_1592510140842",
+      "previous_sibling": "node_2_1592509343756"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "File a Request for Investigation with DMV. PDF Form Here:  <a href=\"https://www.oregon.gov/ODOT/Forms/DMV/6504fill.pdf\">6504</a> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1592509026624",
+      "conditions": "#Buying_Falsified",
+      "dialog_node": "node_10_1592512113274",
+      "previous_sibling": "node_7_1592512098085"
+    },
+    {
+      "type": "folder",
+      "title": "DEQ and Smog Testing",
+      "dialog_node": "node_10_1592577768952",
+      "previous_sibling": "node_3_1592577752785"
+    },
+    {
+      "type": "folder",
+      "title": "License Plates",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1592577811971",
+      "previous_sibling": "node_2_1592577812198"
+    },
+    {
+      "type": "folder",
+      "title": "Suspensions",
+      "dialog_node": "node_10_1592577931852",
+      "previous_sibling": "node_2_1592577931394"
+    },
+    {
+      "type": "folder",
+      "title": "Vehicle Registration",
+      "dialog_node": "node_10_1592577932279",
+      "previous_sibling": "node_10_1592577931852"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "​Yes, you can look up dealer information on DMV2U​ or contact us at 503-945-5052.  <a href=\"https://dmv2u.oregon.gov/eServices/_/\">Visit DMV2U</a> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1592509026624",
+      "conditions": "#Buying_LicensedDealer",
+      "dialog_node": "node_1_1592512116058",
+      "previous_sibling": "node_10_1592512113274"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "​Oregon law requires that the dealer deliver the title to you within 25 calendar days if they did not collect fees for title transfer or registration on your behalf. If the dealer did collect fees, the dealer is to submit your fees and application to DMV on your behalf within 30 calendar days. If the dealer has not done so, you can file a Request for Investigation with DMV. Here:  <a href=\"https://www.oregon.gov/ODOT/Forms/DMV/6504fill.pdf\">Form 6504</a> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1592509026624",
+      "conditions": "#Buying_NoTitleRegistration",
+      "dialog_node": "node_1_1592512120840",
+      "previous_sibling": "node_8_1592512118308"
+    },
+    {
+      "type": "folder",
+      "title": "Disabled Person Parking",
+      "dialog_node": "node_1_1592577769603",
+      "previous_sibling": "node_10_1592577768952"
+    },
+    {
+      "type": "folder",
+      "title": "Residency & Domicile",
+      "dialog_node": "node_1_1592577931053",
+      "previous_sibling": "node_4_1592577886544"
+    },
+    {
+      "type": "folder",
+      "title": "Buying",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1592509026624",
+      "previous_sibling": "node_8_1592509017938"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "​No, but you can get a new  <a href=\"https://www.oregon.gov/odot/DMV/Pages/vehicle/registration.aspx\">Registration Card</a>  for 5 dollars with your new address printed on it if you want to."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1592509017938",
+      "conditions": "#Address_Card",
+      "dialog_node": "node_2_1592509343756"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No. There is no fee for an Address Change."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1592509017938",
+      "conditions": "#Address_Fee",
+      "dialog_node": "node_2_1592509363812",
+      "previous_sibling": "node_10_1592510140842"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Check out our Dealer Complaints page. Here:  <a href=\"https://www.oregon.gov/odot/DMV/pages/dealers/complaints.aspx\">Complaints Page</a> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1592509026624",
+      "conditions": "#Buying_OutOfBusiness",
+      "dialog_node": "node_2_1592512123078",
+      "previous_sibling": "node_1_1592512120840"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The registration fee for passenger and leased vehicles is<b style=\"color:blue\"> \\$15</b>.<br>"
+              },
+              {
+                "text": "For information about additional fees collected with each motor vehicle registration, as well as information about commercial and farm vehicles, please see the <a href=\"https://dmv.nebraska.gov/dvr/reg/registration-fees-and-taxes\" target=\"_blank\">DMV Registration and Fees web page</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1592509026624",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1599053893849"
+      },
+      "conditions": "#Buying_TitleRegistrationFees",
+      "dialog_node": "node_2_1592512128242",
+      "previous_sibling": "node_6_1592512125688"
+    },
+    {
+      "type": "folder",
+      "title": "Buying Vehicles",
+      "dialog_node": "node_2_1592577737754",
+      "previous_sibling": "node_4_1592577724519"
+    },
+    {
+      "type": "folder",
+      "title": "Insurance and SR-22",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1592577812198",
+      "previous_sibling": "node_7_1592577770782"
+    },
+    {
+      "type": "folder",
+      "title": "Miscellaneous",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1592577887038",
+      "previous_sibling": "node_3_1592577811692"
+    },
+    {
+      "type": "folder",
+      "title": "Selling Vehicles",
+      "dialog_node": "node_2_1592577931394",
+      "previous_sibling": "node_1_1592577931053"
+    },
+    {
+      "type": "folder",
+      "title": "Vehicle Titles",
+      "conditions": "#vehicle_titles",
+      "dialog_node": "node_2_1592577932731",
+      "previous_sibling": "node_10_1592577932279"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "When you buy a car, you have <b>30 days</b> from the date of purchase to get the title transferred to your name. The same applies if the car is a gift. If you move to Nebraska from another state you also have 30 days to switch to a Nebraska title."
+              },
+              {
+                "text": "For more detailed information related to vehicle title transfer, please consult the <a target=\"_blank\" href=\"https://dmv.nebraska.gov/dvr/title/transfer-ownership\">DMV Transfer of Ownership web page</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1592577932731",
+      "conditions": "#vehicle_titles",
+      "dialog_node": "node_2_1592578537522"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "​Oregon law requires that a dealer pay off your security interest holder within 15 days of the date of the sale. If the dealer has not done so, you can file a Request for Investigation with DMV. Here: <a href=\"https://www.oregon.gov/ODOT/Forms/DMV/6504fill.pdf\">Form 6504</a> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1592509026624",
+      "conditions": "#Buying_TradeLien",
+      "dialog_node": "node_3_1592512136455",
+      "previous_sibling": "node_2_1592512128242"
+    },
+    {
+      "type": "folder",
+      "title": "Commercial Drivers",
+      "dialog_node": "node_3_1592577752785",
+      "previous_sibling": "node_2_1592577737754"
+    },
+    {
+      "type": "folder",
+      "title": "Military & Veteran",
+      "dialog_node": "node_3_1592577811692",
+      "previous_sibling": "node_10_1592577811971"
+    },
+    {
+      "type": "folder",
+      "title": "Moving or Traveling",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1592577886792",
+      "previous_sibling": "node_2_1592577887038"
+    },
+    {
+      "type": "folder",
+      "title": "Accidents",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1592509001591"
+    },
+    {
+      "type": "folder",
+      "title": "License & ID",
+      "dialog_node": "node_4_1592577724519",
+      "previous_sibling": "node_2_1592509026624"
+    },
+    {
+      "type": "folder",
+      "title": "Forms",
+      "dialog_node": "node_4_1592577770188",
+      "previous_sibling": "node_1_1592577769603"
+    },
+    {
+      "type": "folder",
+      "title": "Records & Privacy Protection",
+      "dialog_node": "node_4_1592577886544",
+      "previous_sibling": "node_3_1592577886792"
+    },
+    {
+      "type": "standard",
+      "title": "Totaled",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "​You must give the title to DMV (or to the insurer) within 30 days of when you found out it was a total loss."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1592509001591",
+      "conditions": "#Accidents_Totaled",
+      "dialog_node": "node_5_1592509107871",
+      "previous_sibling": "node_6_1592509076676"
+    },
+    {
+      "type": "standard",
+      "title": "Insurance",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "See our <a href=\"https://www.oregon.gov/odot/DMV/Pages/DriverID/accidentreport.aspx\">Accident Reporting and Responsibilities</a> page."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1592509001591",
+      "conditions": "#Accidents_Insurance",
+      "dialog_node": "node_6_1592509037243"
+    },
+    {
+      "type": "standard",
+      "title": "Report",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "State statute requires every operator of a motor vehicle involved in an accident resulting in either injury, death, or damages over $1,000.00 to the property of any one person (including the operator) must complete and submit a confidential Driver’s Motor Vehicle Accident Report <b>within 10 days following the accident</b>."
+              },
+              {
+                "text": "You can submit the accident report online. Visit the <a target=\"_blank\" href=\"https://ecmndorportal.nebraska.gov/ndot41/\">DMV Accident Report web page</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1592509001591",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1599053893849"
+      },
+      "conditions": "#Accidents_Report",
+      "dialog_node": "node_6_1592509076676",
+      "previous_sibling": "node_6_1592509037243"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dealers must remove a valid registration sticker if you decide to turn in the paperwork to DMV yourself.\n\nThe dealer can sell you a 10-day trip permit for $15 so you can  travel to DMV."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1592509026624",
+      "conditions": "#Buying_StickerRemoval",
+      "dialog_node": "node_6_1592512125688",
+      "previous_sibling": "node_2_1592512123078"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No, starting January, 1, 2020 DMV will no longer issue address stickers for your driver license, driver permit, or ID card."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1592509017938",
+      "conditions": "#Address_Sticker",
+      "dialog_node": "node_7_1592509370034",
+      "previous_sibling": "node_2_1592509363812"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "​Yes, you can look up dealer information on DMV2U​ or contact us at 503-945-5052.  <a href=\"https://dmv2u.oregon.gov/eServices/_/\">Visit DMV2U</a> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1592509026624",
+      "conditions": "#Buying_BondOwnership",
+      "dialog_node": "node_7_1592512098085"
+    },
+    {
+      "type": "folder",
+      "title": "Identity, Legal Presence & SSN",
+      "dialog_node": "node_7_1592577770782",
+      "previous_sibling": "node_4_1592577770188"
+    },
+    {
+      "type": "standard",
+      "title": "what else?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How else can I help you?"
+              },
+              {
+                "text": "What additional information can I provide?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Click on the topics below or type in your question:",
+            "options": [
+              {
+                "label": "Vehicle Registration",
+                "value": {
+                  "input": {
+                    "text": "how much does the dealer charge for registration?"
+                  }
+                }
+              },
+              {
+                "label": "Change of Address",
+                "value": {
+                  "input": {
+                    "text": "I just moved, how long before I have to notify the DMV?"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "dialog_node": "node_7_1599053893849",
+      "previous_sibling": "Anything else"
+    },
+    {
+      "type": "folder",
+      "title": "Address",
+      "conditions": "",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1592509017938",
+      "previous_sibling": "node_4_1592509001591"
+    },
+    {
+      "type": "standard",
+      "dialog_node": "node_8_1592510092209",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If the dealer collected registration fees from you, they must submit them to DMV with your application within 30 calendar days. A dealer must deliver the plates/stickers to you within 5 working days of receipt from DMV.  This can be by mail, personal delivery or customer pick-up.  If it has been over 45 days since you bought the vehicle, you should file a Request for Investigation with DMV. Here:  <a href=\"https://www.oregon.gov/ODOT/Forms/DMV/6504fill.pdf\">Form 6504</a> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1592509026624",
+      "conditions": "#Buying_NoPlateSticker",
+      "dialog_node": "node_8_1592512118308",
+      "previous_sibling": "node_1_1592512116058"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "source": "https://bloximages.chicago2.vip.townnews.com/starherald.com/content/tncms/assets/v3/editorial/7/79/77981d68-ea26-11e9-91e6-3f54892d3c3c/5d9d219610d49.image.jpg?crop=598%2C347%2C0%2C0&resize=598%2C347&order=crop%2Cresize",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Hello. I'm a virtual assistant for the Nebraska Department of Transportation.  How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Here are some example topics",
+            "options": [
+              {
+                "label": "Vehicle Registration Fee",
+                "value": {
+                  "input": {
+                    "text": "how much does the dealer charge for registration?"
+                  }
+                }
+              },
+              {
+                "label": "Address Change",
+                "value": {
+                  "input": {
+                    "text": "I just moved, how long before I have to notify the DMV?"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome",
+      "previous_sibling": "node_2_1592577932731"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "DMV",
+  "language": "en",
+  "description": "DMV/DOT Web Chat"
+}

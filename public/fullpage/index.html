@@ -1,7 +1,7 @@
 <html>
 <head>
   <base href="/">
-  <title>VIA Virtual Assistant</title>
+  <title>Watson Assistant</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="shortcut icon" href="favicon.png" type="image/png">
@@ -17,14 +17,18 @@
 <body>
     <div class="chatElement"></div>
 
-<script>
-const element = document.querySelector('.chatElement');
-  window.watsonAssistantChatOptions = {
-     // ID for the Assistant named "VIA Web Assistant (Production)"
-     integrationID: "68a791e1-9581-46af-8f0b-9d6106ea009c",
-     region: "us-east",
+<script type="module">
+
+    // pull in assistant configuration variable values from file
+    import JsonObj from './assistant_config.js';
+    document.querySelector('title').textContent = JsonObj.page_title;
+    const element = document.querySelector('.chatElement');
+    window.watsonAssistantChatOptions = {
+     // ID for the Assistant
+     integrationID: JsonObj.integrationID,
+     region: JsonObj.region,
      __ibm__: {
-         botNameOverride: 'VIA Virtual Assistant'
+         botNameOverride: JsonObj.bot_name
      },
     // Provide the custom element.
     element: element,

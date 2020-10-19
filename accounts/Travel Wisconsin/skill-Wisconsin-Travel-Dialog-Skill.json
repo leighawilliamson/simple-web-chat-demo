@@ -1,0 +1,1272 @@
+{
+  "intents": [
+    {
+      "intent": "fall_colors",
+      "examples": [
+        {
+          "text": "find fall colors"
+        },
+        {
+          "text": "help me find autumn foliage"
+        },
+        {
+          "text": "Where are the best fall colors?"
+        },
+        {
+          "text": "where is the best fall color"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "get_weather",
+      "examples": [
+        {
+          "text": "how is the weather?"
+        },
+        {
+          "text": "what's the weather?"
+        },
+        {
+          "text": "what's the weather forecast"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "give_me_suggestions",
+      "examples": [
+        {
+          "text": "recommend something near me"
+        },
+        {
+          "text": "what can I do this weekend?"
+        },
+        {
+          "text": "what's fun to do around here?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "local_shopping",
+      "examples": [
+        {
+          "text": "area shopping"
+        },
+        {
+          "text": "explore local shopping"
+        },
+        {
+          "text": "what's the shopping like near me"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "no",
+      "examples": [
+        {
+          "text": "nah"
+        },
+        {
+          "text": "nix"
+        },
+        {
+          "text": "no"
+        },
+        {
+          "text": "nope"
+        },
+        {
+          "text": "not at all"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "plan_fishing",
+      "examples": [
+        {
+          "text": "help me plan a fishing trip"
+        },
+        {
+          "text": "I want to go fishing"
+        },
+        {
+          "text": "what's the fishing like?"
+        },
+        {
+          "text": "where can I go fishing?"
+        },
+        {
+          "text": "where is the best fishing"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "yes",
+      "examples": [
+        {
+          "text": "ya"
+        },
+        {
+          "text": "yeah"
+        },
+        {
+          "text": "yep"
+        },
+        {
+          "text": "yes"
+        },
+        {
+          "text": "yes indeed"
+        },
+        {
+          "text": "yup"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "fall_activity",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Bike Trail",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Park Hike",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Scenic drive",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "fishing_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bass fishing",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "big lake",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "fly fishing",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "guided fishing",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ice fishing",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "muskie",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "river",
+          "synonyms": [
+            "creek",
+            "stream"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sturgeon",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "shopping_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "amish",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "outlet",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "quilt",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "query": "",
+            "filter": "",
+            "query_type": "natural_language",
+            "response_type": "search_skill"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1599053893849"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_5_1601581511102",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Yes, please help me locate where to purchase a fishing license",
+      "parent": "node_6_1601564856509",
+      "conditions": "#yes",
+      "dialog_node": "node_10_1601565193386",
+      "previous_sibling": "node_8_1601565023391"
+    },
+    {
+      "type": "standard",
+      "title": "No, don't want the weather",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Have a great trip and good luck!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1601581818436",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1599053893849"
+      },
+      "conditions": "#no",
+      "dialog_node": "node_10_1601581900141"
+    },
+    {
+      "type": "standard",
+      "title": "Scenic drive",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Autumn in Wisconsin is all about the <b style=\"color:orange\">color</b>…and getting out to see it! <br />\nHere is a link to some information about <a target=\"_blank\" href=\"https://www.travelwisconsin.com/article/things-to-do/11-scenic-drives-during-fall\">11 scenic drives for fall color</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1601565546191",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1599053893849"
+      },
+      "conditions": "@fall_activity:(Scenic drive)",
+      "dialog_node": "node_11_1601570731857"
+    },
+    {
+      "type": "standard",
+      "title": "What kind of fishing do you want",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Now let's find the best spot for you!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "What kind of fishing do you want today? Click on an option or enter your own response:",
+            "options": [
+              {
+                "label": "Fly fishing",
+                "value": {
+                  "input": {
+                    "text": "fly fishing"
+                  }
+                }
+              },
+              {
+                "label": "Bass fishing",
+                "value": {
+                  "input": {
+                    "text": "bass fishing"
+                  }
+                }
+              },
+              {
+                "label": "Ice fishing",
+                "value": {
+                  "input": {
+                    "text": "ice fishing"
+                  }
+                }
+              },
+              {
+                "label": "Guided fishing",
+                "value": {
+                  "input": {
+                    "text": "guides"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1601565465750",
+      "conditions": "",
+      "dialog_node": "node_1_1601565575624",
+      "previous_sibling": "node_2_1601567269492"
+    },
+    {
+      "type": "standard",
+      "title": "Bass fishing",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nothing is more exciting than a lunker smallmouth on the line! And Wisconsin has some of the world's best!<br />\nHere is a link to some of the best <a target=\"_blank\" href=\"https://www.travelwisconsin.com/search/index#q=bass%20fishing\">places for bass fishing in the state</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1601565465750",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1601567269492"
+      },
+      "conditions": "@fishing_type:(bass fishing)",
+      "dialog_node": "node_1_1601568102635",
+      "previous_sibling": "node_9_1601566903531"
+    },
+    {
+      "type": "standard",
+      "title": "Find fall color HEAD ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay! <b style=\"color:#184A6C\">Let's find the foliage!! </b><br />"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Here's a map showing the best peak color in the state currently: <a target=\"_blank\" href=\"https://www.travelwisconsin.com/fall-color-report\">Wisconsin Fall Color Report</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Are you interested in these:",
+            "options": [
+              {
+                "label": "Scenic Drives",
+                "value": {
+                  "input": {
+                    "text": "scenic drive"
+                  }
+                }
+              },
+              {
+                "label": "Park Hikes",
+                "value": {
+                  "input": {
+                    "text": "park hike"
+                  }
+                }
+              },
+              {
+                "label": "Bike Trails",
+                "value": {
+                  "input": {
+                    "text": "bike trail"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1601565546191",
+      "conditions": "#fall_colors",
+      "dialog_node": "node_1_1601570056311",
+      "previous_sibling": "node_2_1601571423873"
+    },
+    {
+      "type": "standard",
+      "title": "Bike trails",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Autumn in Wisconsin is all about the <b style=\"color:orange\">color</b>…and getting out to see it! <br />\nHere is a link to some information about <a target=\"_blank\" href=\"https://www.travelwisconsin.com/search/index#q=bike%20trails\">bike rides for fall color</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1601565546191",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1599053893849"
+      },
+      "conditions": "@fall_activity:(Bike Trail)",
+      "dialog_node": "node_1_1601571356318",
+      "previous_sibling": "node_11_1601570731857"
+    },
+    {
+      "type": "standard",
+      "title": "Amish shopping",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "There is an old Amish saying: <i>“Little and often make much.”</i> And the Amish shops in Wisconsin offer much to browse through! <br />\nHere is a link to some information about <a target=\"_blank\" href=\"https://www.travelwisconsin.com/search/index#q=amish%20shops\">Amish shops in Wisconsin</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1601565520186",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1599053893849"
+      },
+      "conditions": "@shopping_type:amish",
+      "dialog_node": "node_1_1601572222988",
+      "previous_sibling": "node_4_1601572051765"
+    },
+    {
+      "type": "standard",
+      "title": "Do you want to know the weather forecast?",
+      "output": {
+        "generic": [
+          {
+            "title": "Do you want to know the weather forecast before you leave?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1601565465750",
+      "dialog_node": "node_1_1601581818436",
+      "previous_sibling": "node_1_1601565575624"
+    },
+    {
+      "type": "standard",
+      "title": "Plan a fishing trip HEAD",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay! <b style=\"color:#184A6C\">Let's go fishing!! </b><br />"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "But first, do you have a Wisconsin fishing license?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1601565465750",
+      "conditions": "#plan_fishing",
+      "dialog_node": "node_2_1601561845846",
+      "previous_sibling": "node_3_1601568774118"
+    },
+    {
+      "type": "standard",
+      "title": "Do you need bait?",
+      "output": {
+        "generic": [
+          {
+            "title": "Do you have the bait and tackle you need?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1601565465750",
+      "dialog_node": "node_2_1601567269492",
+      "previous_sibling": "node_2_1601561845846"
+    },
+    {
+      "type": "standard",
+      "title": "Guided fishing",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your odds of landing a big one increase when you employ an experienced guide! And Wisconsin has some of the world's best!<br />\nHere is a link to some of the best <a target=\"_blank\" href=\"https://www.travelwisconsin.com/search/index#q=guided%20fishing\">guided fishing in the state</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1601565465750",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1601567269492"
+      },
+      "conditions": "@fishing_type:(guided fishing)",
+      "dialog_node": "node_2_1601568482467",
+      "previous_sibling": "node_1_1601568102635"
+    },
+    {
+      "type": "standard",
+      "title": "Yes, I have a fishing license",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1601570056311",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1601565575624"
+      },
+      "conditions": "#yes",
+      "dialog_node": "node_2_1601570056440"
+    },
+    {
+      "type": "standard",
+      "title": "Park Hikes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Autumn in Wisconsin is all about the <b style=\"color:orange\">color</b>…and getting out to see it! <br />\nHere is a link to some information about <a target=\"_blank\" href=\"https://www.travelwisconsin.com/article/state-parks-forests/soak-up-stunning-fall-color-at-these-wisconsin-state-parks\">fall color in Wisconsin State Parks</a>!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1601565546191",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1599053893849"
+      },
+      "conditions": "@fall_activity:(Park Hike)",
+      "dialog_node": "node_2_1601571423873",
+      "previous_sibling": "node_1_1601571356318"
+    },
+    {
+      "type": "standard",
+      "title": "Quilt shopping",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "It's been said that quilts are really <b style=\"color:blue\">hugs</b> made out of fabric and thread! <br />\nHere is a link to some information about <a target=\"_blank\" href=\"https://www.travelwisconsin.com/search/index#q=quilt%20shopping\">quilt shops</a> across Wisconsin."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1601565520186",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1599053893849"
+      },
+      "conditions": "@shopping_type:quilt",
+      "dialog_node": "node_2_1601572226607",
+      "previous_sibling": "node_1_1601572222988"
+    },
+    {
+      "type": "standard",
+      "title": "Get current weather",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The current weather conditions at $location are:<br /> \n- scattered clouds\n- temperature: 54 degrees F\n- feels like: 47 degrees F\n- humidity: 73%\n- barometric pressure: 1017"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Have a great trip and good luck out there on the water!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1601581511102",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1599053893849"
+      },
+      "conditions": "#get_weather",
+      "dialog_node": "node_2_1601581542322"
+    },
+    {
+      "type": "standard",
+      "title": "No, need info about bait",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Alright! Here are some pointers to <a target=\"_blank\" href=\"https://www.travelwisconsin.com/search/index#q=bait\">great bait sources and tackle shops</a>!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Have a great trip and good luck!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1601567269492",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1599053893849"
+      },
+      "conditions": "#no",
+      "dialog_node": "node_3_1601567436229",
+      "previous_sibling": "node_5_1601567343525"
+    },
+    {
+      "type": "standard",
+      "title": "Ice fishing",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Warm ice shanties help make ice fishing a popular pastime! And Wisconsin has some of the world's best!<br />\nHere is a link to some of the best <a target=\"_blank\" href=\"https://www.travelwisconsin.com/search/index#q=guided%20fishing\">ice fishing in the state</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1601565465750",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1601567269492"
+      },
+      "conditions": "@fishing_type:(ice fishing)",
+      "dialog_node": "node_3_1601568774118",
+      "previous_sibling": "node_2_1601568482467"
+    },
+    {
+      "type": "standard",
+      "title": "No fishing license",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oh oh! You need to have a Wisconsin fishing license in your possession when the State Fish and Wildlife warden comes by! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Can I help you find where to purchase a fishing license nearby?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1601570056311",
+      "conditions": "#no",
+      "dialog_node": "node_3_1601570056440",
+      "previous_sibling": "node_2_1601570056440"
+    },
+    {
+      "type": "standard",
+      "title": "No help finding a fishing license desired",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Alright, but you should be sure to obtain a fishing license before heading out to the water!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1601570056440",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1601565575624"
+      },
+      "conditions": "#no",
+      "dialog_node": "node_4_1601570056440"
+    },
+    {
+      "type": "standard",
+      "title": "Outlet shopping",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Outlet shops offer great bargains for quality goods! <br />\nHere is a link to some information about <a target=\"_blank\" href=\"https://www.travelwisconsin.com/search/index#q=premium%20outlets\">Wisconsin premium outlets</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1601565520186",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1599053893849"
+      },
+      "conditions": "@shopping_type:outlet",
+      "dialog_node": "node_4_1601572051765"
+    },
+    {
+      "type": "standard",
+      "title": "Yes, I have what I need",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1601567269492",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1601581818436"
+      },
+      "conditions": "#yes",
+      "dialog_node": "node_5_1601567343525"
+    },
+    {
+      "type": "standard",
+      "title": "Yes, please help me locate where to purchase a fishing license",
+      "output": {},
+      "parent": "node_3_1601570056440",
+      "conditions": "#yes",
+      "dialog_node": "node_5_1601570056440",
+      "previous_sibling": "node_4_1601570056440"
+    },
+    {
+      "type": "folder",
+      "title": "Weather info",
+      "conditions": "",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1601581511102",
+      "previous_sibling": "node_9_1601565546191"
+    },
+    {
+      "type": "standard",
+      "title": "No fishing license",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oh oh! You need to have a Wisconsin fishing license in your possession when the State Fish and Wildlife warden comes by! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Can I help you find where to purchase a fishing license nearby?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1601561845846",
+      "conditions": "#no",
+      "dialog_node": "node_6_1601564856509",
+      "previous_sibling": "node_7_1601564205267"
+    },
+    {
+      "type": "standard",
+      "title": "local shopping HEAD ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay! <b style=\"color:#184A6C\">Let's go shopping!! </b><br />"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "What kind of shopping are you looking for?",
+            "options": [
+              {
+                "label": "Outlet stores",
+                "value": {
+                  "input": {
+                    "text": "outlets"
+                  }
+                }
+              },
+              {
+                "label": "Amish goods",
+                "value": {
+                  "input": {
+                    "text": "amish"
+                  }
+                }
+              },
+              {
+                "label": "Quilts & crafts",
+                "value": {
+                  "input": {
+                    "text": "quilts"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1601565520186",
+      "conditions": "#local_shopping",
+      "dialog_node": "node_6_1601570100168",
+      "previous_sibling": "node_2_1601572226607"
+    },
+    {
+      "type": "standard",
+      "title": "Keep going",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How else can I help you?"
+              },
+              {
+                "text": "What additional information can I provide?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Click on the topics below or type in your question:",
+            "options": [
+              {
+                "label": "Plan a fishing trip!",
+                "value": {
+                  "input": {
+                    "text": "where to fish"
+                  }
+                }
+              },
+              {
+                "label": "Find fall colors",
+                "value": {
+                  "input": {
+                    "text": "where is the best fall color"
+                  }
+                }
+              },
+              {
+                "label": "Local shopping",
+                "value": {
+                  "input": {
+                    "text": "shopping near me"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "dialog_node": "node_7_1599053893849",
+      "previous_sibling": "Anything else"
+    },
+    {
+      "type": "standard",
+      "title": "Yes, I have a fishing license",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1601561845846",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1601565575624"
+      },
+      "conditions": "#yes",
+      "dialog_node": "node_7_1601564205267"
+    },
+    {
+      "type": "folder",
+      "title": "Shopping",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1601565520186",
+      "previous_sibling": "node_8_1601565465750"
+    },
+    {
+      "type": "standard",
+      "title": "Yes, give me the weather",
+      "parent": "node_1_1601581818436",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1601581542322"
+      },
+      "conditions": "#yes",
+      "dialog_node": "node_7_1601581962215",
+      "previous_sibling": "node_10_1601581900141"
+    },
+    {
+      "type": "standard",
+      "title": "No help finding a fishing license desired",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Alright, but you should be sure to obtain a fishing license before heading out to the water!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1601564856509",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1601565575624"
+      },
+      "conditions": "#no",
+      "dialog_node": "node_8_1601565023391"
+    },
+    {
+      "type": "folder",
+      "title": "Fishing trip",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1601565465750",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "folder",
+      "title": "Fall color",
+      "dialog_node": "node_9_1601565546191",
+      "previous_sibling": "node_7_1601565520186"
+    },
+    {
+      "type": "standard",
+      "title": "Fly fishing",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fly fishing is a true art form. And Wisconsin has some of the world's best!<br />\nHere is a link to some of the best <a target=\"_blank\" href=\"https://www.travelwisconsin.com/search/index#q=fly%20fishing\">places for fly fishing in the state</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1601565465750",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1601567269492"
+      },
+      "conditions": "@fishing_type:(fly fishing)",
+      "dialog_node": "node_9_1601566903531"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b style=\"color:blue\">Hi! I'm WALT</b>, the Wisconsin Area Leisure Travel virtual assistant! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Here are some example topics",
+            "options": [
+              {
+                "label": "Plan a fishing trip!",
+                "value": {
+                  "input": {
+                    "text": "where is the best fishing"
+                  }
+                }
+              },
+              {
+                "label": "Find fall color",
+                "value": {
+                  "input": {
+                    "text": "where is the best fall color"
+                  }
+                }
+              },
+              {
+                "label": "Local shopping",
+                "value": {
+                  "input": {
+                    "text": "what shopping is near me"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": false,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Wisconsin Travel Dialog Skill",
+  "language": "en",
+  "description": ""
+}

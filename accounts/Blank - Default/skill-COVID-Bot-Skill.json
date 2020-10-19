@@ -1,0 +1,4977 @@
+{
+  "intents": [
+    {
+      "intent": "Bot_Control_Approve_Response",
+      "examples": [
+        {
+          "text": "absolutely"
+        },
+        {
+          "text": "Affirmative. That's what I'm looking for."
+        },
+        {
+          "text": "All right"
+        },
+        {
+          "text": "alright"
+        },
+        {
+          "text": "alright yes"
+        },
+        {
+          "text": "Correct"
+        },
+        {
+          "text": "For sure!"
+        },
+        {
+          "text": "Got it"
+        },
+        {
+          "text": "Great"
+        },
+        {
+          "text": "I agree"
+        },
+        {
+          "text": "I do"
+        },
+        {
+          "text": "I like that"
+        },
+        {
+          "text": "indeed"
+        },
+        {
+          "text": "Indeed!"
+        },
+        {
+          "text": "sure"
+        },
+        {
+          "text": "sure thing"
+        },
+        {
+          "text": "Sure thing!"
+        },
+        {
+          "text": "Sweet"
+        },
+        {
+          "text": "That is precisely what I was looking for"
+        },
+        {
+          "text": "That is right"
+        },
+        {
+          "text": "That is the proper response."
+        },
+        {
+          "text": "That is what I need"
+        },
+        {
+          "text": "That's exactly what I want"
+        },
+        {
+          "text": "This is alright"
+        },
+        {
+          "text": "Very well. Let's do it."
+        },
+        {
+          "text": "yeah"
+        },
+        {
+          "text": "Yeah, that's it!"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "yes please"
+        },
+        {
+          "text": "You bet"
+        },
+        {
+          "text": "You read my mind"
+        }
+      ],
+      "description": "Acknowledge that the response satisfies a question."
+    },
+    {
+      "intent": "Bot_Control_Change_Subject",
+      "examples": [
+        {
+          "text": "A different matter"
+        },
+        {
+          "text": "Another thing"
+        },
+        {
+          "text": "Can we talk about something else?"
+        },
+        {
+          "text": "Change topic"
+        },
+        {
+          "text": "Chat about something else"
+        },
+        {
+          "text": "Discuss something else"
+        },
+        {
+          "text": "Help me with this other question"
+        },
+        {
+          "text": "Here is another issue"
+        },
+        {
+          "text": "I have one more question"
+        },
+        {
+          "text": "Let us change the topic"
+        },
+        {
+          "text": "Let us talk about something else"
+        },
+        {
+          "text": "Talk about something else"
+        }
+      ],
+      "description": "Change to a different topic."
+    },
+    {
+      "intent": "Bot_Control_Clarification",
+      "examples": [
+        {
+          "text": "Can you say that again please?"
+        },
+        {
+          "text": "Come again?"
+        },
+        {
+          "text": "Explains"
+        },
+        {
+          "text": "I did not quite understand what you gave me"
+        },
+        {
+          "text": "I didn't catch that"
+        },
+        {
+          "text": "I didn't quite understand what you said"
+        },
+        {
+          "text": "I didn't understand that properly"
+        },
+        {
+          "text": "I don't get it"
+        },
+        {
+          "text": "I don't understand"
+        },
+        {
+          "text": "I don't understand what you're saying"
+        },
+        {
+          "text": "I need more information"
+        },
+        {
+          "text": "Let's try to say that again more clearly, shall we?"
+        },
+        {
+          "text": "What are you referring to?"
+        },
+        {
+          "text": "What are you saying?"
+        },
+        {
+          "text": "What are you talking about?"
+        },
+        {
+          "text": "What do you mean?"
+        },
+        {
+          "text": "What do you mean by that?"
+        }
+      ],
+      "description": "Repeat or clarify last statement."
+    },
+    {
+      "intent": "Bot_Control_Confirm_Presence",
+      "examples": [
+        {
+          "text": "Am I talking to someone?"
+        },
+        {
+          "text": "Anyone there?"
+        },
+        {
+          "text": "Are you leaving me?"
+        },
+        {
+          "text": "Are you on?"
+        },
+        {
+          "text": "Are you still around?"
+        },
+        {
+          "text": "Are you still here with me?"
+        },
+        {
+          "text": "Are you there?"
+        },
+        {
+          "text": "Did you go somewhere?"
+        },
+        {
+          "text": "Did you hear what I said?"
+        },
+        {
+          "text": "Have I lost you?"
+        },
+        {
+          "text": "I am still holding"
+        },
+        {
+          "text": "Is anybody here?"
+        },
+        {
+          "text": "Is anybody home?"
+        },
+        {
+          "text": "Speak to me if you are there."
+        },
+        {
+          "text": "Where'd you go?"
+        },
+        {
+          "text": "You around?"
+        }
+      ],
+      "description": "Ask the bot to indicate that it is available."
+    },
+    {
+      "intent": "Bot_Control_Ignore_Undo",
+      "examples": [
+        {
+          "text": "Actually, I take that back"
+        },
+        {
+          "text": "Cancel"
+        },
+        {
+          "text": "Hold on! I think I want to do it differently."
+        },
+        {
+          "text": "I change my mind."
+        },
+        {
+          "text": "I did not mean that?"
+        },
+        {
+          "text": "I didn't mean to do that actually, let's go back"
+        },
+        {
+          "text": "Ignore this"
+        },
+        {
+          "text": "It's not what I mean"
+        },
+        {
+          "text": "Let us redo that again!"
+        },
+        {
+          "text": "Never"
+        },
+        {
+          "text": "Never mind"
+        },
+        {
+          "text": "Nothing"
+        },
+        {
+          "text": "Not yet"
+        },
+        {
+          "text": "Wait! Let's back up few steps and do that again"
+        }
+      ],
+      "description": "Ask the bot to take one step back."
+    },
+    {
+      "intent": "Bot_Control_Reject_Response",
+      "examples": [
+        {
+          "text": "Bad response"
+        },
+        {
+          "text": "Do not"
+        },
+        {
+          "text": "I disagree"
+        },
+        {
+          "text": "I do not think it is the answer?"
+        },
+        {
+          "text": "I don't need that"
+        },
+        {
+          "text": "I don't want that"
+        },
+        {
+          "text": "It is not what I want"
+        },
+        {
+          "text": "It is not what I was looking for"
+        },
+        {
+          "text": "I wasn't looking for that"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "No I'm fine thanks"
+        },
+        {
+          "text": "Not the right response"
+        },
+        {
+          "text": "That answer is incorrect"
+        },
+        {
+          "text": "That is not true"
+        },
+        {
+          "text": "That sounds like the wrong response"
+        },
+        {
+          "text": "That was not my intent"
+        },
+        {
+          "text": "That was wrong, try again"
+        },
+        {
+          "text": "Wrong response"
+        },
+        {
+          "text": "You did not understand what I asked"
+        },
+        {
+          "text": "You did not understand what I said"
+        },
+        {
+          "text": "You didn't understand me"
+        },
+        {
+          "text": "You're misunderstanding me"
+        }
+      ],
+      "description": "Indicate the bot's response does not address a question."
+    },
+    {
+      "intent": "Bot_Control_Standby",
+      "examples": [
+        {
+          "text": "Back again soon"
+        },
+        {
+          "text": "Be back later"
+        },
+        {
+          "text": "Be patient with me"
+        },
+        {
+          "text": "Can you give me a moment?"
+        },
+        {
+          "text": "Can you wait for me?"
+        },
+        {
+          "text": "Give me a few minutes to get together"
+        },
+        {
+          "text": "Give me a moment"
+        },
+        {
+          "text": "Give me a second"
+        },
+        {
+          "text": "Hold on"
+        },
+        {
+          "text": "In a moment"
+        },
+        {
+          "text": "I want stop a moment"
+        },
+        {
+          "text": "I will be back"
+        },
+        {
+          "text": "I would like to put you on hold"
+        },
+        {
+          "text": "Just a sec"
+        },
+        {
+          "text": "Just hold on"
+        },
+        {
+          "text": "Keep holding"
+        },
+        {
+          "text": "Let me see"
+        },
+        {
+          "text": "Need a minute here"
+        },
+        {
+          "text": "Out for a break"
+        },
+        {
+          "text": "Wait"
+        }
+      ],
+      "description": "Indicate a delay in providing input to the bot."
+    },
+    {
+      "intent": "Bot_Control_Start_Over",
+      "examples": [
+        {
+          "text": "Actually, let's start over"
+        },
+        {
+          "text": "Back to the beginning"
+        },
+        {
+          "text": "Back to the top"
+        },
+        {
+          "text": "Begin over!"
+        },
+        {
+          "text": "Can we please start over?"
+        },
+        {
+          "text": "How can I start over?"
+        },
+        {
+          "text": "I need to reset."
+        },
+        {
+          "text": "I want start from the beginning"
+        },
+        {
+          "text": "I would like to start all over"
+        },
+        {
+          "text": "Let's go back to square one"
+        },
+        {
+          "text": "Let's pick this up from the top again."
+        },
+        {
+          "text": "Let us reopen this again."
+        },
+        {
+          "text": "One more time from the beginning"
+        },
+        {
+          "text": "Please initiate from the beginning"
+        },
+        {
+          "text": "Please reset"
+        },
+        {
+          "text": "Please start a new chat"
+        },
+        {
+          "text": "Restart"
+        },
+        {
+          "text": "Start over"
+        },
+        {
+          "text": "We need a do-over"
+        },
+        {
+          "text": "We will need to begin again"
+        }
+      ],
+      "description": "Restart bot or current flow."
+    },
+    {
+      "intent": "Bot_Control_Unsure",
+      "examples": [
+        {
+          "text": "I don t know what you need"
+        },
+        {
+          "text": "I don t know what you want"
+        },
+        {
+          "text": "I have no idea, actually"
+        },
+        {
+          "text": "I have no idea what you are looking for"
+        },
+        {
+          "text": "I haven't got a clue"
+        },
+        {
+          "text": "I m not certain I get what you re saying"
+        },
+        {
+          "text": "I m not sure what will make you happy"
+        },
+        {
+          "text": "I m not yet convinced"
+        },
+        {
+          "text": "No clue"
+        },
+        {
+          "text": "No idea"
+        },
+        {
+          "text": "To be honest, I m really not sure"
+        },
+        {
+          "text": "You got me"
+        }
+      ],
+      "description": "Indicate no definite answer to a question."
+    },
+    {
+      "intent": "businesses_open_or_closed",
+      "examples": [
+        {
+          "text": "Are dine-in restaurant allowed to be open?"
+        },
+        {
+          "text": "Are gyms closed?"
+        },
+        {
+          "text": "are the bars and restaurants in austin forced to close?"
+        },
+        {
+          "text": "Can my business stay open?"
+        },
+        {
+          "text": "Can my store stay open?"
+        },
+        {
+          "text": "Do I have to close my business?"
+        },
+        {
+          "text": "Do I have to close my salon?"
+        },
+        {
+          "text": "Do I have to close my shop?"
+        },
+        {
+          "text": "Must I close down my business"
+        },
+        {
+          "text": "what businesses are required to close?"
+        },
+        {
+          "text": "what businesses can stay open?"
+        },
+        {
+          "text": "when does my business need to shutdown?"
+        },
+        {
+          "text": "when do I need to close my store?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Cancel",
+      "examples": [
+        {
+          "text": "cancel that"
+        },
+        {
+          "text": "cancel the request"
+        },
+        {
+          "text": "forget it"
+        },
+        {
+          "text": "i changed my mind"
+        },
+        {
+          "text": "i don't want a table anymore anymore"
+        },
+        {
+          "text": "nevermind"
+        },
+        {
+          "text": "never mind"
+        }
+      ],
+      "description": "Cancel the current request"
+    },
+    {
+      "intent": "cdc_facts",
+      "examples": [
+        {
+          "text": "cdc_facts"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "CDC_Info",
+      "examples": [
+        {
+          "text": "cdc_link"
+        }
+      ],
+      "description": "Get latest COVID information from CDC "
+    },
+    {
+      "intent": "cdc_summary",
+      "examples": [
+        {
+          "text": "cdc_summary"
+        },
+        {
+          "text": "corona virus news updates"
+        },
+        {
+          "text": "covid news updates"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "cdc_traveler",
+      "examples": [
+        {
+          "text": "cdc_traveler"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "covid-diagnosis",
+      "examples": [
+        {
+          "text": "Can you tell me whether I have covid-19 or not?"
+        },
+        {
+          "text": "Does having a fever and a runny nose mean I have coronavirus?"
+        },
+        {
+          "text": "How can I diagnose whether I have covid-19 or not?"
+        },
+        {
+          "text": "How can I tell if I am infected?"
+        },
+        {
+          "text": "How can I tell if I have the coronavirus?"
+        },
+        {
+          "text": "How can I tell whether I have the flu or the coronavirus?"
+        },
+        {
+          "text": "How do I know if I have covid-19?"
+        },
+        {
+          "text": "I have a fever. Does that mean I have coronavirus?"
+        },
+        {
+          "text": "I'm afraid I have this virus. How can I tell?"
+        },
+        {
+          "text": "I'm afraid I'm coming down with coronavirus. How can I tell if I am?"
+        },
+        {
+          "text": "I'm feeling sick, but I'm not sure whether I have the covid-19."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "covid-fever-definition",
+      "examples": [
+        {
+          "text": "How can I tell if I have a fever?"
+        },
+        {
+          "text": "How high is does my temperature need to be for a fever?"
+        },
+        {
+          "text": "How hot is a fever?"
+        },
+        {
+          "text": "What do you mean fever?"
+        },
+        {
+          "text": "What temperature is a fever?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "covid-flu-vs-common-cold",
+      "examples": [
+        {
+          "text": "Flu vs cold"
+        },
+        {
+          "text": "Flu vs common cold"
+        },
+        {
+          "text": "How do flu symptoms differ from cold symptoms?"
+        },
+        {
+          "text": "How is a cold different from the flu?"
+        },
+        {
+          "text": "what are the symptoms?"
+        },
+        {
+          "text": "What's the difference between flu and the common cold?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "covid-flu-vs-coronavirus",
+      "examples": [
+        {
+          "text": "Flu vs Coronavirus"
+        },
+        {
+          "text": "Flu vs. COVID-19"
+        },
+        {
+          "text": "How do flu symptoms differ from coronavirus symptoms?"
+        },
+        {
+          "text": "What is different between flu and coronavirus"
+        },
+        {
+          "text": "What's the difference between flu and coronavirus?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "covid-prevent-spread",
+      "examples": [
+        {
+          "text": "How can I protect my family and friends from covid-19 if I'm contagious"
+        },
+        {
+          "text": "How can we slow down the spread of corona virus?"
+        },
+        {
+          "text": "How do I help prevent coronavirus from spreading?"
+        },
+        {
+          "text": "How do I keep other people from catching this?"
+        },
+        {
+          "text": "What do I do to keep the coronavirus from spreading?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "covid-schools-open",
+      "examples": [
+        {
+          "text": "are the schools going to open again soon"
+        },
+        {
+          "text": "Can my kids go back to school?"
+        },
+        {
+          "text": "Is the local kindergarten going to be opening soon"
+        },
+        {
+          "text": "when will the day care center be open again?"
+        },
+        {
+          "text": "When will the high school in my area be open again."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "covid-screening",
+      "examples": [
+        {
+          "text": "local_screening_info"
+        }
+      ],
+      "description": "Screening of COVID-19 related questions"
+    },
+    {
+      "intent": "covid-shortness-of-breath-definition",
+      "examples": [
+        {
+          "text": "How do I know what shortness of breath is"
+        },
+        {
+          "text": "I don't know what shortness of breath is"
+        },
+        {
+          "text": "What do you mean shortness of breath?"
+        },
+        {
+          "text": "What is shortness of breath"
+        },
+        {
+          "text": "What kind of breathing problem is that?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "covid-what-if-sick",
+      "examples": [
+        {
+          "text": "What do I do if I have been exposed to the virus?"
+        },
+        {
+          "text": "What do I do if I'm infected with covid-19?"
+        },
+        {
+          "text": "What if I'm sick?"
+        },
+        {
+          "text": "What if I think I have coronavirus?"
+        },
+        {
+          "text": "What should I do if I'm sick?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Customer_Care_Appointments",
+      "examples": [
+        {
+          "text": "are you available on tuesday"
+        },
+        {
+          "text": "Can I book an in person session"
+        },
+        {
+          "text": "can i book for tonight"
+        },
+        {
+          "text": "can i make an appointment"
+        },
+        {
+          "text": "can you make an appointment for me"
+        },
+        {
+          "text": "Could I speak to someone in the store next tuesday?"
+        },
+        {
+          "text": "do you have availability next week"
+        },
+        {
+          "text": "i'd like to come in for an appointment"
+        },
+        {
+          "text": "i'd like to make an appointment"
+        },
+        {
+          "text": "I prefer a face to face visit"
+        },
+        {
+          "text": "I want to talk in person with someone about my case"
+        },
+        {
+          "text": "I would like to discuss my situation face to face"
+        },
+        {
+          "text": "I would like to make an appointment to visit the nearest store to my location."
+        },
+        {
+          "text": "Make an appointment"
+        },
+        {
+          "text": "meet in store"
+        },
+        {
+          "text": "Set up an appt"
+        },
+        {
+          "text": "Store appointment"
+        },
+        {
+          "text": "Want to change my visit"
+        },
+        {
+          "text": "What time can I meet the staff?"
+        },
+        {
+          "text": "When can I meet with one of your employees at your store?"
+        }
+      ],
+      "description": "Schedule or manage an in-store appointment."
+    },
+    {
+      "intent": "Customer_Care_Store_Hours",
+      "examples": [
+        {
+          "text": "are stores open on sunday"
+        },
+        {
+          "text": "Are the stores open early?"
+        },
+        {
+          "text": "Are you closed new Year's eve"
+        },
+        {
+          "text": "Are you closing early today"
+        },
+        {
+          "text": "Are you open during thanksgiving?"
+        },
+        {
+          "text": "Are you open on bank holidays?"
+        },
+        {
+          "text": "Are you open on Sunday"
+        },
+        {
+          "text": "Are you open on sundays, and if so what are the hours?"
+        },
+        {
+          "text": "At what hour can I swing by?"
+        },
+        {
+          "text": "Can you tell me how late the stores are open till?"
+        },
+        {
+          "text": "Does the store in the city center opens till 8pm on weekends?"
+        },
+        {
+          "text": "Hours of operation"
+        },
+        {
+          "text": "How early do you open?"
+        },
+        {
+          "text": "how early do you open on Saturdays"
+        },
+        {
+          "text": "how late are you open"
+        },
+        {
+          "text": "how late are you open tonight"
+        },
+        {
+          "text": "how late are you there"
+        },
+        {
+          "text": "how late y'all stay up till"
+        },
+        {
+          "text": "How long are you open?"
+        },
+        {
+          "text": "Is the branch open now?"
+        },
+        {
+          "text": "open hours store"
+        },
+        {
+          "text": "store hours"
+        },
+        {
+          "text": "store hrs"
+        },
+        {
+          "text": "store open"
+        },
+        {
+          "text": "store open hours?"
+        },
+        {
+          "text": "store open now"
+        },
+        {
+          "text": "What are the business hours of the store nearest to me?"
+        },
+        {
+          "text": "What are the hours of operation?"
+        },
+        {
+          "text": "What are the saturday opening times for the local store?"
+        },
+        {
+          "text": "What are ur opening hours?"
+        },
+        {
+          "text": "what are your hours"
+        },
+        {
+          "text": "What are your hous?"
+        },
+        {
+          "text": "What is the opening time for the washington store?"
+        },
+        {
+          "text": "What time are you closing today?"
+        },
+        {
+          "text": "What time does the central manchester store shut on a saturday?"
+        },
+        {
+          "text": "What time do stores close?"
+        },
+        {
+          "text": "What time do you close"
+        },
+        {
+          "text": "what time do you close on Sunday"
+        },
+        {
+          "text": "What time do you close today"
+        },
+        {
+          "text": "What time do you open on Saturdays"
+        },
+        {
+          "text": "What time is your store open on saturday?"
+        },
+        {
+          "text": "when can i visit your store"
+        },
+        {
+          "text": "when does the store close"
+        },
+        {
+          "text": "when do you close"
+        },
+        {
+          "text": "when do your stores open"
+        },
+        {
+          "text": "will you be open Memorial day"
+        },
+        {
+          "text": "will you open for christmas"
+        },
+        {
+          "text": "will you open on christmas"
+        }
+      ],
+      "description": "Find business hours."
+    },
+    {
+      "intent": "food_business_rules",
+      "examples": [
+        {
+          "text": "bistro"
+        },
+        {
+          "text": "food_business"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "call the manager"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "get me a person"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to speak with a robot"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I dont want to talk to a computer"
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to speak to a human"
+        },
+        {
+          "text": "I want to speak to a person"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I want to talk to the manager"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "representative"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "talk to a human"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "hiya"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "yo"
+        },
+        {
+          "text": "You there"
+        }
+      ],
+      "description": "Greetings"
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're too stupid"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You've been so helpful :)"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "Goodbye",
+      "examples": [
+        {
+          "text": "arrivederci"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "ciao"
+        },
+        {
+          "text": "good bye"
+        },
+        {
+          "text": "see ya"
+        },
+        {
+          "text": "so long"
+        }
+      ],
+      "description": "Good byes"
+    },
+    {
+      "intent": "Help",
+      "examples": [
+        {
+          "text": "can you assist me"
+        },
+        {
+          "text": "can you help"
+        },
+        {
+          "text": "help"
+        },
+        {
+          "text": "help me"
+        },
+        {
+          "text": "help me decide"
+        },
+        {
+          "text": "i need assistance"
+        },
+        {
+          "text": "what can i do"
+        },
+        {
+          "text": "what can i say"
+        }
+      ],
+      "description": "Ask for help"
+    },
+    {
+      "intent": "learn_resources_available",
+      "examples": [
+        {
+          "text": "I have been laid off because of coronavirus"
+        },
+        {
+          "text": "What financial resources are available?"
+        },
+        {
+          "text": "what is the city doing for people ?"
+        },
+        {
+          "text": "where can I find out about local resources available"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "local_updates",
+      "examples": [
+        {
+          "text": "local_updates"
+        }
+      ],
+      "description": "Get COVID news updates that are focused on your local region"
+    },
+    {
+      "intent": "retail_business_rules",
+      "examples": [
+        {
+          "text": "Retail business"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "test",
+      "examples": [
+        {
+          "text": "dotest"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Test_Center_Contact_Info",
+      "examples": [
+        {
+          "text": "Find a test center"
+        },
+        {
+          "text": "give me directions"
+        },
+        {
+          "text": "how do I call the local test center"
+        },
+        {
+          "text": "how do I cantact my local test center?"
+        },
+        {
+          "text": "How do I get tested?"
+        },
+        {
+          "text": "how do I get tested in Austin?"
+        },
+        {
+          "text": "how do I locate the testing center"
+        },
+        {
+          "text": "I'd like to go to a testing center"
+        },
+        {
+          "text": "I'm sick, where should I go?"
+        },
+        {
+          "text": "I need help with find a test center"
+        },
+        {
+          "text": "I want to know about a test center"
+        },
+        {
+          "text": "location please"
+        },
+        {
+          "text": "Looking for a location"
+        },
+        {
+          "text": "What is the closest center to my address?"
+        },
+        {
+          "text": "what is the local phone number"
+        },
+        {
+          "text": "what is the nearest location of a test center?"
+        },
+        {
+          "text": "What is the nearest test center?"
+        },
+        {
+          "text": "what is the number"
+        },
+        {
+          "text": "what is the phone number"
+        },
+        {
+          "text": "What is the test center near my zip code?"
+        },
+        {
+          "text": "what's your phone number"
+        },
+        {
+          "text": "where can I go to be tested?"
+        },
+        {
+          "text": "where do I go for testing"
+        },
+        {
+          "text": "Where is?"
+        },
+        {
+          "text": "Where is your test center?"
+        },
+        {
+          "text": "which cross streets are you on"
+        }
+      ],
+      "description": "Locate a physical test center or an address."
+    },
+    {
+      "intent": "Thanks",
+      "examples": [
+        {
+          "text": "i appreciate it"
+        },
+        {
+          "text": "many thanks"
+        },
+        {
+          "text": "much appreciated"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "thank you very much"
+        },
+        {
+          "text": "that's nice of you"
+        },
+        {
+          "text": "thx"
+        }
+      ],
+      "description": "Thanks"
+    },
+    {
+      "intent": "tx_count",
+      "examples": [
+        {
+          "text": "tx_count"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "tx_emergency",
+      "examples": [
+        {
+          "text": "tx_emergency"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "tx_test",
+      "examples": [
+        {
+          "text": "tx_test"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "weather_questions",
+      "examples": [
+        {
+          "text": "is it going to be warm today?"
+        },
+        {
+          "text": "Is it going to rain?"
+        },
+        {
+          "text": "what's the forecast"
+        },
+        {
+          "text": "what's the weather?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "who_video",
+      "examples": [
+        {
+          "text": "who_video"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "coronavirus",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "coronavirus",
+          "synonyms": [
+            "corona",
+            "COVID",
+            "COVID-19",
+            "virus",
+            "virus check"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "food_service",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Bar",
+          "synonyms": [
+            "Pub",
+            "Saloon"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "food business",
+          "synonyms": [
+            "bistro",
+            "Food truck",
+            "restaurant"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "holiday",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "christmas",
+          "synonyms": [
+            "christmas day",
+            "x man day",
+            "xmas",
+            "x mas",
+            "x-mas",
+            "x-mas day",
+            "xmas day"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "christmas eve",
+          "synonyms": [
+            "x mas eve",
+            "x-mas eve",
+            "xmas eve"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "halloween",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "independence day",
+          "synonyms": [
+            "7/4",
+            "fourth of july",
+            "july 4",
+            "july 4th",
+            "july fourth"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "labor day",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "memorial day",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "new years",
+          "synonyms": [
+            "1/1",
+            "jan 1",
+            "jan 1st",
+            "jan first",
+            "january 1",
+            "january 1st",
+            "january first",
+            "new year",
+            "new year day",
+            "new years day"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "new years eve",
+          "synonyms": [
+            "12-31",
+            "12/31",
+            "dec 31",
+            "dec 31st",
+            "new year's eve"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "thanksgiving",
+          "synonyms": [
+            "turkey day"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "valentine's day",
+          "synonyms": [
+            "valentine day",
+            "valentines day"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "landmark",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "empire state building",
+          "synonyms": [
+            "empire state",
+            "emprire state"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "grand central",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "times square",
+          "synonyms": [
+            "time sqaure",
+            "time square",
+            "times sqaure"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "new_zip_code",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "75001",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "75014",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "78708",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "78709",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "78710",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "78711",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "78712",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "78713",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "78714",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "78715",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "78716",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "78717",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "78719",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "phone",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "US Phone pattern",
+          "patterns": [
+            "(\\d{3})-(\\d{3})-(\\d{4})"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "reply",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "definitely not",
+            "don't think so",
+            "dont think so",
+            "i think not",
+            "nope",
+            "not at this time",
+            "not now"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "definitely",
+            "go for it",
+            "let's do it",
+            "ok",
+            "please",
+            "sure",
+            "why not",
+            "yeah",
+            "yep",
+            "yes",
+            "you bet",
+            "you betcha"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "retail_business",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "barbershop",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "department store",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "nail studio",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "retailer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "salon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "shop",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "store",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "school_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "college",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "grade school",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "high school",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "middle school",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "preschool",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "specialist",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Barbara",
+          "synonyms": [
+            "barbra"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Brenda",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Derrik",
+          "synonyms": [
+            "derek",
+            "derik",
+            "derrick",
+            "derrik"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Maria",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Nicholas",
+          "synonyms": [
+            "nick"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Robert",
+          "synonyms": [
+            "bob"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-location",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "zip_code",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "43123",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "43125",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "43137",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "43147",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "43201",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "43202",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "43203",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "43204",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "43205",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "43206",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "43207",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "43209",
+          "synonyms": []
+        },
+        {
+          "type": "patterns",
+          "value": "@sys-number",
+          "patterns": [
+            "(\\b|\\s)\\d{5}(\\b|\\s)"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "skill": {
+      "counts": {
+        "intents": 44,
+        "entities": 13,
+        "dialog_nodes": 89
+      }
+    },
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": [
+        {
+          "name": "content-type",
+          "value": "application/json"
+        },
+        {
+          "name": "Authorization",
+          "value": "Basic YTdlY2QwZjAtNzRmYy00MmE0LTk4YmEtNjlkZDlmZDcwNjc0OmE3ZWNkMGYwLTc0ZmMtNDJhNC05OGJhLTY5ZGQ5ZmQ3MDY3NA=="
+        }
+      ]
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1584247191393",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1584247191426",
+      "previous_sibling": "handler_2_1584247191426"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1584654803997",
+      "context": {
+        "business": "@business"
+      },
+      "conditions": "@business",
+      "event_name": "input",
+      "dialog_node": "handler_1_1584654804025"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1584123450033",
+      "context": {
+        "phone": "@phone"
+      },
+      "conditions": "@phone",
+      "event_name": "input",
+      "dialog_node": "handler_2_1584123450077"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_2_1584247191393",
+      "event_name": "input",
+      "dialog_node": "handler_2_1584247191426"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1584351204054",
+      "context": {
+        "state": "@sys-location"
+      },
+      "conditions": "@sys-location",
+      "event_name": "input",
+      "dialog_node": "handler_3_1584351204094"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What type of school do your children attend?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_9_1584379363794",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1584379363808",
+      "previous_sibling": "handler_8_1584379363808"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1584724015681",
+      "context": {
+        "state": "@sys-location"
+      },
+      "conditions": "@sys-location",
+      "event_name": "input",
+      "dialog_node": "handler_3_1584724015681"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Can you tell me the name of your state?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1584724015681",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1584724015681",
+      "previous_sibling": "handler_3_1584724015681"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "To what phone number should the text message be sent?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1584123450033",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1584123450077",
+      "previous_sibling": "handler_2_1584123450077"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_2_1584125107326",
+      "event_name": "input",
+      "dialog_node": "handler_8_1584125107363"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Can you tell me the name of your state?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1584351204054",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1584351204094",
+      "previous_sibling": "handler_3_1584351204094"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1584379363794",
+      "context": {
+        "school_type": "@school_type"
+      },
+      "conditions": "@school_type",
+      "event_name": "input",
+      "dialog_node": "handler_8_1584379363808"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What zip code do you live in?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1584379421547",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1584379421551",
+      "previous_sibling": "handler_9_1584379421551"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What is the nature of your business?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_7_1584654803997",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1584654804025",
+      "previous_sibling": "handler_1_1584654804025"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1584125107326",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1584125107363",
+      "previous_sibling": "handler_8_1584125107363"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1584379421547",
+      "context": {
+        "zip_code": "@new_zip_code"
+      },
+      "conditions": "@new_zip_code",
+      "event_name": "input",
+      "dialog_node": "handler_9_1584379421551"
+    },
+    {
+      "type": "standard",
+      "title": "No text message - just readout",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay. You can schedule a virtual appointment with a provider for Corona virus screening by visiting http://ARChealthnow.com/covid-screening"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1584120723986",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1584244958266"
+      },
+      "conditions": "#Bot_Control_Reject_Response",
+      "dialog_node": "node_10_1584120976769",
+      "previous_sibling": "node_6_1584120904778"
+    },
+    {
+      "type": "standard",
+      "title": "Coronavirus symptoms",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "COVID-19 causes a respiratory illness manifested by fever, cough and difficulty breathing. Those three symptoms together are indications of COVID-19. However, COVID-19 infection can also produce symptoms similar to the flu like aches and pains, sore throat, runny nose, nasal congestion or diarrhea."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1584325952049",
+      "conditions": "input.text == '1'",
+      "dialog_node": "node_10_1584338123531"
+    },
+    {
+      "type": "standard",
+      "title": "What if I am sick",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1584122886005",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1584338146491"
+      },
+      "conditions": "#covid-what-if-sick",
+      "dialog_node": "node_10_1584374815214",
+      "previous_sibling": "node_3_1584374339395"
+    },
+    {
+      "type": "standard",
+      "title": "What's the Weather?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Always beautiful in Cedar Park !!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "check out the National Weather Service:  https://www.weather.gov/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#weather_questions",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1586201179689",
+      "previous_sibling": "node_4_1570050459690"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Hello. Good afternoon",
+            "Hi there. It's a beautiful afternoon",
+            "Good afternoon. How can I help?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1502484041694",
+      "metadata": {},
+      "conditions": "now().after('12:00:00') && now().before('16:59:59')",
+      "dialog_node": "node_1_1495022305143",
+      "previous_sibling": "node_16_1488295517679"
+    },
+    {
+      "type": "standard",
+      "title": "who_video",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Watch this video from the World Health Organization to learn what we know about COVID-19 right now: https://youtu.be/mOV1aBVYKGA"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1584122886005",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1584244958266"
+      },
+      "conditions": "#who_video",
+      "dialog_node": "node_1_1584227077151",
+      "previous_sibling": "node_9_1584125588254"
+    },
+    {
+      "type": "standard",
+      "title": "cdc_summary",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Go to this web site for the latest update on the COVID-19 situation from the CDC:  https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/summary.html"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Read more about it:  https://www.cdc.gov/coronavirus/2019-ncov/about/share-facts.html"
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1584122886005",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1584244958266"
+      },
+      "conditions": "#cdc_facts",
+      "dialog_node": "node_1_1584241125915",
+      "previous_sibling": "node_4_1584124684903"
+    },
+    {
+      "type": "standard",
+      "title": "tx_test",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_7_1584122886005",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1584245667213"
+      },
+      "conditions": "#tx_test",
+      "dialog_node": "node_1_1584242741933",
+      "previous_sibling": "node_7_1584125271155"
+    },
+    {
+      "type": "standard",
+      "title": "Symptom: Itchy Eyes (Allergy)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Based on the symptoms you describe, you may just have seasonal allergies. Other allergy symptoms include sneezing and runny nose."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Common symptoms can vary from person to person. This information is intended to provide personal guidance. Only your doctor can make a complete diagnosis. Seek immediate medical attention for any serious or life threatening health issue."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Seasonal allergy symptoms",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "Seasonal allergies vs. coronavirus",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              }
+            ],
+            "description": "More information:",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1584324240509",
+      "conditions": "#Bot_Control_Approve_Response",
+      "dialog_node": "node_1_1584325465129"
+    },
+    {
+      "type": "standard",
+      "title": "Flu symptoms",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Influenza (also known as “flu”) is a contagious respiratory illness caused by influenza viruses. It can cause mild to severe illness, and at times can lead to death."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Flu signs and symptoms usually come on suddenly. People who are sick with flu often feel some or all of these symptoms:\n•\tFever* or feeling feverish/chills\n•\tCough\n•\tSore throat\n•\tRunny or stuffy nose\n•\tMuscle or body aches\n•\tHeadaches\n•\tFatigue (tiredness)\n•\tSome people may have vomiting and diarrhea, though this is more common in children than adults."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1584326431146",
+      "conditions": "input.text == '1'",
+      "dialog_node": "node_1_1584334629087"
+    },
+    {
+      "type": "standard",
+      "title": "Flu vs. common cold",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The symptoms of flu can include fever or feeling feverish/chills, cough, sore throat, runny or stuffy nose, muscle or body aches, headaches and fatigue (tiredness). Cold symptoms are usually milder than the symptoms of flu. People with colds are more likely to have a runny or stuffy nose. Colds generally do not result in serious health problems."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "source": "https://golden-west-content.s3.amazonaws.com/2020-03/symptoms.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_4_1584326431146",
+      "conditions": "input.text == '2'",
+      "dialog_node": "node_1_1584334827181",
+      "previous_sibling": "node_1_1584334629087"
+    },
+    {
+      "type": "standard",
+      "title": "test node",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Searching..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "query": "",
+            "filter": "",
+            "query_type": "natural_language",
+            "response_type": "search_skill"
+          }
+        ]
+      },
+      "conditions": "#test",
+      "dialog_node": "node_1_1584724015658",
+      "previous_sibling": "node_7_1584122886005"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "So long",
+            "See ya",
+            "Good bye"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#Goodbye",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_12_1468329566917",
+      "previous_sibling": "node_13_1502484041694"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "metadata": {},
+      "conditions": "#General_Greetings",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_13_1502484041694",
+      "previous_sibling": "node_1_1584724015658"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Hello. Good evening",
+            "Hi. Good evening",
+            "Hello. How can I help this evening?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1502484041694",
+      "metadata": {},
+      "conditions": "now().after('17:00:00')",
+      "dialog_node": "node_15_1488295465298",
+      "previous_sibling": "node_1_1495022305143"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Hello. Good morning",
+            "It's a beautiful morning. Hello",
+            "Hi there. How can I help you this morning?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1502484041694",
+      "metadata": {},
+      "conditions": "now().after('04:00:00') && now().before('11:59:59')",
+      "dialog_node": "node_16_1488295517679"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "OK. Transferring... "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_22_1467833484410",
+      "metadata": {},
+      "conditions": "@reply:yes",
+      "dialog_node": "node_19_1468350024009"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "OK. Let me know how I can help"
+      },
+      "parent": "node_22_1467833484410",
+      "metadata": {},
+      "conditions": "@reply:no",
+      "dialog_node": "node_21_1468350173406",
+      "previous_sibling": "node_19_1468350024009"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let me look through the information that I have..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "query": "",
+            "filter": "",
+            "query_type": "natural_language",
+            "response_type": "search_skill"
+          }
+        ]
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1584244958266"
+      },
+      "conditions": "anything_else",
+      "digress_in": "returns",
+      "dialog_node": "node_2_1467831978407",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_10_1586201179689",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "You're welcome. Just let me know if you need anything else",
+            "No problem. Just let me know if you need anything else",
+            "My pleasure. Just let me know if you need anything else"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1584244958266"
+      },
+      "conditions": "#Thanks",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1468243505617",
+      "previous_sibling": "node_12_1468329566917"
+    },
+    {
+      "type": "standard",
+      "title": "keep going",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Anything other COVID-19 information that you are seeking?"
+              },
+              {
+                "text": "What other COVID-19 information can I provide?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Here are some things:",
+            "options": [
+              {
+                "label": "Get CDC Information",
+                "value": {
+                  "input": {
+                    "text": "cdc_link"
+                  }
+                }
+              },
+              {
+                "label": "Get Local News Updates",
+                "value": {
+                  "input": {
+                    "text": "local_updates"
+                  }
+                }
+              },
+              {
+                "label": "Local Screening",
+                "value": {
+                  "input": {
+                    "text": "local_screening_info"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "",
+      "digress_in": "returns",
+      "dialog_node": "node_2_1584244958266",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1467831978407"
+    },
+    {
+      "type": "standard",
+      "title": "Symptom: No Itchy Eyes (Cold)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Based on the symptoms you describe, you may just have a common cold. Other common cold symptoms include sneezing and runny nose."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Common symptoms can vary from person to person. This information is intended to provide personal guidance. Only your doctor can make a complete diagnosis. Seek immediate medical attention for any serious or life threatening health issue."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Common cold symptoms",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "Common cold primary treatments",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "Common cold vs. flu",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              },
+              {
+                "label": "Common cold vs. coronavirus",
+                "value": {
+                  "input": {
+                    "text": "4"
+                  }
+                }
+              }
+            ],
+            "description": "More information:",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1584324240509",
+      "conditions": "#Bot_Control_Reject_Response",
+      "dialog_node": "node_2_1584325821879",
+      "previous_sibling": "node_1_1584325465129"
+    },
+    {
+      "type": "standard",
+      "title": "Flu vs. coronavirus",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The symptoms of flu can include fever or feeling feverish/chills, cough, sore throat, runny or stuffy nose, muscle or body aches, headaches and fatigue (tiredness). However, COVID-19 causes a respiratory illness manifested by fever, cough and difficulty breathing. Those three symptoms together are indications of COVID-19. However, COVID-19 infection can also produce symptoms similar to the flu like aches and pains, sore throat, runny nose, nasal congestion or diarrhea."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "source": "https://golden-west-content.s3.amazonaws.com/2020-03/symptoms.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_4_1584326431146",
+      "conditions": "input.text == '3'",
+      "dialog_node": "node_2_1584335088787",
+      "previous_sibling": "node_1_1584334827181"
+    },
+    {
+      "type": "standard",
+      "title": "Please transfer me to an agent",
+      "output": {
+        "text": {
+          "values": [
+            "Would you like me to transfer you to a representative?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#General_Connect_to_Agent",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_22_1467833484410",
+      "digress_out": "allow_all_never_return",
+      "previous_sibling": "node_2_1468243505617"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Hello",
+            "Hi there",
+            "Hi. How can I help"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1502484041694",
+      "metadata": {},
+      "dialog_node": "node_28_1522448362216",
+      "previous_sibling": "node_15_1488295465298"
+    },
+    {
+      "type": "standard",
+      "title": "cdc_traveler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is important information for travelers from the CDC: https://www.cdc.gov/coronavirus/2019-ncov/travelers/index.html"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1584122886005",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1584244958266"
+      },
+      "conditions": "#cdc_traveler",
+      "dialog_node": "node_3_1584124449650",
+      "previous_sibling": "node_8_1584122960178"
+    },
+    {
+      "type": "standard",
+      "title": "Prompt for shortness of breath",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "description": "Do you have shortness of breath?",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1584372554141",
+      "conditions": "true",
+      "dialog_node": "node_3_1584322607324"
+    },
+    {
+      "type": "standard",
+      "title": "Symptom: Shortness of Breath (Covid)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Based on the symptoms you describe, you may have the coronavirus. Other coronavirus symptoms include coughing and  sore throat."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Common symptoms can vary from person to person. This information is intended to provide personal guidance. Only your doctor can make a complete diagnosis. Seek immediate medical attention for any serious or life threatening health issue."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Coronavirus symptoms",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "What to do if you are sick",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "Steps to help prevent the spread of COVID-19",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              }
+            ],
+            "description": "More information:",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1584322607324",
+      "conditions": "#Bot_Control_Approve_Response",
+      "dialog_node": "node_3_1584325952049"
+    },
+    {
+      "type": "standard",
+      "title": "Seasonal allergies vs. coronavirus",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Seasonal allergies cause sneezing, coughing, runny nose and irritated skin or eyes while COVID-19 can be mild but can include fever, body aches and difficulty breathing. COVID-19 or the flu come on quickly while allergies are mitigated by limiting exposure (not going outside)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1584325465129",
+      "conditions": "input.text == '2'",
+      "dialog_node": "node_3_1584336701177",
+      "previous_sibling": "node_5_1584336665724"
+    },
+    {
+      "type": "standard",
+      "title": "Prevent spread of coronavirus",
+      "parent": "node_7_1584122886005",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1584338143772"
+      },
+      "conditions": "#covid-prevent-spread",
+      "dialog_node": "node_3_1584374339395",
+      "previous_sibling": "node_9_1584371075358"
+    },
+    {
+      "type": "folder",
+      "title": "Location specific COVID info",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1584653769758",
+      "previous_sibling": "Opening"
+    },
+    {
+      "type": "standard",
+      "title": "What can I do",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I can show you local news updates about the COVID-19 virus and I can link you to the latest information from the CDC about the pandemic."
+              },
+              {
+                "text": "You could also ask me to connect you to an agent."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1584244958266"
+      },
+      "conditions": "#Help",
+      "dialog_node": "node_4_1570050459690",
+      "previous_sibling": "node_22_1467833484410"
+    },
+    {
+      "type": "standard",
+      "title": "COVID screening",
+      "output": {
+        "generic": [
+          {
+            "time": 5,
+            "typing": true,
+            "response_type": "pause"
+          }
+        ]
+      },
+      "parent": "node_7_1584122886005",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1584245667213"
+      },
+      "conditions": "#covid-screening",
+      "dialog_node": "node_4_1584120723986",
+      "previous_sibling": "node_5_1584122814434"
+    },
+    {
+      "type": "standard",
+      "title": "cdc_facts",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Know the facts about coronavirus disease 2019 (COVID-19) and help stop the spread of rumors."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Read more about it:  https://www.cdc.gov/coronavirus/2019-ncov/about/share-facts.html"
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1584122886005",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1584244958266"
+      },
+      "conditions": "#cdc_facts",
+      "dialog_node": "node_4_1584124684903",
+      "previous_sibling": "node_3_1584124449650"
+    },
+    {
+      "type": "standard",
+      "title": "Symptom: No Shortness of Breath (Flu)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Based on the symptoms you describe, you may just have the flu. Other flu symptoms include coughing, fatigue, weakness, and exhaustion."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Common symptoms can vary from person to person. This information is intended to provide personal guidance. Only your doctor can make a complete diagnosis. Seek immediate medical attention for any serious or life threatening health issue."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Flu symptoms",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "Flu vs. common cold",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "Flu vs. coronavirus",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              }
+            ],
+            "description": "More information:",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1584322607324",
+      "conditions": "#Bot_Control_Reject_Response",
+      "dialog_node": "node_4_1584326431146",
+      "previous_sibling": "node_3_1584325952049"
+    },
+    {
+      "type": "standard",
+      "title": "Common cold primary treatments",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "While you can certainly call your primary physician for advice and guidance the nominal cold will not require a doctor visit unless secondary indications require a visit – for example, if you contract a sinus infection or begin to have more severe breathing issues or lung and chest pains. Because the common cold is a virus, antibiotics won’t help. But over-the-counter medications may make you feel better."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1584325821879",
+      "conditions": "input.text == '2'",
+      "dialog_node": "node_4_1584337458177",
+      "previous_sibling": "node_7_1584337364105"
+    },
+    {
+      "type": "standard",
+      "title": "Fever disambiguation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The CDC considers a person to have a fever when he or she has a measured temperature of 100.4° F (38° C) or greater, or feels warm to the touch, or gives a history of feeling feverish."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1584321365696",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1584321365696"
+      },
+      "conditions": "#covid-fever-definition",
+      "dialog_node": "node_4_1584371794713",
+      "previous_sibling": "node_6_1584324240509"
+    },
+    {
+      "type": "standard",
+      "title": "Business closing information ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "By order of the Mayor of Austin, until May 1, 2020, any public or private gatherings of more than 10 people in a single room or space is prohibited."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "This order does not apply to critical infrastructure such as airports, transit facilities, government buildings, schools, grocery stores, pharmacies, hospitals and medical facilities."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Read the full ordinance here:  http://austintexas.gov/sites/default/files/files/Order%20-%20Prohibition%20of%20Community%20Gatherings%20of%2010%20persons%20or%20more%20and%20closure%20of%20restaurants%20and%20bars%203.17.2020.pdf"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "What is the nature of the business in question (restaurant, bar, retail)?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1584653769758",
+      "conditions": "#businesses_open_or_closed",
+      "dialog_node": "node_4_1584653811989"
+    },
+    {
+      "type": "standard",
+      "title": "Get CDC Info",
+      "output": {
+        "generic": [
+          {
+            "title": "Here are some of the most up-to-date bulletins from the CDC:",
+            "options": [
+              {
+                "label": "Watch this video to learn about COVID-19",
+                "value": {
+                  "input": {
+                    "text": "who_video"
+                  }
+                }
+              },
+              {
+                "label": "Facts About COVID-19 from the CDC",
+                "value": {
+                  "input": {
+                    "text": "cdc_facts"
+                  }
+                }
+              },
+              {
+                "label": "CDC Information for Travelers",
+                "value": {
+                  "input": {
+                    "text": "cdc_traveler"
+                  }
+                }
+              },
+              {
+                "label": "Latest summary update from the CDC",
+                "value": {
+                  "input": {
+                    "text": "cdc_summary"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1584122886005",
+      "conditions": "#CDC_Info",
+      "dialog_node": "node_5_1584122814434"
+    },
+    {
+      "type": "standard",
+      "title": "Anything Else",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1584324240509",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1584324272861"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_5_1584327171291",
+      "previous_sibling": "node_2_1584325821879"
+    },
+    {
+      "type": "standard",
+      "title": "Seasonal allergy symptoms",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Seasonal allergies, also known as allergic rhinitis or hay fever, are an immune response to pollen and mold. Unlike a cold or the flu, allergy symptoms often last for several weeks to months of the years.  Allergies can also be an underlying cause of frequent sinus, ear, and respiratory infections. Symptoms include:\n•\tSinus Congestion\n•\tRunny Nose\n•\tPost-Nasal Drip\n•\tSneezing\n•\tCoughing\n•\tItchy or Watery Eyes\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_1_1584325465129",
+      "conditions": "input.text == '1'",
+      "dialog_node": "node_5_1584336665724"
+    },
+    {
+      "type": "standard",
+      "title": "Common cold vs. flu",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The symptoms of flu can include fever or feeling feverish/chills, cough, sore throat, runny or stuffy nose, muscle or body aches, headaches and fatigue (tiredness). Cold symptoms are usually milder than the symptoms of flu. People with colds are more likely to have a runny or stuffy nose. Colds generally do not result in serious health problems."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "source": "https://golden-west-content.s3.amazonaws.com/2020-03/symptoms.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_2_1584325821879",
+      "conditions": "input.text == '3'",
+      "dialog_node": "node_5_1584337520778",
+      "previous_sibling": "node_4_1584337458177"
+    },
+    {
+      "type": "standard",
+      "title": "Flu vs coronavirus",
+      "parent": "node_7_1584122886005",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1584335088787"
+      },
+      "conditions": "#covid-flu-vs-coronavirus",
+      "dialog_node": "node_5_1584373528607",
+      "previous_sibling": "node_10_1584374815214"
+    },
+    {
+      "type": "frame",
+      "title": "School openings",
+      "parent": "node_7_1584122886005",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#covid-schools-open",
+      "dialog_node": "node_5_1584379302984",
+      "previous_sibling": "node_9_1584373803713"
+    },
+    {
+      "type": "standard",
+      "title": "Learn local resources",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "People impacted by the new COVID-19 outbreak Orders are invited to visit the following City of Austin COVID-19 webpage for up-to-date information about the Orders and additional services. Community members may contact 3-1-1 with questions about particular services."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "http://austintexas.gov/news/austin-travis-county-offers-help-residents-and-businesses-during-covid-19-outbreak"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1584653769758",
+      "conditions": "#learn_resources_available",
+      "dialog_node": "node_5_1584728568825",
+      "previous_sibling": "node_8_1584245667213"
+    },
+    {
+      "type": "frame",
+      "title": "Yes send text message",
+      "parent": "node_4_1584120723986",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "": ""
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1584244958266"
+      },
+      "conditions": "#Bot_Control_Approve_Response",
+      "dialog_node": "node_6_1584120904778"
+    },
+    {
+      "type": "standard",
+      "title": "Prompt for fever",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "description": "Do you have a fever?",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1584371075358",
+      "conditions": "true",
+      "dialog_node": "node_6_1584321365696"
+    },
+    {
+      "type": "standard",
+      "title": "Symptom: No Fever",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Someone with coronavirus would typically have a fever. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "description": "Do you have itchy eyes?",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1584321365696",
+      "conditions": "#Bot_Control_Reject_Response",
+      "dialog_node": "node_6_1584324240509",
+      "previous_sibling": "node_7_1584372554141"
+    },
+    {
+      "type": "standard",
+      "title": "Anything Else",
+      "parent": "node_3_1584322607324",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1584324272861"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_6_1584327126763",
+      "previous_sibling": "node_9_1584372818658"
+    },
+    {
+      "type": "standard",
+      "title": "Common cold vs. coronavirus",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The common cold can present with symptoms that are similar to COVID-19 that include fatigue, sore throat, cough and runny nose and possibly a low-grade fever. However, COVID-19 while sometimes presenting with similar symptoms causes high fever, cough and difficulty breathing."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "source": "https://golden-west-content.s3.amazonaws.com/2020-03/symptoms.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_2_1584325821879",
+      "conditions": "input.text == '4'",
+      "dialog_node": "node_6_1584337680603",
+      "previous_sibling": "node_5_1584337520778"
+    },
+    {
+      "type": "standard",
+      "title": "provide specific info",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Additional information for Restaurant and Bars:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "The referenced Order requires bars to close and suspends dine-in service at restaurants for six weeks. Food establishments are ordered to close common dining areas and encouraged to provide take-away, delivery, drive-thru, or curbside pick-up to limit exposure between individuals. Meanwhile, bars are ordered to close common bar spaces and are prohibited from allowing consumption on-premises. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Governor Greg Abbott also issued an executive order for the State of Texas, effective March 20 - April 3, closing dining rooms at bars and restaurants. Restaurants can still offer take-out options. The City of Austin is working to establish food pick-up priority zones for restaurants without parking lots of drive-thru services."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Visit the following City of Austin web page for more details about Businesses, Events, and Venues:  http://austintexas.gov/article/covid-19-information-businesses-events-and-venues"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1584724745516",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1584244958266"
+      },
+      "conditions": "#food_business_rules",
+      "dialog_node": "node_6_1584724815733"
+    },
+    {
+      "type": "folder",
+      "title": "COVID Information ",
+      "dialog_node": "node_7_1584122886005",
+      "previous_sibling": "node_3_1584653769758"
+    },
+    {
+      "type": "standard",
+      "title": "tx_count",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The following web page contains the latest count of confirmed COVID-19 cases in the state of Texas: https://dshs.texas.gov/news/updates.shtm#coronavirus"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1584122886005",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1584244958266"
+      },
+      "conditions": "#tx_count",
+      "dialog_node": "node_7_1584125271155",
+      "previous_sibling": "node_1_1584241125915"
+    },
+    {
+      "type": "standard",
+      "title": "Action: Contact Your Doctor",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Common symptoms can vary from person to person. This information is intended to provide personal guidance. Only your doctor can make a complete diagnosis. Seek immediate medical attention for any serious or life threatening health issue."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1584321365696",
+      "conditions": "anything_else",
+      "dialog_node": "node_7_1584324272861",
+      "previous_sibling": "node_4_1584371794713"
+    },
+    {
+      "type": "standard",
+      "title": "Common cold symptoms",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If it’s a cold virus, you may find yourself close to a tissue box for several days. Most of the time, colds get better on their own in 10 days or less. Colds bring on a nasty mix of symptoms that can really wear you down. They can include:\n•\tSore throat \n•\tCough \n•\tHeadache \n•\tStuffy nose\n•\tMucus buildup\n•\tSneezing \n•\tFatigue \n•\tSwollen sinuses\n•\tFever (usually low-grade in adults but higher in children)\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1584325821879",
+      "conditions": "input.text == '1'",
+      "dialog_node": "node_7_1584337364105"
+    },
+    {
+      "type": "standard",
+      "title": "Steps to help prevent the spread of COVID-19",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If you are sick with COVID-19 or suspect you are infected with the virus that causes COVID-19, follow the steps below to help prevent the disease from spreading to people in your home and community:\n•\tStay home except to get medical care\n•\tSeparate yourself from other people and animals in your home\n•\tCall ahead before visiting your doctor\n•\tWear a face mask if you are sick\n•\tClean your hands often\n•\tClean all \"high touch\" surfaces everyday"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1584325952049",
+      "conditions": "input.text == '3'",
+      "dialog_node": "node_7_1584338143772",
+      "previous_sibling": "node_8_1584338146491"
+    },
+    {
+      "type": "standard",
+      "title": "Symptom: Fever",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fever is one of the symptoms of the corona virus."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1584321365696",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1584322607324"
+      },
+      "conditions": "#Bot_Control_Approve_Response",
+      "dialog_node": "node_7_1584372554141"
+    },
+    {
+      "type": "standard",
+      "title": "capture business type",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_4_1584653811989",
+      "context": {
+        "business_type": "<?input.text?>"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "true",
+      "dialog_node": "node_7_1584724745516"
+    },
+    {
+      "type": "frame",
+      "title": "Local News Updates",
+      "output": {
+        "generic": [
+          {
+            "title": "Here is up-to-the-minute news about COVID-19 in your area:",
+            "options": [
+              {
+                "label": "Latest count of COVID-19 cases in Texas",
+                "value": {
+                  "input": {
+                    "text": "tx_count"
+                  }
+                }
+              },
+              {
+                "label": "Information about getting tested",
+                "value": {
+                  "input": {
+                    "text": "tx_test"
+                  }
+                }
+              },
+              {
+                "label": "Texas Governor declares emergency",
+                "value": {
+                  "input": {
+                    "text": "tx_emergency"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1584122886005",
+      "conditions": "#local_updates",
+      "dialog_node": "node_8_1584122960178",
+      "previous_sibling": "node_5_1584379302984"
+    },
+    {
+      "type": "standard",
+      "title": "search web for testing center info",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Healthcare providers are encouraging all patients experiencing flu-like symptoms to first use mobile apps or visit websites that have been set up for COVID-19 response. For your safety and convenience telehealth resources are available from these local Austin providers. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "On-demand drive up testing in Austin is not available at this point.  Currently, you have to be screened and directed there before this kind of testing is recommended. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "For details about COVID response mobile apps and websites for local Austin healthcare providers, click on this link:  http://austintexas.gov/article/covid-19-information-those-who-are-sick"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "For more information about local Austin-Travis County testing capacity see the following:  http://austintexas.gov/news/austin-travis-county-ramps-covid-19-testing-capacity"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1584653769758",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1584244958266"
+      },
+      "conditions": "#Test_Center_Contact_Info",
+      "dialog_node": "node_8_1584245667213",
+      "previous_sibling": "node_4_1584653811989"
+    },
+    {
+      "type": "standard",
+      "title": "What to do if you are sick",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Call your doctor or schedule a virtual visit with a medical professional. Given heightened threat of coronavirus and the stress on the healthcare system, do not go to a doctor’s office, urgent care center or hospital emergency department without calling first."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1584325952049",
+      "conditions": "input.text == '2'",
+      "dialog_node": "node_8_1584338146491",
+      "previous_sibling": "node_10_1584338123531"
+    },
+    {
+      "type": "standard",
+      "title": "tx_emergency",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Texas Governor Greg Abbott declares emergency"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Full story:  https://www.kcbd.com/2020/03/13/watch-live-texas-governor-abbott-hold-joint-news-conference-combating-coronavirus/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1584122886005",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1584244958266"
+      },
+      "conditions": "#tx_emergency",
+      "dialog_node": "node_9_1584125588254",
+      "previous_sibling": "node_1_1584242741933"
+    },
+    {
+      "type": "standard",
+      "title": "COVID diagnosis",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Symptoms of the coronavirus (COVID-19) can look similar to the flu and other common ailments. Let's start with the most indicative symptom."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1584122886005",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1584321365696"
+      },
+      "conditions": "#covid-diagnosis",
+      "dialog_node": "node_9_1584371075358",
+      "previous_sibling": "node_4_1584120723986"
+    },
+    {
+      "type": "standard",
+      "title": "Shortness of breath disambiguation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Having shortness of breath means you're having trouble breathing, in particular taking deep breaths."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1584322607324",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1584322607324"
+      },
+      "conditions": "#covid-shortness-of-breath-definition",
+      "dialog_node": "node_9_1584372818658",
+      "previous_sibling": "node_4_1584326431146"
+    },
+    {
+      "type": "standard",
+      "title": "Flu vs common cold",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1584122886005",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1584334827181"
+      },
+      "conditions": "#covid-flu-vs-common-cold",
+      "dialog_node": "node_9_1584373803713",
+      "previous_sibling": "node_5_1584373528607"
+    },
+    {
+      "type": "standard",
+      "title": "other than food service",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Visit the following City of Austin web page for more details about Businesses, Events, and Venues:  http://austintexas.gov/article/covid-19-information-businesses-events-and-venues"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1584724745516",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1584244958266"
+      },
+      "conditions": "true",
+      "dialog_node": "node_9_1584726689271",
+      "previous_sibling": "node_6_1584724815733"
+    },
+    {
+      "type": "standard",
+      "title": "Opening",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, I’m the COVID Bot ready to answer your questions about COVID-19 with up-to-the-minute information. How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "You can:",
+            "options": [
+              {
+                "label": "Get CDC Information",
+                "value": {
+                  "input": {
+                    "text": "CDC_Info"
+                  }
+                }
+              },
+              {
+                "label": "Get Local News Updates",
+                "value": {
+                  "input": {
+                    "text": "local_updates"
+                  }
+                }
+              },
+              {
+                "label": "Local Screening",
+                "value": {
+                  "input": {
+                    "text": "local_screening_info"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "context": {
+        "no_reservation": true
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "digress_in": "does_not_return",
+      "dialog_node": "Opening"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The text message has been sent to phone number:  $phone"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1584120904778",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_10_1584123473108",
+      "previous_sibling": "response_9_1584123472555"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The text message has been sent to phone number:  $phone"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1584120904778",
+      "conditions": "anything_else",
+      "dialog_node": "response_10_1584123473390",
+      "previous_sibling": "response_10_1584123473108"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "All schools below the college/university level in zip code $zip_code will remain closed until further notice."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1584379302984",
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1584379721598",
+      "previous_sibling": "response_8_1584379501537"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Colleges and universities in zip code $zip_code have moved their classes online. Please contact your school for further details."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1584379302984",
+      "conditions": "$school_type == 'college'",
+      "dialog_node": "response_8_1584379501537"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A link to the web site has been sent to phone number: $phone"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1584120904778",
+      "conditions": "$phone",
+      "dialog_node": "response_9_1584123472555"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1584122960178",
+      "dialog_node": "slot_2_1584125107326"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1584244958266",
+      "dialog_node": "slot_2_1584247191393"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1584245667213",
+      "variable": "$state",
+      "dialog_node": "slot_2_1584351204054"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1584724015658",
+      "variable": "$state",
+      "dialog_node": "slot_2_1584724015681"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1584379302984",
+      "variable": "$zip_code",
+      "dialog_node": "slot_3_1584379421547",
+      "previous_sibling": "slot_9_1584379363794"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1584120904778",
+      "variable": "$phone",
+      "dialog_node": "slot_4_1584123450033",
+      "previous_sibling": "response_10_1584123473390"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1584653811989",
+      "variable": "$business",
+      "dialog_node": "slot_7_1584654803997",
+      "previous_sibling": "node_7_1584724745516"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1584379302984",
+      "variable": "$school_type",
+      "dialog_node": "slot_9_1584379363794",
+      "previous_sibling": "response_6_1584379721598"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "in 3 days"
+    },
+    {
+      "text": "is there a test kit for the coronavirus"
+    },
+    {
+      "text": "what are my options?"
+    },
+    {
+      "text": "what is the temp in austin"
+    },
+    {
+      "text": "where in the USA is coronavirus"
+    },
+    {
+      "text": "where is COVID-19 in Texas"
+    },
+    {
+      "text": "where is meecham"
+    },
+    {
+      "text": "where is mme cham"
+    },
+    {
+      "text": "who is the head of this"
+    }
+  ],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    },
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": false,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above."
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "COVID Bot Skill",
+  "language": "en",
+  "description": ""
+}
