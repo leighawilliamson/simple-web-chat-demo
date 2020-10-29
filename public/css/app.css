@@ -7,11 +7,11 @@
 
 .background_image {
     width: 100%;
-    content:url("../img/VITA.background.jpg");
+    content:url("https://image-server.mybluemix.net/img/backgrounds/VITA2.background.jpg");
 }
 
 .chatlauncher_button_text::before {
-    content:"Got ECOS Questions?"
+    content:"Cloud Service Questions?"
 }
 
 
