@@ -1,3 +1,4 @@
 applications:
-- name: dart-assistant-demo
+- name: trinity-assistant-demo
   memory: 128M
+  instances: 1

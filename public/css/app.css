@@ -3,15 +3,15 @@
  */
 
 
-:root { --chatlauncher_button_color: #c10230; }
+:root { --chatlauncher_button_color: #E93F33; }
 
 .background_image {
     width: 100%;
-    content:url("https://image-server.mybluemix.net/img/backgrounds/DART.background.jpg");
+    content:url("https://image-server.mybluemix.net/img/backgrounds/Trinity.background.jpg");
 }
 
 .chatlauncher_button_text::before {
-    content:"DART Questions?"
+    content:"Trinity Metro Questions?"
 }
 
 
