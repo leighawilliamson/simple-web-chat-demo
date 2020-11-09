@@ -1,6 +1,6 @@
 var assistant_config = {
     "page_title":"Trinity Virtual Assistant",
-    "integrationID":"51aff9b3-6418-4d1f-8240-985a0e46a7fa",
+    "integrationID":"30f7c365-bbd9-4548-ab01-2ca422dc2df8",
     "region": "us-south",
     "bot_titlebar":"Trinity Metro Virtual Assistant"
 }
