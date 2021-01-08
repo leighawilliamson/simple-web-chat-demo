@@ -1,7 +1,7 @@
 var assistant_config = {
-    "page_title":"Trinity Virtual Assistant",
-    "integrationID":"30f7c365-bbd9-4548-ab01-2ca422dc2df8",
+    "page_title":"Oklahoma Voter Assistant",
+    "integrationID":"cda3f812-e9ef-4e18-9268-689a88642f78",
     "region": "us-south",
-    "bot_titlebar":"Trinity Metro Virtual Assistant"
+    "bot_titlebar":"Oklahoma Voter Assistant"
 }
 export default assistant_config;

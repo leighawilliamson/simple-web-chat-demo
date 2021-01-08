@@ -1,20 +1,15 @@
 /* app.css
  * This file provides substitution value for css variables.
  */
-
-
-:root { --chatlauncher_button_color: #E93F33; }
-
-.background_image {
-    width: 100%;
-    content:url("https://image-server.mybluemix.net/img/backgrounds/Trinity.background.jpg");
+:root {
+    --chatlauncher_button_color: #E93F33;
 }
 
-.chatlauncher_button_text::before {
-    content:"Trinity Metro Questions?"
+body {
+     background-image: url(
+         "https://image-server.mybluemix.net/img/OK/OK.background.jpg"
+         );
 }
-
-
 
 /*
 * typically you don't need to modify the CSS configuration below this point in the file

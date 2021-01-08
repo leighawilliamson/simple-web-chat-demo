@@ -1,4 +1,4 @@
 applications:
-- name: trinity-assistant-demo
+- name: ok-voter-assistant
   memory: 128M
   instances: 1
