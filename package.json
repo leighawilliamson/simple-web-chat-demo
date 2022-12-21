@@ -6,7 +6,7 @@
 		"start": "node app.js"
 	},
 	"dependencies": {
-		"cfenv": "^1.2.2",
+		"cfenv": "^1.2.4",
 		"express": "^4.17.3",
 		"mime": "1.4.1",
 		"needle": "^2.5.0",
