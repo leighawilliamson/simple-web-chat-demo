@@ -10,7 +10,7 @@
 		"express": "^4.17.3",
 		"mime": "1.4.1",
 		"needle": "^2.5.0",
-		"node-fetch": "^2.6.1"
+		"node-fetch": "^2.6.7"
 	},
 	"repository": {},
 	"engines": {
