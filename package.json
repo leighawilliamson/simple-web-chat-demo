@@ -7,7 +7,7 @@
 	},
 	"dependencies": {
 		"cfenv": "^1.2.4",
-		"express": "^4.17.3",
+		"express": "^4.19.2",
 		"mime": "1.4.1",
 		"needle": "^2.5.0",
 		"node-fetch": "^2.6.7"
